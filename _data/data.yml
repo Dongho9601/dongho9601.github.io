@@ -69,22 +69,16 @@ education:
     title: Education
     info:
       - degree: PhD. in the School of Electrical and Electronic Engineering
-        university: Yonsei University, Seoul, Korea
+        university: "Yonsei University, Seoul, Korea (Advisor: Won Woo Ro)"
         time: 2021 - 2024 (expected)
-        details: |
-          Advisor: Won Woo Ro
 
       - degree: M.S. in the School of Electrical and Electronic Engineering
-        university: Yonsei University, Seoul, Korea
+        university: "Yonsei University, Seoul, Korea (Advisor: Won Woo Ro)"
         time: 2019 - 2021
-        details: |
-          Advisor: Won Woo Ro
 
       - degree: B.S. in the School of Electrical and Electronic Engineering
         university: Yonsei University, Seoul, Korea
         time: 2014 - 2019
-        details: |
-          Advisor: Won Woo Ro
 
       # - degree: B.S. in the School of Electrical and Electronic Engineering
       #   university: Yonsei University, Seoul, Korea
@@ -283,10 +277,10 @@ publications:
         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Hardware Accelerator Systems for Artificial Intelligence and Machine Learning"
+        link: "https://www.sciencedirect.com/science/article/abs/pii/S0065245820300929"
+        authors: Won Jeon, Gun Ko, Jiwon Lee, Hyunwuk Lee, Dongho Ha, and Won Woo Ro
+        conference: "Advances in Computers, Elsvier, vol. 122: Academic Press; 2020, Chapter 6"
 
       - title: "Trends of High-End Graphic Processing Unit Development"
         link: "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07543739"
