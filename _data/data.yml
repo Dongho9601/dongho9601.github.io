@@ -316,10 +316,7 @@ skills:
       # - name: Sketch & Photoshop
       #   level: 60%
 
-      - name: |
-        CUDA, cuBLAS, cuTlass, TensorRT, cuFFT, 
-        OpenCV, Vulkan, Optix,
-        GPGPU-Sim, Accel-Sim,  and Vulkan-Sim
+      - name: CUDA, cuBLAS, cuTlass, TensorRT, cuFFT, OpenCV, Vulkan, Optix, GPGPU-Sim, Accel-Sim,  and Vulkan-Sim
 
 footer:
     # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
