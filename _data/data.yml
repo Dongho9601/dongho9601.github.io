@@ -72,35 +72,20 @@ education:
         university: Yonsei University, Seoul, Korea
         time: 2021 - 2024 (expected)
         details: |
-          Describe your study here. lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Advisor: Won Woo Ro
+
       - degree: M.S. in the School of Electrical and Electronic Engineering
         university: Yonsei University, Seoul, Korea
         time: 2019 - 2021
         details: |
-          Describe your study here. lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Advisor: Won Woo Ro
+
       - degree: B.S. in the School of Electrical and Electronic Engineering
         university: Yonsei University, Seoul, Korea
         time: 2014 - 2019
         details: |
-          Describe your study here. lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Advisor: Won Woo Ro
+
       # - degree: B.S. in the School of Electrical and Electronic Engineering
       #   university: Yonsei University, Seoul, Korea
       #   time: 2014 - 2019
@@ -119,39 +104,39 @@ experiences:
       - role: Junior Specialist
         time: 2023 - 2023
         company: University of California, Riverside, USA
-        # details: |
-        #   Describe your role here. lorem ipsum dolor sit amet, consectetuer
-        #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        #   Cum sociis natoque penatibus et magnis dis parturient montes,
-        #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        #   pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        #   enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        #   error sit voluptatem accusantium doloremque laudantium, totam rem
-        #   aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        #   architecto beatae vitae dicta sunt explicabo.
-        #     - Bullet point
-        #     - Bullet point
+        details: |
+          Advisor: Hung-Wei Tseng
+
+      - role: Paper Review
+        time: 2023
+        # company: Yonsei University, Seoul, Korea
+        details: |
+          IEEE Computer Architecture Letters (CAL)
+
+      - role: Paper Review
+        time: 2023
+        # company: Yonsei University, Seoul, Korea
+        details: |
+          ACM Transactions on Architecture and Code Optimization (TACO)
+
       - role: Visiting Scholar
         time: 2022 - 2023
         company: University of California, Riverside, USA
-        # details: |
-        #   Describe your role here. lorem ipsum dolor sit amet, consectetuer
-        #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        #   Cum sociis natoque penatibus et magnis dis parturient montes,
-        #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        #   pellentesque eu, pretium quis, sem.
-        #     - Bullet point
-        #     - Bullet point
+        details: |
+          Advisor: Hung-Wei Tseng
+
       - role: Teaching Assistant
         time: 2021 Spring
         company: Yonsei University, Seoul, Korea
         details: |
           EEE3530: Computer Architecture (2021 Spring)
+
       - role: Teaching Assistant
         time: 2020 Spring
         company: Yonsei University, Seoul, Korea
         details: |
           EEE4473: Embedded System Lab.
+
       # - role: UI Developer
       #   time: 2012 - 2014
       #   company: Amazon, London
@@ -280,7 +265,7 @@ skills:
       - name: GPU Architecture
         level: 98%
 
-      - name: Domain Specific Accelerator Architecture
+      - name: Accelerator Architecture
         level: 92%
 
       - name: C/C++
@@ -293,7 +278,7 @@ skills:
         level: 75%
 
       - name: Sketch & Photoshop
-        # level: 60%
+        level: 60%
 
 footer:
     # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
