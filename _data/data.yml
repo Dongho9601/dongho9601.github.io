@@ -59,7 +59,7 @@ career-profile:
       My research focuses on optimizing parallel processing units (e.g., GPUs and Domain-Specific Accelerators) 
       and extending their functionalities to improve diverse applications' performance, energy efficiency, and usability.
     
-      Currently, I am a junior specialist at the University of California, Riverside
+      Currently, I am a junior specialist at the University of California, Riverside (advisor: Hung-Wei Tseng).
       
       I am seeking a job/postdoctoral program  in the United States with a visa support (my expected graduation date is Aug 2024)
       
@@ -260,7 +260,7 @@ publications:
         authors: On-Going Paper
         # conference: "On-Going Paper"
 
-      - title: 
+      - title: "-"
 
       - title: "Proposing Datacenter GPU Management Strategy (with SKKU)"
         # link: "#"
