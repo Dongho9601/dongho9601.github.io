@@ -222,60 +222,60 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Accelerating Image Processing Workload (with UCR)"
+        # link: "#"
+        # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "On-Going Paper"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Proposing Datacenter GPU Management Strategy (with SKKU)"
+        # link: "#"
+        # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "On-Going Paper"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Accelerating Ray Tracing Cores "
+        # link: "#"
+        # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "On-Going Paper"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Extending Ray Tracing Cores (with UCR and UBC)"
+        # link: "#"
+        # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "On-Going Paper"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Extending Matrix Multiplication Units (with UCR and Intel)"
+        # link: "#"
+        # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "On-Going Paper"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Low-Precision Neural Network Training on GPUs (with EPFL)"
+        # link: "#"
+        # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "On-Going Paper"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: "MAD MAcce: Supporting Multiply-Add Operations for Democratizing Matrix-Multiplication Accelerators"
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        authors: Seunghwan Sung, Sujin Hur, Dongho Ha, Sungwoo Kim, Yunho Oh, and Won Woo Ro
+        conference: "The 56th International Symposium on Microarchitecture (MICRO 2023)"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "TensorCV: Accelerating Inference-Adjacent Computation Using Tensor Processors"
+        link: "https://ieeexplore.ieee.org/abstract/document/10244461"
+        authors: Dongho Ha, Won Woo Ro, and Hung-Wei Tseng
+        conference: "The 2023 International Symposium on Low Power Electronics and Design (ISLPED’23)"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "R2D2: Removing ReDunDancy Utilizing Linearity of Address Generation in GPUs"
+        link: "https://dl.acm.org/doi/abs/10.1145/3579371.3589039"
+        authors: Dongho Ha, Yunho Oh, and Won Woo Ro
+        conference: "The 50th International Symposium on Computer Architecture (ISCA 2023)"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Investigation on NVIDIA Ampere GPU Architecture With Reverse Engineering"
+        # link: "#"
+        authors: Sujin Hur, Seunghwan Sung, Dongho Ha, Sungwoo Kim, and Won Woo Ro
+        conference: "The 22th International Conference on Electronics, Information, and Communication (ICEIC 2023)"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Detecting Pattern of Warp Register Value Differences in CTA using GPU Compiler"
+        # link: "#"
+        authors: Dongho Ha and Won Woo Ro
+        conference: "The 19th International Conference on Electronics, Information, and Communication (ICEIC 2020)"
 
       - title: "Hardware Accelerator Systems for Artificial Intelligence and Machine Learning"
         link: "https://www.sciencedirect.com/science/article/abs/pii/S0065245820300929"
