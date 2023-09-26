@@ -222,36 +222,6 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers:
-      - title: "Accelerating Image Processing Workload (with UCR)"
-        # link: "#"
-        authors: On-Going Paper
-        # conference: "On-Going Paper"
-
-      - title: "Proposing Datacenter GPU Management Strategy (with SKKU)"
-        # link: "#"
-        authors: On-Going Paper
-        # conference: "On-Going Paper"
-
-      - title: "Accelerating Ray Tracing Cores "
-        # link: "#"
-        authors: On-Going Paper
-        # conference: "On-Going Paper"
-
-      - title: "Extending Ray Tracing Cores (with UCR and UBC)"
-        # link: "#"
-        authors: On-Going Paper
-        # conference: "On-Going Paper"
-
-      - title: "Extending Matrix Multiplication Units (with UCR and Intel)"
-        # link: "#"
-        authors: On-Going Paper
-        # conference: "On-Going Paper"
-
-      - title: "Low-Precision Neural Network Training on GPUs (with EPFL)"
-        # link: "#"
-        authors: On-Going Paper
-        # conference: "On-Going Paper"
-
       - title: "MAD MAcce: Supporting Multiply-Add Operations for Democratizing Matrix-Multiplication Accelerators"
         link: "#"
         authors: Seunghwan Sung, Sujin Hur, Dongho Ha, Sungwoo Kim, Yunho Oh, and Won Woo Ro
@@ -286,6 +256,36 @@ publications:
         link: "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07543739"
         authors: Dongho Ha, Hyunwuk Lee, Jiwon Lee, Hyun Jae Oh, Won Jeon, Yunho Oh, Won Woo Ro 
         conference: "Korean Information Science Society (2019)"
+
+      - title: "Accelerating Image Processing Workload (with UCR)"
+        # link: "#"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
+
+      - title: "Proposing Datacenter GPU Management Strategy (with SKKU)"
+        # link: "#"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
+
+      - title: "Accelerating Ray Tracing Cores "
+        # link: "#"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
+
+      - title: "Extending Ray Tracing Cores (with UCR and UBC)"
+        # link: "#"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
+
+      - title: "Extending Matrix Multiplication Units (with UCR and Intel)"
+        # link: "#"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
+
+      - title: "Low-Precision Neural Network Training on GPUs (with EPFL)"
+        # link: "#"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
 
       # - title: A syntax directed compiler for Algol 60
       #   link: "#"
