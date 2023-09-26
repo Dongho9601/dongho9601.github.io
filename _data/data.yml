@@ -103,39 +103,28 @@ experiences:
     info:
       - role: Junior Specialist
         time: 2023 - 2023
-        company: University of California, Riverside, USA
-        details: |
-          Advisor: Hung-Wei Tseng
+        company: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng)"
+        # details: |
 
       - role: Paper Review
         time: 2023
-        # company: Yonsei University, Seoul, Korea
-        details: |
-          IEEE Computer Architecture Letters (CAL)
+        company: IEEE Computer Architecture Letters (CAL)
 
       - role: Paper Review
         time: 2023
-        # company: Yonsei University, Seoul, Korea
-        details: |
-          ACM Transactions on Architecture and Code Optimization (TACO)
+        company: ACM Transactions on Architecture and Code Optimization (TACO)
 
       - role: Visiting Scholar
         time: 2022 - 2023
-        company: University of California, Riverside, USA
-        details: |
-          Advisor: Hung-Wei Tseng
+        company: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng)"
 
       - role: Teaching Assistant
         time: 2021 Spring
-        company: Yonsei University, Seoul, Korea
-        details: |
-          EEE3530: Computer Architecture (2021 Spring)
+        company: "Yonsei University, Seoul, Korea (EEE3530: Computer Architecture)"
 
       - role: Teaching Assistant
         time: 2020 Spring
-        company: Yonsei University, Seoul, Korea
-        details: |
-          EEE4473: Embedded System Lab.
+        company: Yonsei University, Seoul, Korea (EEE4473: Embedded System Lab.)
 
       # - role: UI Developer
       #   time: 2012 - 2014
