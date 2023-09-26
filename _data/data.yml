@@ -5,7 +5,7 @@
 sidebar:
     position: right # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Dongho Ha
@@ -191,31 +191,27 @@ experiences:
 #             Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Industry Projects
+    # intro: >
+    #   You can list your side projects in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Analysis and Development of GPU Architecture for HPC Workloads 
-        # link: "#hook"
         tagline: "Samsung, 2021-2022"
 
-      - title: DevStudio
-        # link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Development of Data Center Many-core NPU Architecture and Memory Interface
+        tagline: "Samsung, 2019-2020"
 
-      - title: Tempo
-        # link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Development of CPU-GPU Heterogeneous Computing Simulation Environment
+        tagline: "SK Hynix, 2019-2020"
 
-      - title: Atom
-        # link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Development of the Identification Data Processing Technology for On-site Police Officers
+        tagline: "Korea National Police Agency, 2018-2023"
 
-      - title: Delta
+      - title: Development of Multi-GPU Based High Speed Ray-Tracing Engine
         # link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Samsung, 2017-2018"
 
 # oss:
 #     title: OSS Contributions
