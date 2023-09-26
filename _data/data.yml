@@ -224,33 +224,33 @@ publications:
     papers:
       - title: "Accelerating Image Processing Workload (with UCR)"
         # link: "#"
-        # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "On-Going Paper"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
 
       - title: "Proposing Datacenter GPU Management Strategy (with SKKU)"
         # link: "#"
-        # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "On-Going Paper"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
 
       - title: "Accelerating Ray Tracing Cores "
         # link: "#"
-        # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "On-Going Paper"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
 
       - title: "Extending Ray Tracing Cores (with UCR and UBC)"
         # link: "#"
-        # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "On-Going Paper"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
 
       - title: "Extending Matrix Multiplication Units (with UCR and Intel)"
         # link: "#"
-        # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "On-Going Paper"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
 
       - title: "Low-Precision Neural Network Training on GPUs (with EPFL)"
         # link: "#"
-        # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "On-Going Paper"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
 
       - title: "MAD MAcce: Supporting Multiply-Add Operations for Democratizing Matrix-Multiplication Accelerators"
         link: "#"
