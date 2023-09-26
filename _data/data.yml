@@ -224,7 +224,7 @@ publications:
     papers:
       - title: "MAD MAcce: Supporting Multiply-Add Operations for Democratizing Matrix-Multiplication Accelerators"
         link: "#"
-        authors: Seunghwan Sung, Sujin Hur, Dongho Ha, Sungwoo Kim, Yunho Oh, and Won Woo Ro
+        authors: Seunghwan Sung, Sujin Hur, {{Dongho Ha}}, Sungwoo Kim, Yunho Oh, and Won Woo Ro
         conference: "The 56th International Symposium on Microarchitecture (MICRO 2023)"
 
       - title: "TensorCV: Accelerating Inference-Adjacent Computation Using Tensor Processors"
