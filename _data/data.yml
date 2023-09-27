@@ -260,14 +260,14 @@ publications:
 
       - title: "---"
 
-      - title: "Accelerating Image Processing Workload (with UCR)"
+      - title: "Accelerating Image Processing Workload"
         # link: "#"
-        authors: On-Going Paper
+        authors: On-Going Paper (with UCV)
         # conference: "On-Going Paper"
 
-      - title: "Proposing Datacenter GPU Management Strategy (with SKKU)"
+      - title: "Proposing Datacenter GPU Management Strategy"
         # link: "#"
-        authors: On-Going Paper
+        authors: On-Going Paper (with SKKU)
         # conference: "On-Going Paper"
 
       - title: "Accelerating Ray Tracing Cores "
@@ -275,19 +275,19 @@ publications:
         authors: On-Going Paper
         # conference: "On-Going Paper"
 
-      - title: "Extending Ray Tracing Cores (with UCR and UBC)"
+      - title: "Extending Ray Tracing Cores"
         # link: "#"
-        authors: On-Going Paper
+        authors: On-Going Paper (with UCR and UBC)
         # conference: "On-Going Paper"
 
-      - title: "Extending Matrix Multiplication Units (with UCR and Intel)"
+      - title: "Extending Matrix Multiplication Units"
         # link: "#"
-        authors: On-Going Paper
+        authors: On-Going Paper (with UCR and Intel)
         # conference: "On-Going Paper"
 
-      - title: "Low-Precision Neural Network Training on GPUs (with EPFL)"
+      - title: "Low-Precision Neural Network Training on GPUs"
         # link: "#"
-        authors: On-Going Paper
+        authors: On-Going Paper (with EPFL)
         # conference: "On-Going Paper"
 
       # - title: A syntax directed compiler for Algol 60
@@ -320,6 +320,6 @@ skills:
       - name: "CUDA, cuBLAS, cuTlass, TensorRT, cuFFT"
       - name: "OpenCV, Vulkan, Optix"
       - name: "GPGPU-Sim, Accel-Sim, Vulkan-Sim"
-      
+
 footer:
     # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
