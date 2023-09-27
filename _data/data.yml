@@ -55,9 +55,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a Ph.D. student at Yonsei University, Korea, studying computer architecture (advisor: Won Woo Ro). 
-      My research focuses on optimizing parallel processing units (e.g., GPUs and Domain-Specific Accelerators) 
-      and extending their functionalities to improve diverse applications' performance, energy efficiency, and usability.
+      I am a Ph.D. student at Yonsei University, Korea, studying computer architecture <br>
+      (advisor: Won Woo Ro). My research focuses on optimizing parallel processing units <br>
+      (e.g., GPUs and Domain-Specific Accelerators) and extending their functionalities <br>
+      to improve diverse applications' performance, energy efficiency, and usability.
     
       Currently, I am a junior specialist at the University of California, Riverside <br>
       (advisor: Hung-Wei Tseng).
