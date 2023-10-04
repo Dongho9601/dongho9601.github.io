@@ -31,14 +31,14 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf:
 
-    # languages:
-    #   title: Languages
-    #   info:
-    #     - idiom: Korean
-    #       level: Native
+    languages:
+      title: Languages
+      info:
+        - idiom: Korean
+          level: Native
 
-    #     - idiom: English
-    #       level: Professional
+        - idiom: English
+          level: Professional
 
     # interests:
     #   title: Interests
