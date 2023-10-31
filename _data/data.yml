@@ -230,12 +230,12 @@ publications:
 
       - title: "TensorCV: Accelerating Inference-Adjacent Computation Using Tensor Processors"
         link: "https://ieeexplore.ieee.org/abstract/document/10244461"
-        authors: Dongho Ha, Won Woo Ro, and Hung-Wei Tseng
+        authors: <ins>Dongho Ha<ins>, Won Woo Ro, and Hung-Wei Tseng
         conference: "The 2023 International Symposium on Low Power Electronics and Design (ISLPED’23)"
 
       - title: "R2D2: Removing ReDunDancy Utilizing Linearity of Address Generation in GPUs"
         link: "https://dl.acm.org/doi/abs/10.1145/3579371.3589039"
-        authors: Dongho Ha, Yunho Oh, and Won Woo Ro
+        authors: <u>Dongho Ha<u>, Yunho Oh, and Won Woo Ro
         conference: "The 50th International Symposium on Computer Architecture (ISCA 2023)"
 
       - title: "Investigation on NVIDIA Ampere GPU Architecture With Reverse Engineering"
