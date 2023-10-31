@@ -245,7 +245,7 @@ publications:
 
       - title: "Detecting Pattern of Warp Register Value Differences in CTA using GPU Compiler"
         # link: "#"
-        authors: <ins>Dongho</ins> Ha and Won Woo Ro
+        authors: <ins>Dongho Ha</ins> and Won Woo Ro
         conference: "The 19th International Conference on Electronics, Information, and Communication (ICEIC 2020)"
 
       - title: "Hardware Accelerator Systems for Artificial Intelligence and Machine Learning"
