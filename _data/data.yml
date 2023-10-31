@@ -260,10 +260,10 @@ publications:
 
       - title: "---"
 
-      - title: "Accelerating Image Processing Workload"
-        # link: "#"
-        authors: On-Going Paper (with UCV)
-        # conference: "On-Going Paper"
+      # - title: "Accelerating Image Processing Workload"
+      #   # link: "#"
+      #   authors: On-Going Paper (with UCV)
+      #   # conference: "On-Going Paper"
 
       - title: "Proposing Datacenter GPU Management Strategy"
         # link: "#"
@@ -285,15 +285,10 @@ publications:
         authors: On-Going Paper (with UCR and Intel)
         # conference: "On-Going Paper"
 
-      - title: "Low-Precision Neural Network Training on GPUs"
+      - title: "Training NN with Low-Precision Neural Network on GPUs"
         # link: "#"
         authors: On-Going Paper (with EPFL)
         # conference: "On-Going Paper"
-
-      # - title: A syntax directed compiler for Algol 60
-      #   link: "#"
-      #   authors: Edgar T. Irons
-      #   conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
