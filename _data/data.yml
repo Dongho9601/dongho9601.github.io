@@ -225,37 +225,37 @@ publications:
     papers:
       - title: "MAD MAcce: Supporting Multiply-Add Operations for Democratizing Matrix-Multiplication Accelerators"
         link: "#"
-        authors: Seunghwan Sung, Sujin Hur, <ins>Dongho Ha<\ins>, Sungwoo Kim, Yunho Oh, and Won Woo Ro
+        authors: Seunghwan Sung, Sujin Hur, <ins>Dongho Ha</ins>, Sungwoo Kim, Yunho Oh, and Won Woo Ro
         conference: "The 56th International Symposium on Microarchitecture (MICRO 2023)"
 
       - title: "TensorCV: Accelerating Inference-Adjacent Computation Using Tensor Processors"
         link: "https://ieeexplore.ieee.org/abstract/document/10244461"
-        authors: <ins>Dongho Ha<\ins>, Won Woo Ro, and Hung-Wei Tseng
+        authors: <ins>Dongho Ha</ins>, Won Woo Ro, and Hung-Wei Tseng
         conference: "The 2023 International Symposium on Low Power Electronics and Design (ISLPED’23)"
 
       - title: "R2D2: Removing ReDunDancy Utilizing Linearity of Address Generation in GPUs"
         link: "https://dl.acm.org/doi/abs/10.1145/3579371.3589039"
-        authors: <ins>Dongho Ha<\ins>, Yunho Oh, and Won Woo Ro
+        authors: <ins>Dongho Ha</ins>, Yunho Oh, and Won Woo Ro
         conference: "The 50th International Symposium on Computer Architecture (ISCA 2023)"
 
       - title: "Investigation on NVIDIA Ampere GPU Architecture With Reverse Engineering"
         # link: "#"
-        authors: Sujin Hur, Seunghwan Sung, <ins>Dongho Ha<\ins>, Sungwoo Kim, and Won Woo Ro
+        authors: Sujin Hur, Seunghwan Sung, <ins>Dongho Ha</ins>, Sungwoo Kim, and Won Woo Ro
         conference: "The 22th International Conference on Electronics, Information, and Communication (ICEIC 2023)"
 
       - title: "Detecting Pattern of Warp Register Value Differences in CTA using GPU Compiler"
         # link: "#"
-        authors: <ins>Dongho<\ins> Ha and Won Woo Ro
+        authors: <ins>Dongho</ins> Ha and Won Woo Ro
         conference: "The 19th International Conference on Electronics, Information, and Communication (ICEIC 2020)"
 
       - title: "Hardware Accelerator Systems for Artificial Intelligence and Machine Learning"
         link: "https://www.sciencedirect.com/science/article/abs/pii/S0065245820300929"
-        authors: Won Jeon, Gun Ko, Jiwon Lee, Hyunwuk Lee, <ins>Dongho Ha<\ins>, and Won Woo Ro
+        authors: Won Jeon, Gun Ko, Jiwon Lee, Hyunwuk Lee, <ins>Dongho Ha</ins>, and Won Woo Ro
         conference: "Advances in Computers, Elsvier, vol. 122: Academic Press; 2020, Chapter 6"
 
       - title: "Trends of High-End Graphic Processing Unit Development"
         link: "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07543739"
-        authors: <ins>Dongho Ha<\ins>, Hyunwuk Lee, Jiwon Lee, Hyun Jae Oh, Won Jeon, Yunho Oh, Won Woo Ro 
+        authors: <ins>Dongho Ha</ins>, Hyunwuk Lee, Jiwon Lee, Hyun Jae Oh, Won Jeon, Yunho Oh, Won Woo Ro 
         conference: "Korean Information Science Society (2019)"
 
       - title: "---"
