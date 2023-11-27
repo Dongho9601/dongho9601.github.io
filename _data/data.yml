@@ -29,7 +29,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf:
+    pdf: /assets/pdf/Dongho_Ha_CV.pdf
 
     languages:
       title: Languages
