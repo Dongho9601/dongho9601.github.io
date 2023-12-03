@@ -91,6 +91,10 @@ education:
 experiences:
     title: Professional Experiences
     info:
+      - role: Paper Review
+        time: 2023
+        company: IEEE Transactions on Emerging Topics in Computing (TETC)
+
       - role: Junior Specialist
         time: 2023
         company: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng)"
