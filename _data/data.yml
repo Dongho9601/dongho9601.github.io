@@ -224,7 +224,7 @@ publications:
     #   bibendum fringilla a eu lectus.
     papers:
       - title: "MAD MAcce: Supporting Multiply-Add Operations for Democratizing Matrix-Multiplication Accelerators"
-        link: "#"
+        link: "https://dl.acm.org/doi/10.1145/3613424.3614247"
         authors: Seunghwan Sung, Sujin Hur, <ins>Dongho Ha</ins>, Sungwoo Kim, Yunho Oh, and Won Woo Ro
         conference: "The 56th International Symposium on Microarchitecture (MICRO 2023)"
 
