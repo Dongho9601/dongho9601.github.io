@@ -180,7 +180,7 @@ projects:
     #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Analysis and Development of GPU Architecture for HPC Workloads 
+      - title: Analysis and Development of GPU Architecture for HPC Workloads [Patent]
         link: "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=PmEs4dMAAAAJ&citation_for_view=PmEs4dMAAAAJ:qjMakFHDy7sC"
         tagline: "Samsung, 2021-2022"
 
