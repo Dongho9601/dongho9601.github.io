@@ -59,8 +59,6 @@ career-profile:
       
       My research focuses on optimizing parallel processing units (e.g., GPUs and Domain-Specific Accelerators) and extending their functionalities to improve performance, energy efficiency, and usability on various applications.
 
-      Currently, I am a junior specialist at the University of California, Riverside (advisor: Hung-Wei Tseng).
-
       I am seeking a job/postdoctoral program in the United States with visa support (my expected graduation date is Aug 2024)
       
 education:
@@ -94,7 +92,7 @@ experiences:
     title: Professional Experiences
     info:
       - role: Paper Review
-        time: 2023
+        time: 2024
         company: IEEE Transactions on Emerging Topics in Computing (TETC)
 
       - role: Junior Specialist
