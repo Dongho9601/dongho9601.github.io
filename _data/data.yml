@@ -265,6 +265,31 @@ publications:
       #   authors: On-Going Paper (with UCV)
       #   # conference: "On-Going Paper"
 
+      - title: "Designing Sparse/Dense NPU"
+        # link: "#"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
+
+      - title: "Democratizing Tensor Cores"
+        # link: "#"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
+
+      - title: "Optimizing Quantum Program"
+        # link: "#"
+        authors: On-Going Paper
+        # conference: "On-Going Paper"
+
+      - title: "Handling Outlier in AI/ML Applications"
+        # link: "#"
+        authors: On-Going Paper (with Babak Falsafi, EPFL)
+        # conference: "On-Going Paper"
+
+      - title: "Designing Low-Bitwidth-based NPU"
+        # link: "#"
+        authors: On-Going Paper (with Hung-Wei Tseng, UCR)
+        # conference: "On-Going Paper"
+
       - title: "Proposing Datacenter GPU Management Strategy"
         # link: "#"
         authors: On-Going Paper (with Euiseong Seo, SKKU)
@@ -285,7 +310,7 @@ publications:
         authors: On-Going Paper (with Hunw-Wei Tseng, UCR and Christopher Hughes, Intel)
         # conference: "On-Going Paper"
 
-      - title: "Training NN with Low-Precision Neural Network on GPUs"
+      - title: "Training Low-Precision Neural Network on GPUs"
         link: "https://parsa.epfl.ch/coltrain/pages/team.html"
         authors: On-Going Paper (with Babak Falsafi, EPFL)
         # conference: "On-Going Paper"
