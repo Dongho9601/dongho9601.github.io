@@ -267,7 +267,7 @@ publications:
 
       - title: "Proposing Datacenter GPU Management Strategy"
         # link: "#"
-        authors: On-Going Paper (with SKKU)
+        authors: On-Going Paper (with Prof. Euiseong Seo, SKKU)
         # conference: "On-Going Paper"
 
       - title: "Accelerating Ray Tracing Cores "
@@ -277,17 +277,17 @@ publications:
 
       - title: "Extending Ray Tracing Cores"
         # link: "#"
-        authors: On-Going Paper (with UCR and UBC)
+        authors: On-Going Paper (with Hung-Wei Tseng, UCR and Tor Aamodt, UBC)
         # conference: "On-Going Paper"
 
       - title: "Extending Matrix Multiplication Units"
         # link: "#"
-        authors: On-Going Paper (with UCR and Intel)
+        authors: On-Going Paper (with Hunw-Wei Tseng, UCR and Christopher Hughes, Intel)
         # conference: "On-Going Paper"
 
       - title: "Training NN with Low-Precision Neural Network on GPUs"
         link: "https://parsa.epfl.ch/coltrain/pages/team.html"
-        authors: On-Going Paper (with EPFL)
+        authors: On-Going Paper (with Babak Falsafi, EPFL)
         # conference: "On-Going Paper"
 
 skills:
