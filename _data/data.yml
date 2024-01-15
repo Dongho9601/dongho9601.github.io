@@ -267,7 +267,7 @@ publications:
 
       - title: "Proposing Datacenter GPU Management Strategy"
         # link: "#"
-        authors: On-Going Paper (with Prof. Euiseong Seo, SKKU)
+        authors: On-Going Paper (with Euiseong Seo, SKKU)
         # conference: "On-Going Paper"
 
       - title: "Accelerating Ray Tracing Cores "
