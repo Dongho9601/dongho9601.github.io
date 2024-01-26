@@ -307,7 +307,7 @@ publications:
 
       - title: "Extending Matrix Multiplication Units"
         # link: "#"
-        authors: On-Going Paper (First author, collaborating with Hunw-Wei Tseng, UCR and Christopher Hughes, Intel)
+        authors: On-Going Paper (First author, collaborating with Hunf-Wei Tseng, UCR and Christopher Hughes, Intel)
         # conference: "On-Going Paper"
 
       - title: "Training Low-Precision Neural Network on GPUs"
