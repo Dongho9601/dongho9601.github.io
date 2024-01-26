@@ -260,59 +260,59 @@ publications:
 
       - title: "---"
 
-      # - title: "Accelerating Image Processing Workload"
-      #   # link: "#"
-      #   authors: On-Going Paper (with UCV)
-      #   # conference: "On-Going Paper"
+      - title: "Removing Redundant Computations in LLM Applications"
+        # link: "#"
+        authors: On-Going Paper (Co-author)
+        # conference: "On-Going Paper"
 
       - title: "Designing Sparse/Dense NPU"
         # link: "#"
-        authors: On-Going Paper
+        authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
       - title: "Democratizing Tensor Cores"
         # link: "#"
-        authors: On-Going Paper
+        authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
       - title: "Optimizing Quantum Program"
         # link: "#"
-        authors: On-Going Paper
+        authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
       - title: "Handling Outlier in AI/ML Applications"
         # link: "#"
-        authors: On-Going Paper (with Babak Falsafi, EPFL)
+        authors: On-Going Paper (Co-author, collaborating Babak Falsafi, EPFL)
         # conference: "On-Going Paper"
 
       - title: "Designing Low-Bitwidth-based NPU"
         # link: "#"
-        authors: On-Going Paper (with Hung-Wei Tseng, UCR)
+        authors: On-Going Paper (First author, collaborating Hung-Wei Tseng, UCR)
         # conference: "On-Going Paper"
 
       - title: "Proposing Datacenter GPU Management Strategy"
         # link: "#"
-        authors: On-Going Paper (with Euiseong Seo, SKKU)
+        authors: On-Going Paper (Co-author, collaborating with Euiseong Seo, SKKU)
         # conference: "On-Going Paper"
 
       - title: "Accelerating Ray Tracing Cores "
         # link: "#"
-        authors: On-Going Paper
+        authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
       - title: "Extending Ray Tracing Cores"
         # link: "#"
-        authors: On-Going Paper (with Hung-Wei Tseng, UCR and Tor Aamodt, UBC)
+        authors: On-Going Paper (First author, collaborating with Hung-Wei Tseng, UCR and Tor Aamodt, UBC)
         # conference: "On-Going Paper"
 
       - title: "Extending Matrix Multiplication Units"
         # link: "#"
-        authors: On-Going Paper (with Hunw-Wei Tseng, UCR and Christopher Hughes, Intel)
+        authors: On-Going Paper (First author, collaborating with Hunw-Wei Tseng, UCR and Christopher Hughes, Intel)
         # conference: "On-Going Paper"
 
       - title: "Training Low-Precision Neural Network on GPUs"
         link: "https://parsa.epfl.ch/coltrain/pages/team.html"
-        authors: On-Going Paper (with Babak Falsafi, EPFL)
+        authors: On-Going Paper (First author, collaborating with Babak Falsafi, EPFL)
         # conference: "On-Going Paper"
 
 skills:
