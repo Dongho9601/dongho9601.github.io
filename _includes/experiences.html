@@ -16,11 +16,11 @@
 
       <div class="upper-row">
         {% if experience.link %}
-        <h3 class="job-title" href="{{ experience.link }}">{{ experience.role }}</h3>
+        <a href="{{ experience.link }}"><h3 class="job-title">{{ experience.role }}</h3>
         {% else %}
           <h3 class="job-title">{{ experience.role }}</h3>
         <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
+      </div><!--//upper-row-->      
 
       <div class="company">{{ experience.company }}</div>
 
@@ -37,3 +37,7 @@
 
 </section><!--//section-->
 {% endif %}
+
+{% if experience.link %}
+      <a href="{{ publication.link }}"><span class="bullet"></span><strong>{{ publication.title }}</strong></a>
+    {% else %}
