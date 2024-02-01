@@ -93,12 +93,18 @@ experiences:
     info:
       - role: Paper Review
         time: 2024
+        company: IEEE Computer Architecture Letters (CAL)
+        link: "https://www.webofscience.com/wos/author/record/45772582"
+
+      - role: Paper Review
+        time: 2024
         company: IEEE Transactions on Emerging Topics in Computing (TETC)
+        link: "https://www.webofscience.com/wos/author/record/45772582"
 
       - role: Junior Specialist
         time: 2023
         company: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng)"
-        # details: |
+        link: "https://www.escalab.org/#people"
 
       - role: Paper Review
         time: 2023
@@ -108,10 +114,12 @@ experiences:
       - role: Paper Review (2 papers)
         time: 2023
         company: ACM Transactions on Architecture and Code Optimization (TACO)
+        link: "https://www.webofscience.com/wos/author/record/45772582"
 
       - role: Visiting Scholar
         time: 2022 - 2023
         company: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng)"
+        link: "https://www.escalab.org/#people"
 
       - role: Teaching Assistant
         time: 2021 Spring
