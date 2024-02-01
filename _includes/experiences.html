@@ -16,11 +16,15 @@
 
       <div class="upper-row">
         {% if experience.link %}
-        <a href="{{ experience.link }}"><h3 class="job-title">{{ experience.role }}</h3>
+          <a href="{{ experience.link }}">
+            <h3 class="job-title">{{ experience.role }}</h3>
+          </a>
+          <div class="time">{{ experience.time }}</div> <!-- If this should be included regardless -->
         {% else %}
           <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->      
+          <div class="time">{{ experience.time }}</div>
+        {% endif %}
+      </div><!--//upper-row--> 
 
       <div class="company">{{ experience.company }}</div>
 
