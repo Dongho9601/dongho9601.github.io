@@ -321,19 +321,19 @@ skills:
 
     toolset:
       - name: GPU Architecture
-        level: 98%
+        level: 95%
 
       - name: Accelerator Architecture
-        level: 92%
-
-      - name: C/C++
         level: 90%
 
-      - name: Python
+      - name: C/C++
         level: 85%
 
+      - name: Python
+        level: 65%
+
       - name: Verilog HDL
-        level: 75%
+        level: 55%
 
       # - name: Sketch & Photoshop
       #   level: 60%
