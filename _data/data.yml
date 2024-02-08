@@ -289,7 +289,7 @@ projects:
     #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Analysis and Development of GPU Architecture for HPC Workloads [Patent]
-        link: "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=PmEs4dMAAAAJ&citation_for_view=PmEs4dMAAAAJ:qjMakFHDy7sC"
+        link: "https://patents.google.com/patent/US20230385025A1/en"
         tagline: "Samsung, 2021-2022"
 
       - title: Development of Data Center Many-core NPU Architecture and Memory Interface
