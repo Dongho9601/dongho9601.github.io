@@ -1,0 +1,32 @@
+{% assign blogs = site.data.data.blogs %}
+{% if blogs %}
+<section class="section blogs-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ blogs.title }}
+  </h2>
+
+  {% if blogs.intro %}
+  <div class="intro">
+    {{ blogs.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for blog in blogs.papers %}
+  <div class="item">
+    {% if blog.link %}
+      <a href="{{ blog.link }}"><span class="bullet"></span><strong>{{ blog.title }}</strong></a>
+    {% else %}
+      <span class="bullet"></span><strong>{{ blog.title }}</strong>
+    {% endif %}
+    <div class="blog-authors">{{ blog.authors }}</div>
+    <div class="blog-conference">{{ blog.conference }}</div>
+  </div><!--//item-->
+{% endfor %}
+
+</section><!--//section-->
+{% endif %}

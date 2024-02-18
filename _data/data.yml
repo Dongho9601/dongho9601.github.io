@@ -188,8 +188,8 @@ publications:
         authors: On-Going Paper (First author, collaborating with Babak Falsafi, EPFL)
         # conference: "On-Going Paper"
 
-publications:
-    title: Blogs
+blogs:
+    title: blogs
     papers:
       - title: "PhD 101"
           link: "https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4"
