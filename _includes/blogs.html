@@ -18,13 +18,7 @@
 
   {% for blog in blogs.links %}
   <div class="item">
-    {% if blog.link %}
-      <a href="{{ blog.link }}"><span class="bullet"></span><strong>{{ blog.title }}</strong></a>
-    {% else %}
-      <span class="bullet"></span><strong>{{ blog.title }}</strong>
-    {% endif %}
-    <div class="blog-authors">{{ blog.authors }}</div>
-    <div class="blog-conference">{{ blog.conference }}</div>
+    <a href="{{ blog.link }}"><span class="bullet"></span><strong>{{ blog.title }}</strong></a>
   </div><!--//item-->
 {% endfor %}
 
