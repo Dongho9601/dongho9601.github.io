@@ -191,11 +191,13 @@ publications:
 blogs:
     title: blogs
     links:
-      - title: "PhD 101"
+      - title: "PhD 101 (On-Going)"
         link: "https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4"
+        time: Feb 2024
           
-      - title: "NPU Survey"
+      - title: "NPU Survey (On-Going)"
         link: "https://dongho-ha.notion.site/NPU-Architecture-On-Going-877702b31b344437b1bbd493499ec637?pvs=4"
+        time: Feb 2024
           
 experiences:
     title: Professional Experiences
