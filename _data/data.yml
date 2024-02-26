@@ -191,12 +191,12 @@ publications:
 experiences:
     title: Professional Experiences
     info:
-      - role: Paper Review
+      - role: Paper Peer Review
         time: 2024
         company: IEEE Computer Architecture Letters (CAL)
         link: "https://www.webofscience.com/wos/author/record/45772582"
 
-      - role: Paper Review
+      - role: Paper Peer Review
         time: 2024
         company: IEEE Transactions on Emerging Topics in Computing (TETC)
         link: "https://www.webofscience.com/wos/author/record/45772582"
@@ -206,12 +206,12 @@ experiences:
         company: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng)"
         link: "https://www.escalab.org/#people"
 
-      - role: Paper Review
+      - role: Paper Peer Review
         time: 2023
         company: IEEE Computer Architecture Letters (CAL)
         link: "https://www.webofscience.com/wos/author/record/45772582"
 
-      - role: Paper Review (2 papers)
+      - role: Paper Peer Review (2 papers)
         time: 2023
         company: ACM Transactions on Architecture and Code Optimization (TACO)
         link: "https://www.webofscience.com/wos/author/record/45772582"
