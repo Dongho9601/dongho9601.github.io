@@ -187,17 +187,6 @@ publications:
         link: "https://parsa.epfl.ch/coltrain/pages/team.html"
         authors: On-Going Paper (First author, collaborating with Babak Falsafi, EPFL)
         # conference: "On-Going Paper"
-
-blogs:
-    title: blogs
-    links:
-      - title: "PhD 101 (On-Going)"
-        link: "https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4"
-        time: 2.2024
-          
-      - title: "NPU Survey (On-Going)"
-        link: "https://dongho-ha.notion.site/NPU-Architecture-On-Going-877702b31b344437b1bbd493499ec637?pvs=4"
-        time: 2.2024
           
 experiences:
     title: Professional Experiences
@@ -363,3 +352,14 @@ skills:
 
 footer:
     # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+
+blogs:
+    title: blogs
+    links:
+      - title: "PhD 101"
+        link: "https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4"
+        time: 2024
+          
+      - title: "NPU Survey"
+        link: "https://dongho-ha.notion.site/NPU-Architecture-On-Going-877702b31b344437b1bbd493499ec637?pvs=4"
+        time: 2024
