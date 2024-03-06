@@ -40,17 +40,17 @@ sidebar:
         - idiom: English
           level: Professional
 
-    # interests:
-    #   title: Interests
-    #   info:
-    #     - item: Climbing
-    #       link:
+    interests:
+      title: Interests
+      info:
+        - item: Blogging
+          link: "https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4"
 
-    #     - item: Snowboarding
-    #       link:
+        - item: Photography
+          link: "https://www.instagram.com/in_da_sqr"
 
-    #     - item: Cooking
-    #       link:
+        - item: Gaming
+          link: "https://steamcommunity.com/profiles/76561198274843283"
 
 career-profile:
     title: Career Profile
