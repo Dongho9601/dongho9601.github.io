@@ -337,13 +337,13 @@ skills:
         level: 90%
 
       - name: C/C++
-        level: 85%
+        level: 80%
 
       - name: Python
         level: 65%
 
       - name: Verilog HDL
-        level: 55%
+        level: 50%
 
       # - name: Sketch & Photoshop
       #   level: 60%
@@ -356,7 +356,7 @@ footer:
 blogs:
     title: blogs
     links:
-      - title: "PhD 101"
+      - title: "PhD Guideline"
         link: "https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4"
         time: 2024
           
