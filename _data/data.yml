@@ -55,19 +55,19 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a Ph.D. student at Yonsei University, Korea, studying computer architecture (advisor: Won Woo Ro).
-      My research primarily focuses on enhancing the performance and energy efficiency of parallel processing units (e.g., GPUs and Domain-Specific Accelerators) by innovating their computing models. 
-      I believe such devices can help humanity expand its full capabilities, but it requires making their computing model more intelligent.
-      Driven by this vision, I am enthusiastic about dedicating my talents and passion to empowering humanity to be more creative, intelligent, efficient, and fulfilled.
-
-      I am seeking a job/postdoctoral program in the United States with visa support (my expected graduation date is Aug 2024)
+      I am a Ph.D. student at Yonsei University, studying computer architecture (advisor: Won Woo Ro). 
+      I am interested in designing computer architectures, 
+      from general-purpose processing units to domain-specific accelerators, 
+      for the effective use of computing resources. 
+      My recent works focus on optimizing GPUs' computing resource usage (e.g., R2D2, MAD MAcce) 
+      and revisiting data preparation algorithms in ML applications (TensorCV).
       
 education:
     title: Education
     info:
       - degree: PhD. in the School of Electrical and Electronic Engineering
         university: "Yonsei University, Seoul, Korea (Advisor: Won Woo Ro)"
-        time: 2024 (expected)
+        time: 2024
 
       - degree: M.S. in the School of Electrical and Electronic Engineering
         university: "Yonsei University, Seoul, Korea (Advisor: Won Woo Ro)"
