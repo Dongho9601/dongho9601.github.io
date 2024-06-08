@@ -98,7 +98,7 @@ publications:
     papers:
       - title: "Effective Interplay between Sparsity and Quantization: From Theory to Practice"
         link: "hhttps://arxiv.org/abs/2405.20935"
-        authors: Simla Burcu Harma, Ayan Chakraborty, Elizaveta Kostenok, Danila Mishin, Dongho Ha, Babak Falsafi, Martin Jaggi, Ming Liu, Yunho Oh, Suvinay Subramanian, Amir Yazdanbakhsh
+        authors: Simla Burcu Harma, Ayan Chakraborty, Elizaveta Kostenok, Danila Mishin, <ins>Dongho Ha</ins>, Babak Falsafi, Martin Jaggi, Ming Liu, Yunho Oh, Suvinay Subramanian, Amir Yazdanbakhsh
         conference: "arXiv"
 
       - title: "MAD MAcce: Supporting Multiply-Add Operations for Democratizing Matrix-Multiplication Accelerators"
