@@ -61,7 +61,27 @@ career-profile:
       for the effective use of computing resources. 
       My recent works focus on optimizing GPUs' computing resource usage (e.g., R2D2, MAD MAcce) 
       and revisiting data preparation algorithms in ML applications (TensorCV).
-      
+
+experiences:
+    title: Professional Experiences
+    info:
+      - role: System Architect (RDMA)
+        time: 2024
+        company: Mangoboost
+        # details: |
+
+      # - role: UI Developer
+      #   time: 2012 - 2014
+      #   company: Amazon, London
+      #   details: |
+      #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+      #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      #     Cum sociis natoque penatibus et magnis dis parturient montes,
+      #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      #     pellentesque eu, pretium quis, sem.
+      #       - Bullet point
+      #       - Bullet point
+
 education:
     title: Education
     info:
@@ -170,7 +190,7 @@ publications:
 
       - title: "Designing Low-Bitwidth-based NPU"
         # link: "#"
-        authors: On-Going Paper (First author, collaborating Hung-Wei Tseng, UCR)
+        authors: On-Going Paper (Co-author, collaborating Hung-Wei Tseng, UCR)
         # conference: "On-Going Paper"
 
       - title: "Extending Ray Tracing Cores"
@@ -187,59 +207,6 @@ publications:
         link: "https://parsa.epfl.ch/coltrain/pages/team.html"
         authors: On-Going Paper (First author, collaborating with Babak Falsafi, EPFL)
         # conference: "On-Going Paper"
-          
-experiences:
-    title: Professional Experiences
-    info:
-      - role: Paper Peer Review
-        time: 2024
-        company: IEEE Computer Architecture Letters (CAL)
-        link: "https://www.webofscience.com/wos/author/record/45772582"
-
-      - role: Paper Peer Review
-        time: 2024
-        company: IEEE Transactions on Emerging Topics in Computing (TETC)
-        link: "https://www.webofscience.com/wos/author/record/45772582"
-
-      - role: Junior Specialist
-        time: 2023
-        company: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng)"
-        link: "https://www.escalab.org/#people"
-
-      - role: Paper Peer Review
-        time: 2023
-        company: IEEE Computer Architecture Letters (CAL)
-        link: "https://www.webofscience.com/wos/author/record/45772582"
-
-      - role: Paper Peer Review (2 papers)
-        time: 2023
-        company: ACM Transactions on Architecture and Code Optimization (TACO)
-        link: "https://www.webofscience.com/wos/author/record/45772582"
-
-      - role: Visiting Scholar
-        time: 2022 - 2023
-        company: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng)"
-        link: "https://www.escalab.org/#people"
-
-      - role: Teaching Assistant
-        time: 2021 Spring
-        company: "Yonsei University, Seoul, Korea (EEE3530: Computer Architecture)"
-
-      - role: Teaching Assistant
-        time: 2020 Spring
-        company: "Yonsei University, Seoul, Korea (EEE4473: Embedded System Lab.)"
-
-      # - role: UI Developer
-      #   time: 2012 - 2014
-      #   company: Amazon, London
-      #   details: |
-      #     Describe your role here lorem ipsum dolor sit amet, consectetuer
-      #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      #     Cum sociis natoque penatibus et magnis dis parturient montes,
-      #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      #     pellentesque eu, pretium quis, sem.
-      #       - Bullet point
-      #       - Bullet point
 
 # certifications:
 #       title: Certifications
@@ -283,15 +250,48 @@ experiences:
 #             Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-    title: Industry Projects
+    title: Activities
     # intro: >
     #   You can list your side projects in this
     #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
+      - title: Study on Memory Sub-System Architecture for Hyper-Scale AI Training
+        tagline: "SK Hynix, 2024"
+
+      - title: Development of PIM Soft-ware Architecture based on Data-Flow Computing
+        tagline: "Korea Government (Institute of Information & communications Technology Planning & Evaluation), 2024"
+
+      - title: Paper Peer Review
+        link: "https://www.webofscience.com/wos/author/record/45772582"
+        tagline: "IEEE Computer Architecture Letters (CAL), 2024"
+
+      - title: Paper Peer Review
+        link: "https://www.webofscience.com/wos/author/record/45772582"
+        tagline: "IEEE Transactions on Emerging Topics in Computing (TETC), 2024"
+
+      - title: Junior Specialist
+        link: "https://www.escalab.org/#people"
+        tagline: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng), 2023"
+
+      - title: Paper Peer Review
+        link: "https://www.webofscience.com/wos/author/record/45772582"
+        tagline: IEEE Computer Architecture Letters (CAL), 2023
+
+      - title: Paper Peer Review (2 papers)
+        link: "https://www.webofscience.com/wos/author/record/45772582"
+        tagline: "ACM Transactions on Architecture and Code Optimization (TACO), 2023"
+
+      - title: Visiting Scholar
+        link: "https://www.escalab.org/#people"
+        tagline: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng), 2022 - 2023"
+
       - title: Analysis and Development of GPU Architecture for HPC Workloads [Patent]
         link: "https://patents.google.com/patent/US20230385025A1/en"
         tagline: "Samsung, 2021-2022"
+
+      - title: Teaching Assistant
+        tagline: "Yonsei University, Seoul, Korea (EEE3530: Computer Architecture), 2021 Spring"
 
       - title: Development of Data Center Many-core NPU Architecture and Memory Interface
         tagline: "Samsung, 2019-2020"
@@ -299,8 +299,11 @@ projects:
       - title: Development of CPU-GPU Heterogeneous Computing Simulation Environment
         tagline: "SK Hynix, 2019-2020"
 
+      - title: Teaching Assistant
+        tagline: "Yonsei University, Seoul, Korea (EEE4473: Embedded System Lab.), 2020 Spring" 
+
       - title: Development of the Identification Data Processing Technology for On-site Police Officers
-        tagline: "Korea National Police Agency, 2018-2023"
+        tagline: "Korea Government (Korea National Police Agency), 2018-2023"
 
       - title: Development of Multi-GPU Based High Speed Ray-Tracing Engine
         # link: "#"
@@ -324,7 +327,6 @@ projects:
 #       - title: Delta
 #         link: "#"
 #         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
 
 skills:
     title: Skills &amp; Proficiency
