@@ -28,7 +28,7 @@
     </h2>
 
     {% for graduation in education.info %}
-    <div class="">
+    <div class="item">
 
       <div class="meta">
 
@@ -37,7 +37,11 @@
           <div class="time">{{ graduation.time }}</div>
         </div><!--//upper-row-->
 
-        <div class="university">{{ graduation.university }}</div>
+        {% if graduation.details %}
+          <div class="university" style="margin-bottom: 0px;">{{ graduation.details }}</div>
+        {% else %}
+          <div class="university" >{{ graduation.university }}</div>
+        {% endif %}
       </div><!--//meta-->
 
       {% if graduation.details %}
