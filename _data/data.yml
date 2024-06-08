@@ -263,10 +263,10 @@ projects:
     #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Industry Project
-        tagline: "SK Hynix, Study on Memory Sub-System Architecture for Hyper-Scale AI Training, 2024"
+        tagline: "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
 
       - title: Industry Project
-        tagline: "Korea Government (Institute of Information & communications Technology Planning & Evaluation), Development of PIM Soft-ware Architecture based on Data-Flow Computing, 2024"
+        tagline: "Development of PIM Soft-ware Architecture based on Data-Flow Computing, Korea Government (Institute of Information & communications Technology Planning & Evaluation, 2024"
 
       - title: Paper Peer Review
         link: "https://www.webofscience.com/wos/author/record/45772582"
@@ -290,25 +290,25 @@ projects:
 
       - title: Industry Project
         link: "https://patents.google.com/patent/US20230385025A1/en"
-        tagline: "Samsung (SAIT), Analysis and Development of GPU Architecture for HPC Workloads [Patent], 2021-2022"
+        tagline: "Analysis and Development of GPU Architecture for HPC Workloads [Patent], Samsung (SAIT), 2021-2022"
 
       - title: Teaching Assistant
-        tagline: "Yonsei University, Seoul, Korea (EEE3530: Computer Architecture), 2021 Spring"
+        tagline: "EEE3530: Computer Architecture, Yonsei University, Seoul, Korea, 2021 Spring"
 
       - title: Industry Project
-        tagline: "Samsung, Development of Data Center Many-core NPU Architecture and Memory Interface, 2019-2020"
+        tagline: "Development of Data Center Many-core NPU Architecture and Memory Interface, Samsung, 2019-2020"
 
       - title: Industry Project
-        tagline: "SK Hynix, Development of CPU-GPU Heterogeneous Computing Simulation Environment, 2019-2020"
+        tagline: "Development of CPU-GPU Heterogeneous Computing Simulation Environment, SK Hynix, 2019-2020"
 
       - title: Teaching Assistant
-        tagline: "Yonsei University, Seoul, Korea (EEE4473: Embedded System Lab.), 2020 Spring" 
+        tagline: "EEE4473: Embedded System Lab., Yonsei University, Seoul, Korea, 2020 Spring" 
 
       - title: Industry Project
-        tagline: "Korea Government (Korea National Police Agency), Development of the Identification Data Processing Technology for On-site Police Officers, 2018-2023"
+        tagline: "Development of the Identification Data Processing Technology for On-site Police Officers, Korea Government (Korea National Police Agency), 2018-2023"
 
       - title: Industry Project
-        tagline: "Samsung, Development of Multi-GPU Based High Speed Ray-Tracing Engine, 2017-2018"
+        tagline: "Development of Multi-GPU Based High Speed Ray-Tracing Engine, Samsung, 2017-2018"
 
 # oss:
 #     title: OSS Contributions
