@@ -94,6 +94,7 @@ education:
       - degree: PhD. in the School of Electrical and Electronic Engineering
         university: "Yonsei University, Seoul, Korea (Advisor: Won Woo Ro)"
         time: 2024
+        # details: |
 
       - degree: M.S. in the School of Electrical and Electronic Engineering
         university: "Yonsei University, Seoul, Korea (Advisor: Won Woo Ro)"
