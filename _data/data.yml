@@ -70,6 +70,12 @@ experiences:
         company: Mangoboost
         # details: |
 
+      - role: Junior Specialist
+        time: 2023
+        company: Escalab
+        link: "https://www.escalab.org/#people"
+        tagline: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng)"
+
       # - role: UI Developer
       #   time: 2012 - 2014
       #   company: Amazon, London
@@ -270,10 +276,6 @@ projects:
         link: "https://www.webofscience.com/wos/author/record/45772582"
         tagline: "IEEE Transactions on Emerging Topics in Computing (TETC), 2024"
 
-      - title: Junior Specialist
-        link: "https://www.escalab.org/#people"
-        tagline: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng), 2023"
-
       - title: Paper Peer Review
         link: "https://www.webofscience.com/wos/author/record/45772582"
         tagline: IEEE Computer Architecture Letters (CAL), 2023
@@ -345,9 +347,6 @@ skills:
 
       - name: Verilog HDL
         level: 50%
-
-      # - name: Sketch & Photoshop
-      #   level: 60%
 
       - name: "CUDA, cuBLAS, cuTlass, TensorRT, cuFFT, OpenCV, Vulkan, Optix, GPGPU-Sim, Accel-Sim, and Vulkan-Sim"
 
