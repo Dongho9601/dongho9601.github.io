@@ -99,7 +99,7 @@ publications:
       - title: "Effective Interplay between Sparsity and Quantization: From Theory to Practice"
         link: "hhttps://arxiv.org/abs/2405.20935"
         authors: Simla Burcu Harma, Ayan Chakraborty, Elizaveta Kostenok, Danila Mishin, Dongho Ha, Babak Falsafi, Martin Jaggi, Ming Liu, Yunho Oh, Suvinay Subramanian, Amir Yazdanbakhsh
-        # conference: "The 56th International Symposium on Microarchitecture (MICRO 2023)"
+        conference: "arXiv"
 
       - title: "MAD MAcce: Supporting Multiply-Add Operations for Democratizing Matrix-Multiplication Accelerators"
         link: "https://dl.acm.org/doi/10.1145/3613424.3614247"
