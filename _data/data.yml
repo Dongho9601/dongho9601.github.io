@@ -97,7 +97,7 @@ publications:
     #   bibendum fringilla a eu lectus.
     papers:
       - title: "Effective Interplay between Sparsity and Quantization: From Theory to Practice"
-        link: "hhttps://arxiv.org/abs/2405.20935"
+        link: "https://arxiv.org/abs/2405.20935"
         authors: Simla Burcu Harma, Ayan Chakraborty, Elizaveta Kostenok, Danila Mishin, <ins>Dongho Ha</ins>, Babak Falsafi, Martin Jaggi, Ming Liu, Yunho Oh, Suvinay Subramanian, Amir Yazdanbakhsh
         conference: "arXiv"
 
