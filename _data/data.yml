@@ -74,6 +74,7 @@ experiences:
         time: 2023
         company: University of California, Riverside, USA (Advisor: Hung-Wei Tseng)
         link: "https://www.escalab.org/#people"
+        # details: |
 
       # - role: UI Developer
       #   time: 2012 - 2014
