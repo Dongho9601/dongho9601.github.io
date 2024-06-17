@@ -94,8 +94,8 @@ education:
       - degree: PhD. in the School of Electrical and Electronic Engineering
         university: "Yonsei University, Seoul, Korea (Advisor: Won Woo Ro)"
         time: 2024
-        # details: |
-        #   Dissertation: GPU Architecture Design for Effective Computing Resource Usage
+        details: |
+          Dissertation: GPU Architecture Design for Effective Computing Resource Usage
 
       - degree: M.S. in the School of Electrical and Electronic Engineering
         university: "Yonsei University, Seoul, Korea (Advisor: Won Woo Ro)"
@@ -124,6 +124,11 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers:
+      - title: "M<sup>3<sup>XU: Achieving High-Precision and Complex Matrix Multiplication with Low-Precision MXUs"
+        link: ""
+        authors: Dongho Ha, Yunan Zhang, Chen-Chien Kao, Christopher J. Hughes, Won Woo Ro, and Hung-Wei Tseng
+        conference: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC 2024)"
+
       - title: "Effective Interplay between Sparsity and Quantization: From Theory to Practice"
         link: "https://arxiv.org/abs/2405.20935"
         authors: Simla Burcu Harma, Ayan Chakraborty, Elizaveta Kostenok, Danila Mishin, <ins>Dongho Ha</ins>, Babak Falsafi, Martin Jaggi, Ming Liu, Yunho Oh, Suvinay Subramanian, Amir Yazdanbakhsh
@@ -204,11 +209,6 @@ publications:
       - title: "Extending Ray Tracing Cores"
         # link: "#"
         authors: On-Going Paper (First author, collaborating with Hung-Wei Tseng, UCR and Tor Aamodt, UBC)
-        # conference: "On-Going Paper"
-
-      - title: "Extending Matrix Multiplication Units"
-        # link: "#"
-        authors: On-Going Paper (First author, collaborating with Hunf-Wei Tseng, UCR and Christopher Hughes, Intel)
         # conference: "On-Going Paper"
 
       - title: "Training Low-Precision Neural Network on GPUs"
