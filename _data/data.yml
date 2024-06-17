@@ -206,11 +206,6 @@ publications:
         authors: On-Going Paper (Co-author, collaborating with Euiseong Seo, SKKU)
         # conference: "On-Going Paper"
 
-      - title: "Designing Low-Bitwidth-based NPU"
-        # link: "#"
-        authors: On-Going Paper (Co-author, collaborating Hung-Wei Tseng, UCR)
-        # conference: "On-Going Paper"
-
       - title: "Extending Ray Tracing Cores"
         # link: "#"
         authors: On-Going Paper (First author, collaborating with Hung-Wei Tseng, UCR and Tor Aamodt, UBC)
