@@ -196,6 +196,11 @@ publications:
         authors: On-Going Paper (Co-author, collaborating Babak Falsafi, EPFL)
         # conference: "On-Going Paper"
 
+      - title: "Designing Low-Bitwidth-based NPU "
+        # link: "#"
+        authors: On-Going Paper (Co-author)
+        # conference: "On-Going Paper"
+
       - title: "Proposing Datacenter GPU Management Strategy"
         # link: "#"
         authors: On-Going Paper (Co-author, collaborating with Euiseong Seo, SKKU)
