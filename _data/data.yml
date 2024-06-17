@@ -55,12 +55,14 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a Ph.D. student at Yonsei University, studying computer architecture (advisor: Won Woo Ro). 
-      I am interested in designing computer architectures, 
-      from general-purpose processing units to domain-specific accelerators, 
-      for the effective use of computing resources. 
+      I am currently a system architect at MangoBoost Inc. 
+      I completed my Ph.D. at Yonsei University, Korea, with a dissertation titled "GPU Architecture Design for Effective Computing Resource Usage" 
+      under the guidance of Professor Won Woo Ro. 
+      My expertise lies in designing computer architectures from general-purpose processing units 
+      to domain-specific accelerators, with a focus on optimizing computing resource utilization. 
       My recent works focus on optimizing GPUs' computing resource usage (e.g., R2D2, MAD MAcce) 
-      and revisiting data preparation algorithms in ML applications (TensorCV).
+      and accelerating AI/ML-adjacent computations in GPUs (TensorCV).
+      My current focus involves exploring RDMA engine architecture for MangoBoost DPUs.
 
 experiences:
     title: Professional Experiences
