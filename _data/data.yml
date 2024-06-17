@@ -124,9 +124,9 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers:
-      - title: "M<sup>3<sup>XU: Achieving High-Precision and Complex Matrix Multiplication with Low-Precision MXUs"
+      - title: "M<sup>3</sup>XU: Achieving High-Precision and Complex Matrix Multiplication with Low-Precision MXUs"
         link: ""
-        authors: Dongho Ha, Yunan Zhang, Chen-Chien Kao, Christopher J. Hughes, Won Woo Ro, and Hung-Wei Tseng
+        authors: <ins>Dongho Ha</ins>, Yunan Zhang, Chen-Chien Kao, Christopher J. Hughes, Won Woo Ro, and Hung-Wei Tseng
         conference: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC 2024)"
 
       - title: "Effective Interplay between Sparsity and Quantization: From Theory to Practice"
