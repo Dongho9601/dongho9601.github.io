@@ -181,10 +181,10 @@ publications:
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
-      - title: "Democratizing Tensor Cores more"
-        # link: "#"
-        authors: On-Going Paper (Co-author)
-        # conference: "On-Going Paper"
+      # - title: "Democratizing Tensor Cores in GPUs"
+      #   # link: "#"
+      #   authors: On-Going Paper (Co-author)
+      #   # conference: "On-Going Paper"
 
       - title: "Optimizing General Quantum Program"
         # link: "#"
