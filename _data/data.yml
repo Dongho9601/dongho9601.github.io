@@ -198,7 +198,7 @@ publications:
         # conference: "On-Going Paper"
 
       # ??? with Sungbin Kim
-      - title: "LLM-Based Multi-Turn Dialogue Systems"
+      - title: "LLM-Based Multi-Turn Dialogue System"
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
@@ -210,7 +210,7 @@ publications:
         # conference: "On-Going Paper"
 
       # Im MAD
-      - title: "Tensor Cores in GPUs"
+      - title: "Matrix Multiplication Units in GPUs"
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
