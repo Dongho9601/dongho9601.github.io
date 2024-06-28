@@ -185,43 +185,68 @@ publications:
 
       - title: "<small>----- On-Going Projects -----</small>"
 
-      - title: "Designing Sparse/Dense NPU"
+      # ??? with Junsung Kim
+      - title: "Memory Accesses in Multi-GPU Systems"
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
-      # - title: "Democratizing Tensor Cores in GPUs"
-      #   # link: "#"
-      #   authors: On-Going Paper (Co-author)
-      #   # conference: "On-Going Paper"
-
-      - title: "Optimizing General Quantum Program"
+      # Messiah
+      - title: "Regular Memory Accesses in GPUs"
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
-      - title: "Handling Outlier in AI/ML Applications"
+      # ??? with Sungbin Kim
+      - title: "LLM-Based Multi-Turn Dialogue Systems"
+        # link: "#"
+        authors: On-Going Paper (Co-author)
+        # conference: "On-Going Paper"
+
+      # DESPA
+      - title: "Sparse/Dense NPUs"
+        # link: "#"
+        authors: On-Going Paper (Co-author)
+        # conference: "On-Going Paper"
+
+      # Im MAD
+      - title: "Tensor Cores in GPUs"
+        # link: "#"
+        authors: On-Going Paper (Co-author)
+        # conference: "On-Going Paper"
+
+      # Dementor
+      - title: "General Quantum Program"
+        # link: "#"
+        authors: On-Going Paper (Co-author)
+        # conference: "On-Going Paper"
+
+      # ??? with Danila Mishin
+      - title: "Outlier in AI/ML Applications"
         # link: "#"
         authors: On-Going Paper (Co-author, collaborating Babak Falsafi, EPFL)
         # conference: "On-Going Paper"
 
-      - title: "Designing Low-Bitwidth-based NPU "
+      # ??? with Seunghyun Lee
+      - title: "Low-Bitwidth Outer Product Units"
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
-      - title: "Proposing Datacenter GPU Management Strategy"
+      # Apollo
+      - title: "Continuous Learning in AI/ML Applications"
         # link: "#"
         authors: On-Going Paper (Co-author, collaborating with Euiseong Seo, SKKU)
         # conference: "On-Going Paper"
 
-      - title: "Extending Ray Tracing Cores"
+      # TTA
+      - title: "Ray Tracing Core"
         # link: "#"
         authors: On-Going Paper (First author, collaborating with Hung-Wei Tseng, UCR and Tor Aamodt, UBC)
         # conference: "On-Going Paper"
 
       # Avant-Garde
-      - title: "Training Low-Precision Neural Network on GPUs"
+      - title: "Low-Precision Neural Network Training on GPUs"
         link: "https://parsa.epfl.ch/coltrain/pages/team.html"
         authors: On-Going Paper (First author, collaborating with Babak Falsafi, EPFL)
         # conference: "On-Going Paper"
