@@ -220,6 +220,7 @@ publications:
         authors: On-Going Paper (First author, collaborating with Hung-Wei Tseng, UCR and Tor Aamodt, UBC)
         # conference: "On-Going Paper"
 
+      # Avant-Garde
       - title: "Training Low-Precision Neural Network on GPUs"
         link: "https://parsa.epfl.ch/coltrain/pages/team.html"
         authors: On-Going Paper (First author, collaborating with Babak Falsafi, EPFL)
