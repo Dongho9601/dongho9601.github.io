@@ -135,7 +135,7 @@ publications:
     papers: 
       - title: "Generalizing Ray Tracing Accelerators for Tree Traversals on GPUs"
         link: ""
-        authors: <ins>Dongho Ha</ins>, Lufei liu, Yuan Hsi Chou, Seokjin Go, Won Woo Ro, Hung-Wei Tseng, and Tor M. Aamodt
+        authors: <ins>Dongho Ha*</ins>, Lufei liu*, Yuan Hsi Chou, Seokjin Go, Won Woo Ro, Hung-Wei Tseng, and Tor M. Aamodt
         conference: "The 57th International Symposium on Microarchitecture (MICRO 2024)"
 
       - title: "Recompiling QAOA Circuits on Various Rotational Directions"
