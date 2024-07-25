@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Dongho Ha
-    tagline: Computer Architect
+    taglines: Computer Architect
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -299,54 +299,54 @@ projects:
     #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Industry Project
-        tagline: 
-          - "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
-          - "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
+        taglines: 
+          "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
+          "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
 
       - title: Industry Project
-        tagline: "Development of PIM Soft-ware Architecture based on Data-Flow Computing, Korea Government (Institute of Information & communications Technology Planning & Evaluation, 2024"
+        taglines: "Development of PIM Soft-ware Architecture based on Data-Flow Computing, Korea Government (Institute of Information & communications Technology Planning & Evaluation, 2024"
 
       - title: Paper Peer Review
         link: "https://www.webofscience.com/wos/author/record/45772582"
-        tagline: "IEEE Computer Architecture Letters (CAL), 2024"
+        taglines: "IEEE Computer Architecture Letters (CAL), 2024"
 
       - title: Paper Peer Review
         link: "https://www.webofscience.com/wos/author/record/45772582"
-        tagline: "IEEE Transactions on Emerging Topics in Computing (TETC), 2024"
+        taglines: "IEEE Transactions on Emerging Topics in Computing (TETC), 2024"
 
       - title: Paper Peer Review
         link: "https://www.webofscience.com/wos/author/record/45772582"
-        tagline: IEEE Computer Architecture Letters (CAL), 2023
+        taglines: IEEE Computer Architecture Letters (CAL), 2023
 
       - title: Paper Peer Review (2 papers)
         link: "https://www.webofscience.com/wos/author/record/45772582"
-        tagline: "ACM Transactions on Architecture and Code Optimization (TACO), 2023"
+        taglines: "ACM Transactions on Architecture and Code Optimization (TACO), 2023"
 
       - title: Visiting Scholar
         link: "https://www.escalab.org/#people"
-        tagline: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng), 2022 - 2023"
+        taglines: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng), 2022 - 2023"
 
       - title: Industry Project
         link: "https://patents.google.com/patent/US20230385025A1/en"
-        tagline: "Analysis and Development of GPU Architecture for HPC Workloads [Patent], Samsung (SAIT), 2021-2022"
+        taglines: "Analysis and Development of GPU Architecture for HPC Workloads [Patent], Samsung (SAIT), 2021-2022"
 
       - title: Teaching Assistant
-        tagline: "EEE3530: Computer Architecture, Yonsei University, Seoul, Korea, 2021 Spring"
+        taglines: "EEE3530: Computer Architecture, Yonsei University, Seoul, Korea, 2021 Spring"
 
       - title: Industry Project
-        tagline: "Development of Data Center Many-core NPU Architecture and Memory Interface, Samsung, 2019-2020"
+        taglines: "Development of Data Center Many-core NPU Architecture and Memory Interface, Samsung, 2019-2020"
 
       - title: Industry Project
-        tagline: "Development of CPU-GPU Heterogeneous Computing Simulation Environment, SK Hynix, 2019-2020"
+        taglines: "Development of CPU-GPU Heterogeneous Computing Simulation Environment, SK Hynix, 2019-2020"
 
       - title: Teaching Assistant
-        tagline: "EEE4473: Embedded System Lab., Yonsei University, Seoul, Korea, 2020 Spring" 
+        taglines: "EEE4473: Embedded System Lab., Yonsei University, Seoul, Korea, 2020 Spring" 
 
       - title: Industry Project
-        tagline: "Development of the Identification Data Processing Technology for On-site Police Officers, Korea Government (Korea National Police Agency), 2018-2023"
+        taglines: "Development of the Identification Data Processing Technology for On-site Police Officers, Korea Government (Korea National Police Agency), 2018-2023"
 
       - title: Industry Project
-        tagline: "Development of Multi-GPU Based High Speed Ray-Tracing Engine, Samsung, 2017-2018"
+        taglines: "Development of Multi-GPU Based High Speed Ray-Tracing Engine, Samsung, 2017-2018"
 
 # oss:
 #     title: OSS Contributions
@@ -357,15 +357,15 @@ projects:
 #     contributions:
 #       - title: Tempo
 #         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#         taglines: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
 #       - title: Atom
 #         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#         taglines: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
 #       - title: Delta
 #         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#         taglines: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 # skills:
 #     title: Skills &amp; Proficiency
