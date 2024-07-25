@@ -301,7 +301,6 @@ publications:
 #       - title: Industry Project
 #         taglines: 
 #           - "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
-#           - "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
 
 #       - title: Industry Project
 #         taglines: 
@@ -363,7 +362,7 @@ publications:
 
 projects:
   title: "Projects"
-  intro: "Here are some of the projects I have worked on."
+  # intro: "Here are some of the projects I have worked on."
   assignments:
     - title: "Industry Project"
       taglines:
@@ -402,18 +401,18 @@ projects:
 #     contributions:
 #       - title: Tempo
 #         link: "#"
-#         taglines: 
-  # "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#         tagline: 
+#           "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
 #       - title: Atom
 #         link: "#"
-#         taglines: 
-  # "A comprehensive website template solution for startups/developers to market their mobile apps."
+#         tagline: 
+#           "A comprehensive website template solution for startups/developers to market their mobile apps."
 
 #       - title: Delta
 #         link: "#"
-#         taglines: 
-  # "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#         tagline: 
+#           "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 # skills:
 #     title: Skills &amp; Proficiency
