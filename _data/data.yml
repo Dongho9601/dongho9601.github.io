@@ -299,10 +299,11 @@ projects:
     #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Industry Project
-        tagline: "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024 \n this?"
+        tagline: "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
 
       - title: Industry Project
-        tagline: "Development of PIM Soft-ware Architecture based on Data-Flow Computing, Korea Government (Institute of Information & communications Technology Planning & Evaluation, 2024"
+        tagline: "Development of PIM Soft-ware Architecture based on Data-Flow Computing, Korea Government (Institute of Information & communications Technology Planning & Evaluation, 2024
+                  \n - this?"
 
       - title: Paper Peer Review
         link: "https://www.webofscience.com/wos/author/record/45772582"
