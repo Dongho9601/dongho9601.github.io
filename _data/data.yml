@@ -291,40 +291,6 @@ publications:
 #             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
 #             Praesent venenatis erat non augue suscipit consectetur.
 
-# projects:
-#     title: Activities
-#     # intro: >
-#     #   You can list your side projects in this
-#     #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#     #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     assignments:
-#       - title: Industry Project
-#         taglines: 
-#           - "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
-
-#       - title: Industry Project
-#         taglines: 
-#           - "Development of PIM Soft-ware Architecture based on Data-Flow Computing, Korea Government (Institute of Information & communications Technology Planning & Evaluation, 2024"
-
-#       - title: Paper Peer Review
-#         link: "https://www.webofscience.com/wos/author/record/45772582"
-#         taglines: 
-#           - "IEEE Computer Architecture Letters (CAL), 2024"
-
-#       - title: Paper Peer Review
-#         link: "https://www.webofscience.com/wos/author/record/45772582"
-#         taglines: 
-#           - "IEEE Transactions on Emerging Topics in Computing (TETC), 2024"
-
-#       - title: Paper Peer Review
-#         link: "https://www.webofscience.com/wos/author/record/45772582"
-#         taglines: 
-#           - "IEEE Computer Architecture Letters (CAL), 2023"
-
-#       - title: Paper Peer Review (2 papers)
-#         link: "https://www.webofscience.com/wos/author/record/45772582"
-#         taglines: 
-#           - "ACM Transactions on Architecture and Code Optimization (TACO), 2023"
 
 #       - title: Visiting Scholar
 #         link: "https://www.escalab.org/#people"
@@ -368,24 +334,23 @@ projects:
       taglines:
         - "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
         - "Development of PIM Software Architecture based on Data-Flow Computing, Korea Government (Institute of Information & communications Technology Planning & Evaluation, 2024"
-        - "Analysis and Development of GPU Architecture for HPC Workloads [Patent], Samsung (SAIT), 2021-2022"
+        - "Analysis and Development of GPU Architecture for HPC Workloads [Patent](https://patents.google.com/patent/US20230385025A1/en), Samsung (SAIT), 2021-2022"
         - "Development of Data Center Many-core NPU Architecture and Memory Interface, Samsung, 2019-2020"
         - "Development of CPU-GPU Heterogeneous Computing Simulation Environment, SK Hynix, 2019-2020"
         - "Development of the Identification Data Processing Technology for On-site Police Officers, Korea Government (Korea National Police Agency), 2018-2023"
         - "Development of Multi-GPU Based High Speed Ray-Tracing Engine, Samsung, 2017-2018"
 
     - title: "Paper Peer Review"
-      taglines:
-        - "IEEE Computer Architecture Letters (CAL), 2024"
-        - "IEEE Transactions on Emerging Topics in Computing (TETC), 2024"
-        - "IEEE Computer Architecture Letters (CAL), 2023"
-        - "ACM Transactions on Architecture and Code Optimization (TACO), 2023"
       link: "https://www.webofscience.com/wos/author/record/45772582"
+      taglines:
+        - "IEEE Computer Architecture Letters (CAL) ×3"
+        - "IEEE Transactions on Emerging Topics in Computing (TETC) ×2"
+        - "ACM Transactions on Architecture and Code Optimization (TACO) ×3"
 
     - title: "Visiting Scholar"
+      link: "https://www.escalab.org/#people"
       taglines: 
         - "University of California, Riverside, USA (Advisor: Hung-Wei Tseng), 2022 - 2023"
-      link: "https://www.escalab.org/#people"
 
     - title: "Teaching Assistant"
       taglines:
