@@ -299,8 +299,7 @@ projects:
     #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Industry Project
-        tagline: "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
-        tagline: "one more?"
+        tagline: "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024 \\ this?"
 
       - title: Industry Project
         tagline: "Development of PIM Soft-ware Architecture based on Data-Flow Computing, Korea Government (Institute of Information & communications Technology Planning & Evaluation, 2024"
