@@ -291,41 +291,6 @@ publications:
 #             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
 #             Praesent venenatis erat non augue suscipit consectetur.
 
-
-#       - title: Visiting Scholar
-#         link: "https://www.escalab.org/#people"
-#         taglines: 
-#           - "University of California, Riverside, USA (Advisor: Hung-Wei Tseng), 2022 - 2023"
-
-#       - title: Industry Project
-#         link: "https://patents.google.com/patent/US20230385025A1/en"
-#         taglines: 
-#           - "Analysis and Development of GPU Architecture for HPC Workloads [Patent], Samsung (SAIT), 2021-2022"
-
-#       - title: Teaching Assistant
-#         taglines: 
-#           - "EEE3530: Computer Architecture, Yonsei University, Seoul, Korea, 2021 Spring"
-
-#       - title: Industry Project
-#         taglines: 
-#           - "Development of Data Center Many-core NPU Architecture and Memory Interface, Samsung, 2019-2020"
-
-#       - title: Industry Project
-#         taglines: 
-#           - "Development of CPU-GPU Heterogeneous Computing Simulation Environment, SK Hynix, 2019-2020"
-
-#       - title: Teaching Assistant
-#         taglines: 
-#           - "EEE4473: Embedded System Lab., Yonsei University, Seoul, Korea, 2020 Spring" 
-
-#       - title: Industry Project
-#         taglines: 
-#           - "Development of the Identification Data Processing Technology for On-site Police Officers, Korea Government (Korea National Police Agency), 2018-2023"
-
-#       - title: Industry Project
-#         taglines: 
-#           - "Development of Multi-GPU Based High Speed Ray-Tracing Engine, Samsung, 2017-2018"
-
 projects:
   title: "Projects"
   # intro: "Here are some of the projects I have worked on."
@@ -334,7 +299,7 @@ projects:
       taglines:
         - "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
         - "Development of PIM Software Architecture based on Data-Flow Computing, Korea Government (Institute of Information & communications Technology Planning & Evaluation, 2024"
-        - "Analysis and Development of GPU Architecture for HPC Workloads [Patent](https://patents.google.com/patent/US20230385025A1/en), Samsung (SAIT), 2021-2022"
+        - "Analysis and Development of GPU Architecture for HPC Workloads (Patent)[https://patents.google.com/patent/US20230385025A1/en], Samsung (SAIT), 2021-2022"
         - "Development of Data Center Many-core NPU Architecture and Memory Interface, Samsung, 2019-2020"
         - "Development of CPU-GPU Heterogeneous Computing Simulation Environment, SK Hynix, 2019-2020"
         - "Development of the Identification Data Processing Technology for On-site Police Officers, Korea Government (Korea National Police Agency), 2018-2023"
