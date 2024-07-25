@@ -29,7 +29,7 @@
       <br>
       {% if project.taglines %}
         {% for tagline in project.taglines %}
-          - <span class="project-tagline">{{ tagline }}</span><br>
+          - <span class="project-tagline">{{ tagline | markdownify }}</span><br>
         {% endfor %}
       {% endif %}
 
