@@ -187,10 +187,16 @@ publications:
         authors: <ins>Dongho Ha</ins>, Hyunwuk Lee, Jiwon Lee, Hyun Jae Oh, Won Jeon, Yunho Oh, Won Woo Ro 
         conference: "Korean Information Science Society (2019)"
 
-      - title: "<small>----- On-Going Projects -----</small>"
+      - title: "<small>----- On-Going Projects (only project names) -----</small>"
 
-      # ??? with Junsung Kim
-      - title: "Memory Accesses in Multi-GPU Systems"
+      # No-All-Reduce
+      - title: "LLM Training on Multiple GPUs"
+        # link: "#"
+        authors: On-Going Paper (Co-author)
+        # conference: "On-Going Paper"
+
+      # Junsung Kim
+      - title: "DMA between GPUs"
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
@@ -201,7 +207,7 @@ publications:
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
-      # ??? with Sungbin Kim
+      # Sungbin Kim
       - title: "LLM-Based Multi-Turn Dialogue System"
         # link: "#"
         authors: On-Going Paper (Co-author)
@@ -214,37 +220,31 @@ publications:
         # conference: "On-Going Paper"
 
       # MaxiMoff
-      - title: "Matrix Multiplication Units in GPUs"
+      - title: "The next step for MAD Macce"
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
       # Dementor
-      - title: "General Quantum Program"
+      - title: "General Quantum Program Optimization"
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
-      # ??? with Danila Mishin
-      - title: "Outlier in AI/ML Applications"
-        # link: "#"
-        authors: On-Going Paper (Co-author, collaborating Babak Falsafi, EPFL)
-        # conference: "On-Going Paper"
-
       # ODIN
-      - title: "Low-Bitwidth Outer Product Units"
+      - title: "Bit-wise Matrix Multiplication"
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
       # Apollo
-      - title: "Continuous Learning in AI/ML Applications"
+      - title: "Continuous Learning"
         # link: "#"
         authors: On-Going Paper (Co-author, collaborating with Euiseong Seo, SKKU)
         # conference: "On-Going Paper"
 
       # Avant-Garde
-      - title: "Low-Precision Neural Network Training on GPUs"
+      - title: "Low-Precision Training on GPUs"
         link: "https://parsa.epfl.ch/coltrain/pages/team.html"
         authors: On-Going Paper (First author, collaborating with Babak Falsafi, EPFL)
         # conference: "On-Going Paper"
