@@ -307,8 +307,8 @@ projects:
     - title: "Paper Peer Review"
       link: "https://www.webofscience.com/wos/author/record/45772582"
       taglines:
-        - "IEEE Computer Architecture Letters (CAL) ×2"
-        - "IEEE Transactions on Emerging Topics in Computing (TETC) ×2"
+        - "IEEE Computer Architecture Letters (CAL) ×5"
+        - "IEEE Transactions on Emerging Topics in Computing (TETC) ×1"
         - "ACM Transactions on Architecture and Code Optimization (TACO) ×2"
 
     - title: "Visiting Scholar"
@@ -377,3 +377,4 @@ blogs:
       - title: "NPU Survey"
         link: "https://dongho-ha.notion.site/NPU-Architecture-On-Going-877702b31b344437b1bbd493499ec637?pvs=4"
         time: 2024
+
