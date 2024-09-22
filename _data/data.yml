@@ -137,15 +137,15 @@ publications:
         authors: <ins>Dongho Ha*</ins>, Lufei Liu*, Yuan Hsi Chou, Seokjin Go, Won Woo Ro, Hung-Wei Tseng, and Tor M. Aamodt
         conference: "The 57th International Symposium on Microarchitecture (MICRO 2024)"
 
-      - title: "Recompiling QAOA Circuits on Various Rotational Directions"
-        link: "https://pact2024.github.io/"
-        authors: Enhyeok Jang, <ins>Dongho Ha</ins>, Seungwoo Choi, Youngmin Kim, Jaewon Kwon, Yongju Lee, Sungwoo Ahn, Hyungseok Kim, Won Woo Ro
-        conference: "The International Conference on Parallel Architectures and Compilation Techniques (PACT 2024)"
-
       - title: "M<sup>3</sup>XU: Achieving High-Precision and Complex Matrix Multiplication with Low-Precision MXUs"
         link: "https://sc24.supercomputing.org/"
         authors: <ins>Dongho Ha*</ins>, Yunan Zhang*, Chen-Chien Kao, Christopher J. Hughes, Won Woo Ro, and Hung-Wei Tseng
         conference: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC 2024)"
+
+      - title: "Recompiling QAOA Circuits on Various Rotational Directions"
+        link: "https://pact2024.github.io/"
+        authors: Enhyeok Jang, <ins>Dongho Ha</ins>, Seungwoo Choi, Youngmin Kim, Jaewon Kwon, Yongju Lee, Sungwoo Ahn, Hyungseok Kim, Won Woo Ro
+        conference: "The International Conference on Parallel Architectures and Compilation Techniques (PACT 2024)"
 
       - title: "Effective Interplay between Sparsity and Quantization: From Theory to Practice"
         link: "https://arxiv.org/abs/2405.20935"
