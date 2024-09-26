@@ -190,10 +190,16 @@ publications:
       - title: "<small>----- On-Going Projects (only project names) -----</small>"
 
       # No-All-Reduce
-      - title: "LLM Training on Multiple GPUs"
-        # link: "#"
-        authors: On-Going Paper (Co-author)
-        # conference: "On-Going Paper"
+      # - title: "LLM Training on Multiple GPUs"
+      #   # link: "#"
+      #   authors: On-Going Paper (Co-author)
+      #   # conference: "On-Going Paper"
+
+      # Messiah
+      # - title: "Regular Memory Accesses in GPUs"
+      #   # link: "#"
+      #   authors: On-Going Paper (Co-author)
+      #   # conference: "On-Going Paper"
 
       # Junsung Kim
       - title: "DMA between GPUs"
@@ -201,14 +207,8 @@ publications:
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
-      # Messiah
-      - title: "Regular Memory Accesses in GPUs"
-        # link: "#"
-        authors: On-Going Paper (Co-author)
-        # conference: "On-Going Paper"
-
       # Sungbin Kim
-      - title: "LLM-Based Multi-Turn Dialogue System"
+      - title: "Effective LLM Inferencing"
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
@@ -231,7 +231,7 @@ publications:
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
-      # ODIN
+      # Bit Coalescing
       - title: "Bit-wise Matrix Multiplication"
         # link: "#"
         authors: On-Going Paper (Co-author)
