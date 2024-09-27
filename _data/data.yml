@@ -189,13 +189,13 @@ publications:
 
       - title: "<small>----- On-Going Projects (only project names) -----</small>"
 
-      # No-All-Reduce
+      # Seunghwan Sung
       # - title: "LLM Training on Multiple GPUs"
       #   # link: "#"
       #   authors: On-Going Paper (Co-author)
       #   # conference: "On-Going Paper"
 
-      # Messiah
+      # Sungwoo Kim
       # - title: "Regular Memory Accesses in GPUs"
       #   # link: "#"
       #   authors: On-Going Paper (Co-author)
@@ -213,37 +213,37 @@ publications:
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
-      # DESPA
+      # Hyungjun Jang
       - title: "Sparse/Dense NPUs"
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
-      # MaxiMoff
+      # Sungwoo Kim
       - title: "The next step for MAD Macce"
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
-      # Dementor
+      # Enhyeok Jang
       - title: "General Quantum Program Optimization"
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
-      # Bit Coalescing
+      # Sungbin Kim
       - title: "Bit-wise Matrix Multiplication"
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
-      # Apollo
+      # Gwanjong Park
       - title: "Continuous Learning"
         # link: "#"
         authors: On-Going Paper (Co-author, collaborating with Euiseong Seo, SKKU)
         # conference: "On-Going Paper"
 
-      # Avant-Garde
+      # MINE
       - title: "Low-Precision Training on GPUs"
         link: "https://parsa.epfl.ch/coltrain/pages/team.html"
         authors: On-Going Paper (First author, collaborating with Babak Falsafi, EPFL)
