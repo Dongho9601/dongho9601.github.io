@@ -143,7 +143,7 @@ publications:
         conference: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC 2024)"
 
       - title: "Recompiling QAOA Circuits on Various Rotational Directions"
-        link: "https://pact2024.github.io/program/"
+        link: "https://dl.acm.org/doi/10.1145/3656019.3676899"
         authors: Enhyeok Jang, <ins>Dongho Ha</ins>, Seungwoo Choi, Youngmin Kim, Jaewon Kwon, Yongju Lee, Sungwoo Ahn, Hyungseok Kim, Won Woo Ro
         conference: "The International Conference on Parallel Architectures and Compilation Techniques (PACT 2024)"
 
