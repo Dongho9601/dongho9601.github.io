@@ -65,6 +65,7 @@ career-profile:
       I am currently a system architect at <a href='https://mangoboost.io/'>MangoBoost Inc.</a>, 
       exploring the RDMA engine architecture to improve MangoBoost DPUs further.
       - Fast learner
+      - Resilient personality
       - Independent and highly motivated
       - Highly reliable team player or leader
       - Professional communication, writing, and presentation skills
@@ -132,15 +133,15 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers: 
-      - title: "Generalizing Ray Tracing Accelerators for Tree Traversals on GPUs"
-        link: "https://microarch.org/micro57/program/"
-        authors: <ins>Dongho Ha*</ins>, Lufei Liu*, Yuan Hsi Chou, Seokjin Go, Won Woo Ro, Hung-Wei Tseng, and Tor M. Aamodt
-        conference: "The 57th International Symposium on Microarchitecture (MICRO 2024)"
-
       - title: "M<sup>3</sup>XU: Achieving High-Precision and Complex Matrix Multiplication with Low-Precision MXUs"
-        link: "https://sc24.conference-program.com/"
+        link: "https://intra.engr.ucr.edu/~htseng/files/2024SC-M3XU.pdf"
         authors: <ins>Dongho Ha*</ins>, Yunan Zhang*, Chen-Chien Kao, Christopher J. Hughes, Won Woo Ro, and Hung-Wei Tseng
         conference: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC 2024)"
+
+      - title: "Generalizing Ray Tracing Accelerators for Tree Traversals on GPUs"
+        link: "https://people.ece.ubc.ca/aamodt/publications/papers/tta.micro2024.pdf"
+        authors: <ins>Dongho Ha*</ins>, Lufei Liu*, Yuan Hsi Chou, Seokjin Go, Won Woo Ro, Hung-Wei Tseng, and Tor M. Aamodt
+        conference: "The 57th International Symposium on Microarchitecture (MICRO 2024)"
 
       - title: "Recompiling QAOA Circuits on Various Rotational Directions"
         link: "https://dl.acm.org/doi/10.1145/3656019.3676899"
@@ -374,9 +375,9 @@ blogs:
         link: "https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4"
         time: 2024
           
-      - title: "Philosophy"
-        link: "https://dongho-ha.notion.site/Philosophy-10993ee0056d80e5a977f0904f400ed9?pvs=4"
-        time: 2024
+      # - title: "Philosophy"
+      #   link: "https://dongho-ha.notion.site/Philosophy-10993ee0056d80e5a977f0904f400ed9?pvs=4"
+      #   time: 2024
 
       # - title: "NPU Survey"
       #   link: "https://dongho-ha.notion.site/NPU-Architecture-On-Going-877702b31b344437b1bbd493499ec637?pvs=4"
