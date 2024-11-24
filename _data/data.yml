@@ -134,7 +134,7 @@ publications:
     #   bibendum fringilla a eu lectus.
     papers: 
       - title: "M<sup>3</sup>XU: Achieving High-Precision and Complex Matrix Multiplication with Low-Precision MXUs"
-        link: "https://intra.engr.ucr.edu/~htseng/files/2024SC-M3XU.pdf"
+        link: "https://dl.acm.org/doi/10.1109/SC41406.2024.00016"
         authors: <ins>Dongho Ha*</ins>, Yunan Zhang*, Chen-Chien Kao, Christopher J. Hughes, Won Woo Ro, and Hung-Wei Tseng
         conference: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC 2024)"
 
