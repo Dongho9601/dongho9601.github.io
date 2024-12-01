@@ -55,7 +55,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I completed my Ph.D. at Yonsei University, Korea (Advisor: Professor Won Woo Ro), 
+      I completed my Ph.D. at Yonsei University, Korea (Advisor: Professor Won Woo Ro),
       with a dissertation “GPU Architecture Design for Effective Computing Resource Usage.” 
       My expertise lies in designing computer architectures from general-purpose to domain-specific processors, focusing on optimizing computing and memory resource utilization. My recent research focuses on optimizing GPUs’ computing resource usage and democratizing various domain-specific accelerators. To broaden my expertise from microarchitecture to system-level design, I am currently working as a system architect at MangoBoost Inc. and exploring SmartNICs to enhance MangoBoost DPUs.
       - Fast learner
@@ -286,7 +286,7 @@ publications:
 #             Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-  title: "Projects"
+  title: "Remarks"
   # intro: "Here are some of the projects I have worked on."
   assignments:
     - title: "Industry Project"
@@ -315,6 +315,13 @@ projects:
       taglines:
         - "EEE3530: Computer Architecture, Yonsei University, Seoul, Korea, 2021 Spring"
         - "EEE4473: Embedded System Lab., Yonsei University, Seoul, Korea, 2020 Spring"
+
+    - title: "Fundings"
+      taglines:
+        - "BK21 FOUR Project Scholarship: 23,800,000 KRW"
+        - "Teaching Assistanct Scholarship: 3,716,000 KRW"
+        - "Research Assistance Scholarship: 3,000,000 KRW"
+        - "External Scholarship: 11,400,000 KRW"
 
 # oss:
 #     title: OSS Contributions
@@ -359,9 +366,6 @@ projects:
 
 #       - name: "CUDA, cuBLAS, cuTlass, TensorRT, cuFFT, OpenCV, Vulkan, Optix, GPGPU-Sim, Accel-Sim, and Vulkan-Sim"
 
-footer:
-    # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
-
 blogs:
     title: blogs
     links:
@@ -377,3 +381,5 @@ blogs:
       #   link: "https://dongho-ha.notion.site/NPU-Architecture-On-Going-877702b31b344437b1bbd493499ec637?pvs=4"
       #   time: 2024
 
+footer:
+    # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
