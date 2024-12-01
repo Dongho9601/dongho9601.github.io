@@ -318,10 +318,10 @@ projects:
 
     - title: "Fundings"
       taglines:
-        - "BK21 FOUR Project Scholarship: <ins>23,800,000 KRW</ins>"
-        - "Teaching Assistanct Scholarship: <ins>3,716,000 KRW</ins>"
-        - "Research Assistance Scholarship: <ins>3,000,000 KRW</ins>"
-        - "External Scholarship: <ins>11,400,000 KRW</ins>"
+        - "BK21 FOUR Project Scholarship: <ins>23,800,000</ins> KRW"
+        - "Teaching Assistanct Scholarship: <ins>3,716,000</ins> KRW"
+        - "Research Assistance Scholarship: <ins>3,000,000</ins> KRW"
+        - "External Scholarship: <ins>11,400,000</ins> KRW"
 
 # oss:
 #     title: OSS Contributions
