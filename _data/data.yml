@@ -184,18 +184,6 @@ publications:
 
       - title: "<small>----- On-Going Projects (only project names) -----</small>"
 
-      # Seunghwan Sung
-      # - title: "LLM Training on Multiple GPUs"
-      #   # link: "#"
-      #   authors: On-Going Paper (Co-author)
-      #   # conference: "On-Going Paper"
-
-      # Sungwoo Kim
-      # - title: "Regular Memory Accesses in GPUs"
-      #   # link: "#"
-      #   authors: On-Going Paper (Co-author)
-      #   # conference: "On-Going Paper"
-
       # Junsung Kim
       - title: "DMA between GPUs"
         # link: "#"
@@ -244,6 +232,67 @@ publications:
         authors: On-Going Paper (First author, collaborating with Babak Falsafi, EPFL)
         # conference: "On-Going Paper"
 
+projects:
+  title: "Remarks"
+  # intro: "Here are some of the projects I have worked on."
+  assignments:
+    - title: "Industry Project"
+      taglines:
+        - "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
+        - "Development of PIM Software Architecture based on Data-Flow Computing, Korea Government (Institute of Information & communications Technology Planning & Evaluation, 2024"
+        - "Analysis and Development of GPU Architecture for HPC Workloads <a href='https://patents.google.com/patent/US20230385025A1/en'>[Patent]</a>, Samsung (SAIT), 2021-2022"
+        - "Development of Data Center Many-core NPU Architecture and Memory Interface, Samsung, 2019-2020"
+        - "Development of CPU-GPU Heterogeneous Computing Simulation Environment, SK Hynix, 2019-2020"
+        - "Development of the Identification Data Processing Technology for On-site Police Officers, Korea Government (Korea National Police Agency), 2018-2023"
+        - "Development of Multi-GPU Based High Speed Ray-Tracing Engine, Samsung, 2017-2018"
+
+    - title: "Program Committee"
+      taglines:
+        - "Workshop on General Purpose Processing using GPUs (GPGPU), 2025"
+
+    - title: "Reviewer"
+      link: "https://www.webofscience.com/wos/author/record/45772582"
+      taglines:
+        - "IEEE Computer Architecture Letters (CAL) ×5 (2022, 2023)"
+        - "IEEE Transactions on Emerging Topics in Computing (TETC) ×1 (2022, 2023)"
+        - "ACM Transactions on Architecture and Code Optimization (TACO) ×2 (2022, 2023)"
+
+    - title: "Visiting Scholar"
+      link: "https://www.escalab.org/#people"
+      taglines: 
+        - "University of California, Riverside, USA (Advisor: Hung-Wei Tseng), 2022 - 2023"
+
+    - title: "Teaching Assistant"
+      taglines:
+        - "EEE3530: Computer Architecture, Yonsei University, Seoul, Korea, 2021 Spring"
+        - "EEE4473: Embedded System Lab., Yonsei University, Seoul, Korea, 2020 Spring"
+
+    - title: "Fundings"
+      taglines:
+        - "BK21 FOUR Project Scholarship: <ins>23,800,000</ins> KRW"
+        - "Teaching Assistanct Scholarship: <ins>3,716,000</ins> KRW"
+        - "Research Assistance Scholarship: <ins>3,000,000</ins> KRW"
+        - "External Scholarship: <ins>11,400,000</ins> KRW"
+
+blogs:
+    title: blogs
+    links:
+      - title: "Ph.D. Guideline"
+        link: "https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4"
+        time: 2024
+          
+      # - title: "Philosophy"
+      #   link: "https://dongho-ha.notion.site/Philosophy-10993ee0056d80e5a977f0904f400ed9?pvs=4"
+      #   time: 2024
+
+      # - title: "NPU Survey"
+      #   link: "https://dongho-ha.notion.site/NPU-Architecture-On-Going-877702b31b344437b1bbd493499ec637?pvs=4"
+      #   time: 2024
+
+footer:
+    # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    
+
 # certifications:
 #       title: Certifications
 #       list:
@@ -285,43 +334,6 @@ publications:
 #             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
 #             Praesent venenatis erat non augue suscipit consectetur.
 
-projects:
-  title: "Remarks"
-  # intro: "Here are some of the projects I have worked on."
-  assignments:
-    - title: "Industry Project"
-      taglines:
-        - "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
-        - "Development of PIM Software Architecture based on Data-Flow Computing, Korea Government (Institute of Information & communications Technology Planning & Evaluation, 2024"
-        - "Analysis and Development of GPU Architecture for HPC Workloads <a href='https://patents.google.com/patent/US20230385025A1/en'>[Patent]</a>, Samsung (SAIT), 2021-2022"
-        - "Development of Data Center Many-core NPU Architecture and Memory Interface, Samsung, 2019-2020"
-        - "Development of CPU-GPU Heterogeneous Computing Simulation Environment, SK Hynix, 2019-2020"
-        - "Development of the Identification Data Processing Technology for On-site Police Officers, Korea Government (Korea National Police Agency), 2018-2023"
-        - "Development of Multi-GPU Based High Speed Ray-Tracing Engine, Samsung, 2017-2018"
-
-    - title: "Paper Peer Review"
-      link: "https://www.webofscience.com/wos/author/record/45772582"
-      taglines:
-        - "IEEE Computer Architecture Letters (CAL) ×5"
-        - "IEEE Transactions on Emerging Topics in Computing (TETC) ×1"
-        - "ACM Transactions on Architecture and Code Optimization (TACO) ×2"
-
-    - title: "Visiting Scholar"
-      link: "https://www.escalab.org/#people"
-      taglines: 
-        - "University of California, Riverside, USA (Advisor: Hung-Wei Tseng), 2022 - 2023"
-
-    - title: "Teaching Assistant"
-      taglines:
-        - "EEE3530: Computer Architecture, Yonsei University, Seoul, Korea, 2021 Spring"
-        - "EEE4473: Embedded System Lab., Yonsei University, Seoul, Korea, 2020 Spring"
-
-    - title: "Fundings"
-      taglines:
-        - "BK21 FOUR Project Scholarship: <ins>23,800,000</ins> KRW"
-        - "Teaching Assistanct Scholarship: <ins>3,716,000</ins> KRW"
-        - "Research Assistance Scholarship: <ins>3,000,000</ins> KRW"
-        - "External Scholarship: <ins>11,400,000</ins> KRW"
 
 # oss:
 #     title: OSS Contributions
@@ -345,6 +357,7 @@ projects:
 #         tagline: 
 #           "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
+
 # skills:
 #     title: Skills &amp; Proficiency
 
@@ -365,21 +378,3 @@ projects:
 #         level: 50%
 
 #       - name: "CUDA, cuBLAS, cuTlass, TensorRT, cuFFT, OpenCV, Vulkan, Optix, GPGPU-Sim, Accel-Sim, and Vulkan-Sim"
-
-blogs:
-    title: blogs
-    links:
-      - title: "Ph.D. Guideline"
-        link: "https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4"
-        time: 2024
-          
-      # - title: "Philosophy"
-      #   link: "https://dongho-ha.notion.site/Philosophy-10993ee0056d80e5a977f0904f400ed9?pvs=4"
-      #   time: 2024
-
-      # - title: "NPU Survey"
-      #   link: "https://dongho-ha.notion.site/NPU-Architecture-On-Going-877702b31b344437b1bbd493499ec637?pvs=4"
-      #   time: 2024
-
-footer:
-    # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
