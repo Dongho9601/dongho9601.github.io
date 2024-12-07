@@ -133,7 +133,7 @@ publications:
         conference: "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC 2024)"
 
       - title: "Generalizing Ray Tracing Accelerators for Tree Traversals on GPUs"
-        link: "https://people.ece.ubc.ca/aamodt/publications/papers/tta.micro2024.pdf"
+        link: "https://www.computer.org/csdl/proceedings-article/micro/2024/505700b041/22niuPsXuTK"
         authors: <mark>Dongho Ha*</mark>, Lufei Liu*, Yuan Hsi Chou, Seokjin Go, Won Woo Ro, Hung-Wei Tseng, and Tor M. Aamodt
         conference: "The 57th International Symposium on Microarchitecture (MICRO 2024)"
 
