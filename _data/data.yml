@@ -209,10 +209,10 @@ publications:
         # conference: "On-Going Paper"
 
       # Enhyeok Jang
-      - title: "General Quantum Program Optimization"
-        # link: "#"
-        authors: On-Going Paper (Co-author)
-        # conference: "On-Going Paper"
+      # - title: "General Quantum Program Optimization"
+      #   # link: "#"
+      #   authors: On-Going Paper (Co-author)
+      #   # conference: "On-Going Paper"
 
       # Sungbin Kim
       - title: "Bit-wise Matrix Multiplication"
