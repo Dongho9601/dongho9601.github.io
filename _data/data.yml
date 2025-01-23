@@ -127,6 +127,11 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers: 
+      - title: "Effective Interplay between Sparsity and Quantization: From Theory to Practice"
+        link: "https://arxiv.org/abs/2405.20935"
+        authors: Simla Burcu Harma, Ayan Chakraborty, Elizaveta Kostenok, Danila Mishin, <mark>Dongho Ha</mark>, Babak Falsafi, Martin Jaggi, Ming Liu, Yunho Oh, Suvinay Subramanian, Amir Yazdanbakhsh
+        conference: "The International Conference on Learning Representations (ICLR 2025)"
+
       - title: "M<sup>3</sup>XU: Achieving High-Precision and Complex Matrix Multiplication with Low-Precision MXUs"
         link: "https://dl.acm.org/doi/10.1109/SC41406.2024.00016"
         authors: <mark>Dongho Ha*</mark>, Yunan Zhang*, Chen-Chien Kao, Christopher J. Hughes, Won Woo Ro, and Hung-Wei Tseng
@@ -141,11 +146,6 @@ publications:
         link: "https://dl.acm.org/doi/10.1145/3656019.3676899"
         authors: Enhyeok Jang, <mark>Dongho Ha</mark>, Seungwoo Choi, Youngmin Kim, Jaewon Kwon, Yongju Lee, Sungwoo Ahn, Hyungseok Kim, Won Woo Ro
         conference: "The International Conference on Parallel Architectures and Compilation Techniques (PACT 2024)"
-
-      - title: "Effective Interplay between Sparsity and Quantization: From Theory to Practice"
-        link: "https://arxiv.org/abs/2405.20935"
-        authors: Simla Burcu Harma, Ayan Chakraborty, Elizaveta Kostenok, Danila Mishin, <mark>Dongho Ha</mark>, Babak Falsafi, Martin Jaggi, Ming Liu, Yunho Oh, Suvinay Subramanian, Amir Yazdanbakhsh
-        conference: "arXiv"
 
       - title: "MAD MAcce: Supporting Multiply-Add Operations for Democratizing Matrix-Multiplication Accelerators"
         link: "https://dl.acm.org/doi/10.1145/3613424.3614247"
