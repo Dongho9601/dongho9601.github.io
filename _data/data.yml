@@ -130,7 +130,7 @@ publications:
       - title: "Effective Interplay between Sparsity and Quantization: From Theory to Practice"
         link: "https://arxiv.org/abs/2405.20935"
         authors: Simla Burcu Harma, Ayan Chakraborty, Elizaveta Kostenok, Danila Mishin, <mark>Dongho Ha</mark>, Babak Falsafi, Martin Jaggi, Ming Liu, Yunho Oh, Suvinay Subramanian, Amir Yazdanbakhsh
-        conference: "The International Conference on Learning Representations (ICLR 2025)"
+        conference: "The International Conference on Learning Representations (ICLR 2025, Spotlight)"
 
       - title: "M<sup>3</sup>XU: Achieving High-Precision and Complex Matrix Multiplication with Low-Precision MXUs"
         link: "https://dl.acm.org/doi/10.1109/SC41406.2024.00016"
