@@ -68,13 +68,13 @@ experiences:
     title: Professional Experiences
     info:
       - role: System Architect (RDMA)
-        time: 2024
+        time: July 2024 - now
         company: Mangoboost
         link: "https://www.mangoboost.io/"
         # details: |
 
       - role: Junior Specialist
-        time: 2023
+        time: Sep 2023 - Dec 2023
         company: "University of California, Riverside, USA (Advisor: Hung-Wei Tseng)"
         link: "https://www.escalab.org/#people"
         # details: |
@@ -96,17 +96,17 @@ education:
     info:
       - degree: PhD. in the School of Electrical and Electronic Engineering
         university: "Yonsei University, Seoul, Korea (Advisor: Won Woo Ro)"
-        time: 2024
+        time: Mar 2021 - Aug 2024
         details: |
           Dissertation: GPU Architecture Design for Effective Computing Resource Usage
 
       - degree: M.S. in the School of Electrical and Electronic Engineering
         university: "Yonsei University, Seoul, Korea (Advisor: Won Woo Ro)"
-        time: 2021
+        time: Mar 2019 - Feb 2021
 
       - degree: B.S. in the School of Electrical and Electronic Engineering
         university: Yonsei University, Seoul, Korea
-        time: 2019
+        time: Mar 2014 - Feb 2019
 
       # - degree: B.S. in the School of Electrical and Electronic Engineering
       #   university: Yonsei University, Seoul, Korea
