@@ -145,7 +145,7 @@ publications:
       - title: "Generalizing Ray Tracing Accelerators for Tree Traversals on GPUs"
         link: "https://www.computer.org/csdl/proceedings-article/micro/2024/505700b041/22niuPsXuTK"
         authors: <mark>Dongho Ha*</mark>, Lufei Liu*, Yuan Hsi Chou, Seokjin Go, Won Woo Ro, Hung-Wei Tseng, and Tor M. Aamodt
-        conference: "The 57th International Symposium on Microarchitecture (MICRO 2024)"
+        conference: "The International Symposium on Microarchitecture (MICRO 2024)"
 
       - title: "Recompiling QAOA Circuits on Various Rotational Directions"
         link: "https://dl.acm.org/doi/10.1145/3656019.3676899"
@@ -155,27 +155,27 @@ publications:
       - title: "MAD MAcce: Supporting Multiply-Add Operations for Democratizing Matrix-Multiplication Accelerators"
         link: "https://dl.acm.org/doi/10.1145/3613424.3614247"
         authors: Seunghwan Sung, Sujin Hur, <mark>Dongho Ha</mark>, Sungwoo Kim, Yunho Oh, and Won Woo Ro
-        conference: "The 56th International Symposium on Microarchitecture (MICRO 2023)"
+        conference: "The International Symposium on Microarchitecture (MICRO 2023)"
 
       - title: "TensorCV: Accelerating Inference-Adjacent Computation Using Tensor Processors"
         link: "https://ieeexplore.ieee.org/abstract/document/10244461"
         authors: <mark>Dongho Ha</mark>, Won Woo Ro, and Hung-Wei Tseng
-        conference: "The 2023 International Symposium on Low Power Electronics and Design (ISLPED’23)"
+        conference: "The International Symposium on Low Power Electronics and Design (ISLPED’23)"
 
       - title: "R2D2: Removing ReDunDancy Utilizing Linearity of Address Generation in GPUs"
         link: "https://dl.acm.org/doi/abs/10.1145/3579371.3589039"
         authors: <mark>Dongho Ha</mark>, Yunho Oh, and Won Woo Ro
-        conference: "The 50th International Symposium on Computer Architecture (ISCA 2023)"
+        conference: "The International Symposium on Computer Architecture (ISCA 2023)"
 
       - title: "Investigation on NVIDIA Ampere GPU Architecture With Reverse Engineering"
         # link: "#"
         authors: Sujin Hur, Seunghwan Sung, <mark>Dongho Ha</mark>, Sungwoo Kim, and Won Woo Ro
-        conference: "The 22th International Conference on Electronics, Information, and Communication (ICEIC 2023)"
+        conference: "The International Conference on Electronics, Information, and Communication (ICEIC 2023)"
 
       - title: "Detecting Pattern of Warp Register Value Differences in CTA using GPU Compiler"
         # link: "#"
         authors: <mark>Dongho Ha</mark> and Won Woo Ro
-        conference: "The 19th International Conference on Electronics, Information, and Communication (ICEIC 2020)"
+        conference: "The International Conference on Electronics, Information, and Communication (ICEIC 2020)"
 
       - title: "Hardware Accelerator Systems for Artificial Intelligence and Machine Learning"
         link: "https://www.sciencedirect.com/science/article/abs/pii/S0065245820300929"
