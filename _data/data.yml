@@ -127,6 +127,11 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers: 
+      - title: "Dementor: Removing Dead Gates in Quantum Programs"
+        link: "#"
+        authors: Enhyeok Jang, Youngmin Kim, Hyungseok Kim, <mark>Dongho Ha</mark>, Yongju Lee, Jaewon Kwon, Jun Woo You, Jiho Park and Won Woo Ro
+        conference: "the HPC/AI Integration with Quantum Computing Workshop (HAIQ 25)"
+
       - title: "Effective Interplay between Sparsity and Quantization: From Theory to Practice"
         link: "https://arxiv.org/abs/2405.20935"
         authors: Simla Burcu Harma, Ayan Chakraborty, Elizaveta Kostenok, Danila Mishin, <mark>Dongho Ha</mark>, Babak Falsafi, Martin Jaggi, Ming Liu, Yunho Oh, Suvinay Subramanian, Amir Yazdanbakhsh
@@ -207,12 +212,6 @@ publications:
         # link: "#"
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
-
-      # Enhyeok Jang
-      # - title: "General Quantum Program Optimization"
-      #   # link: "#"
-      #   authors: On-Going Paper (Co-author)
-      #   # conference: "On-Going Paper"
 
       # Sungbin Kim
       - title: "Bit-wise Matrix Multiplication"
