@@ -133,9 +133,9 @@ publications:
         conference: "The International Symposium on Computer Architecture (ISCA 2025)"
 
       - title: "Dementor: Removing Dead Gates in Quantum Programs"
-        link: "#"
+        link: "https://sites.google.com/view/haiq-2025/home"
         authors: Enhyeok Jang, Youngmin Kim, Hyungseok Kim, <mark>Dongho Ha</mark>, Yongju Lee, Jaewon Kwon, Jun Woo You, Jiho Park and Won Woo Ro
-        conference: "the HPC/AI Integration with Quantum Computing Workshop (HAIQ 25)"
+        conference: "The HPC/AI Integration with Quantum Computing Workshop (HAIQ 25)"
 
       - title: "Effective Interplay between Sparsity and Quantization: From Theory to Practice"
         link: "https://arxiv.org/abs/2405.20935"
@@ -218,7 +218,7 @@ publications:
         authors: On-Going Paper (Co-author)
         # conference: "On-Going Paper"
 
-      # Sungbin Kim
+      # Seunghyun Lee
       - title: "Bit-wise Matrix Multiplication"
         # link: "#"
         authors: On-Going Paper (Co-author)
