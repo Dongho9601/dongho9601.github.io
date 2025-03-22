@@ -127,6 +127,11 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers: 
+      - title: "Avant-Garde: Empowering GPUs with Scaled Numeric Formats"
+        link: "#"
+        authors: Minseong Gil*, <mark>Dongho Ha*</mark>, Simla Burcu Harma, Myung Kuk Yoon, Babak Falsafi, Won Woo Ro, Yunho Oh
+        conference: "The International Symposium on Computer Architecture (ISCA 2025)"
+
       - title: "Dementor: Removing Dead Gates in Quantum Programs"
         link: "#"
         authors: Enhyeok Jang, Youngmin Kim, Hyungseok Kim, <mark>Dongho Ha</mark>, Yongju Lee, Jaewon Kwon, Jun Woo You, Jiho Park and Won Woo Ro
@@ -223,12 +228,6 @@ publications:
       - title: "Continuous Learning"
         # link: "#"
         authors: On-Going Paper (Co-author, collaborating with Euiseong Seo, SKKU)
-        # conference: "On-Going Paper"
-
-      # MINE
-      - title: "Low-Precision Training on GPUs"
-        link: "https://parsa.epfl.ch/coltrain/pages/team.html"
-        authors: On-Going Paper (First author, collaborating with Babak Falsafi, EPFL)
         # conference: "On-Going Paper"
 
 projects:
