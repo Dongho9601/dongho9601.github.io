@@ -66,9 +66,9 @@ career-profile:
 experiences:
     title: Professional Experiences
     info:
-      - role: ASIC Engineer, Architecture at Meta
+      - role: ASIC Engineer
         time: June 2025 (TBD)
-        company: Meta
+        company: Meta (Architecture)
         link: "https://about.meta.com/"
         # details: |
 
