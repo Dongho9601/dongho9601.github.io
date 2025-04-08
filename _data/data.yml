@@ -55,9 +55,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I completed my Ph.D. at Yonsei University, Korea (Advisor: Professor Won Woo Ro),
-      with a dissertation “GPU Architecture Design for Effective Computing Resource Usage.” 
-      My expertise lies in designing computer architectures from general-purpose to domain-specific processors, focusing on optimizing computing and memory resource utilization. My recent research focuses on optimizing GPUs’ computing resource usage and democratizing various domain-specific accelerators. To broaden my expertise from microarchitecture to system-level design, I am currently working as a system architect at MangoBoost Inc. and exploring SmartNICs to enhance MangoBoost DPUs.
+      I completed my Ph.D. at Yonsei University, Korea (Advisor: Professor Won Woo Ro), with a dissertation titled “GPU Architecture Design for Effective Computing Resource Usage.” My expertise spans the design of computer architectures—from general-purpose to domain-specific processors—with a focus on optimizing computing and memory resource utilization.
+      My recent research has centered on improving GPU resource efficiency and democratizing domain-specific accelerators. To broaden my expertise from microarchitecture to system-level design, I worked as a system architect at MangoBoost Inc., where I explored SmartNICs to enhance MangoBoost DPUs. Currently, I am working at Meta as an ASIC engineer, further advancing my experience in cutting-edge chip design and large-scale hardware systems.
       - Fast learner
       - Resilient personality
       - Independent and highly motivated
@@ -67,8 +66,14 @@ career-profile:
 experiences:
     title: Professional Experiences
     info:
+      - role: ASIC Engineer, Architecture at Meta
+        time: June 2025 (TBD)
+        company: Meta
+        link: "https://about.meta.com/"
+        # details: |
+
       - role: System Architect (RDMA)
-        time: July 2024 - now
+        time: July 2024 - Mar 2025
         company: Mangoboost
         link: "https://www.mangoboost.io/"
         # details: |
