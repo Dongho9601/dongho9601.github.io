@@ -16,12 +16,12 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for blog in acknowledgement.links %}
+  {% for ack in acknowledgement.links %}
   <div class="item">
-    {% if blog.link %}
-      <a href="{{ blog.link }}"><span class="bullet"></span><strong>{{ blog.title }}</strong></a>
+    {% if ack.link %}
+      <a href="{{ ack.link }}"><span class="bullet"></span><strong>{{ ack.title }}</strong></a>
     {% else %}
-      <span class="bullet"></span><strong>{{ blog.title }}</strong>
+      <span class="bullet"></span><strong>{{ ack.title }}</strong>
     {% endif %}
     <div class="taglines">{{ acknowledgement.taglines }}</div>
   </div><!--//item-->
