@@ -287,15 +287,19 @@ acknowledgement:
     - title: "Won Woo Ro"
       link: "http://escal.yonsei.ac.kr/professor.html"
       taglines: "Ph.D. advisor"
+
     - title: "Yunho Oh"
       link: "https://yunho-oh.github.io/"
       taglines: "Mentor"
+
     - title: "Hung-Wei Tseng"
       link: "https://intra.engr.ucr.edu/~htseng/"
       taglines: "Visiting scholar advisor"
+
     - title: "Babak Falsafi"
       link: "https://parsa.epfl.ch/~falsafi/"
       taglines: "Collaborator"
+      
     - title: "Tor M. Aamodt"
       link: "https://people.ece.ubc.ca/aamodt/"
       taglines: "Collaborator" 
