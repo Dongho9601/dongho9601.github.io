@@ -282,21 +282,23 @@ projects:
         - "Ph.D. Guideline <a href='https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4'>[Link]</a>"
 
 acknowledgement:
-      - title: "Won Woo Ro"
-        link: "http://escal.yonsei.ac.kr/professor.html"
-        taglines: "Ph.D. advisor"
-      - title: "Yunho Oh"
-        link: "https://yunho-oh.github.io/"
-        taglines: "Mentor"
-      - title: "Hung-Wei Tseng"
-        link: "https://intra.engr.ucr.edu/~htseng/"
-        taglines: "Visiting scholar advisor"
-      - title: "Babak Falsafi"
-        link: "https://parsa.epfl.ch/~falsafi/"
-        taglines: "Collaborator"
-      - title: "Tor M. Aamodt"
-        link: "https://people.ece.ubc.ca/aamodt/"
-        taglines: "Collaborator" 
+  title: "Acknowledgement"
+  links:
+    - title: "Won Woo Ro"
+      link: "http://escal.yonsei.ac.kr/professor.html"
+      taglines: "Ph.D. advisor"
+    - title: "Yunho Oh"
+      link: "https://yunho-oh.github.io/"
+      taglines: "Mentor"
+    - title: "Hung-Wei Tseng"
+      link: "https://intra.engr.ucr.edu/~htseng/"
+      taglines: "Visiting scholar advisor"
+    - title: "Babak Falsafi"
+      link: "https://parsa.epfl.ch/~falsafi/"
+      taglines: "Collaborator"
+    - title: "Tor M. Aamodt"
+      link: "https://people.ece.ubc.ca/aamodt/"
+      taglines: "Collaborator" 
 
 footer:
     # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
