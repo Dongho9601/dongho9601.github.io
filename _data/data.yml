@@ -44,7 +44,7 @@ sidebar:
       title: Interests
       info:
         - item: Blogging
-          link: "https://dongho9601.github.io#blogs"
+          link: "https://dongho9601.github.io#Blogs"
 
         - item: Photography
           link: "https://www.instagram.com/in_da_sqr"
@@ -278,20 +278,26 @@ projects:
         - "Research Assistance Scholarship: <ins>3,000,000</ins> KRW"
         - "External Scholarship: <ins>11,400,000</ins> KRW"
 
-blogs:
-    title: blogs
-    links:
-      - title: "Ph.D. Guideline"
-        link: "https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4"
-        time: 2024
-          
-      # - title: "Philosophy"
-      #   link: "https://dongho-ha.notion.site/Philosophy-10993ee0056d80e5a977f0904f400ed9?pvs=4"
-      #   time: 2024
+    - title: "Blogs"
+      taglines:
+        - "Ph.D. Guideline <a href='https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4'>[Link]</a>"
 
-      # - title: "NPU Survey"
-      #   link: "https://dongho-ha.notion.site/NPU-Architecture-On-Going-877702b31b344437b1bbd493499ec637?pvs=4"
-      #   time: 2024
+Thanks To:
+      - title: "Won Woo Ro"
+        link: "http://escal.yonsei.ac.kr/professor.html"
+        taglines: "Ph.D. advisor"
+      - title: "Yunho Oh"
+        link: "https://yunho-oh.github.io/"
+        taglines: "Mentor"
+      - title: "Hung-Wei Tseng"
+        link: "https://intra.engr.ucr.edu/~htseng/"
+        taglines: "Visiting scholar advisor"
+      - title: "Babak Falsafi"
+        link: "https://parsa.epfl.ch/~falsafi/"
+        taglines: "Collaborator"
+      - title: "Tor M. Aamodt"
+        link: "https://people.ece.ubc.ca/aamodt/"
+        taglines: "Collaborator"
 
 footer:
     # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
