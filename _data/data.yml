@@ -282,7 +282,7 @@ projects:
       taglines:
         - "Ph.D. Guideline <a href='https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4'>[Link]</a>"
 
-blogs:
+acknowledgement:
       - title: "Won Woo Ro"
         link: "http://escal.yonsei.ac.kr/professor.html"
         taglines: "Ph.D. advisor"

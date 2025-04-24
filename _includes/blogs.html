@@ -1,29 +1,29 @@
-{% assign blogs = site.data.data.blogs %}
-{% if blogs %}
-<section class="section blogs-section" id="blogs">
+{% assign acknowledgement = site.data.data.acknowledgement %}
+{% if acknowledgement %}
+<section class="section acknowledgement-section" id="acknowledgement">
 
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-address-book fa-stack-1x fa-inverse"></i>
     </span>
-    {{ blogs.title }}
+    {{ acknowledgement.title }}
   </h2>
 
-  {% if blogs.intro %}
+  {% if acknowledgement.intro %}
   <div class="intro">
-    {{ blogs.intro | markdownify }}
+    {{ acknowledgement.intro | markdownify }}
   </div><!--//intro-->
   {% endif %}
 
-  {% for blog in blogs.links %}
+  {% for blog in acknowledgement.links %}
   <div class="item">
     {% if blog.link %}
       <a href="{{ blog.link }}"><span class="bullet"></span><strong>{{ blog.title }}</strong></a>
     {% else %}
       <span class="bullet"></span><strong>{{ blog.title }}</strong>
     {% endif %}
-    <div class="time">{{ blogs.time }}</div>
+    <div class="time">{{ acknowledgement.time }}</div>
   </div><!--//item-->
 {% endfor %}
 
