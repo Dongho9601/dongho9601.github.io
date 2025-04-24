@@ -43,21 +43,27 @@ sidebar:
     interests:
       title: Interests
       info:
+        - item: Gaming
+          link: "https://steamcommunity.com/profiles/76561198274843283"
+
         - item: Blogging
           link: "https://dongho9601.github.io#Blogs"
 
         - item: Photography
           link: "https://www.instagram.com/in_da_sqr"
 
-        - item: Gaming
-          link: "https://steamcommunity.com/profiles/76561198274843283"
-
 career-profile:
     title: Career Profile
     summary: |
-      I completed my Ph.D. at Yonsei University, Korea (Advisor: Professor Won Woo Ro), with a dissertation titled “GPU Architecture Design for Effective Computing Resource Usage.” My expertise spans the design of computer architectures—from general-purpose to domain-specific processors—with a focus on optimizing computing and memory resource utilization.
-      My recent research has centered on improving GPU resource efficiency and democratizing domain-specific accelerators. To broaden my expertise from microarchitecture to system-level design, I worked as a system architect at MangoBoost Inc., where I explored SmartNICs to enhance MangoBoost DPUs. Currently, I am working at Meta as an ASIC engineer, further advancing my experience in cutting-edge chip design and large-scale hardware systems.
-      - Fast learner
+      I completed my Ph.D. at Yonsei University, Korea (Advisor: Professor Won Woo Ro), 
+      with a dissertation titled “GPU Architecture Design for Effective Computing Resource Usage.” 
+      My expertise spans the design of computer architectures—from general-purpose to domain-specific 
+      processors—with a focus on optimizing computing and memory resource utilization. My recent research 
+      has centered on improving GPU resource efficiency and democratizing domain-specific accelerators. 
+      To broaden my expertise from microarchitecture to system-level design, I worked as a system architect 
+      at MangoBoost Inc., where I explored SmartNICs to enhance MangoBoost DPUs. Currently, I am working 
+      at Meta as an ASIC engineer, further advancing my experience in cutting-edge chip design and 
+      large-scale hardware systems.  - Fast learner
       - Resilient personality
       - Independent and highly motivated
       - Highly reliable team player or leader
@@ -301,72 +307,6 @@ acknowledgement:
 
 footer:
     # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
-    
-
-# certifications:
-#       title: Certifications
-#       list:
-#         - name: CV Builder
-#           start: 2020
-#           end: 2021
-#           organization: Microsoft
-#           credentialid: 111-222
-#           credentialurl: www.google.com
-#           credentialname: Google
-#           details: |
-#             Details about cert. Lorem ipsum dolor sit amet, consectetur
-#             adipiscing elit.
-#             Nullam eget orci purus. Nullam ultrices neque nibh.
-#             Aenean fermentum, felis vulputate suscipit accumsan,
-#             sem enim bibendum augue, sed convallis arcu lacus at dui.
-#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-#             Praesent venenatis erat non augue suscipit consectetur.
-
-#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-#             fringilla vel. Ut euismod, sem sed vulputate venenatis,
-#             justo diam viverra velit, sed rhoncus leo leo eu justo.
-#             Suspendisse placerat risus ante, sed porta nisi blandit at.
-#         - name: Git learning
-#           start: 2019
-#           end:
-#           organization: Microsoft
-#           credentialid: 111-222
-#           credentialurl: www.github.com
-#           credentialname: Github
-#           details: |
-#             Older certification. Lorem ipsum dolor sit amet, consectetur
-#             adipiscing elit.
-#             Nullam eget orci purus. Nullam ultrices neque nibh.
-#             Aenean fermentum, felis vulputate suscipit accumsan,
-#             sem enim bibendum augue, sed convallis arcu lacus at dui.
-#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-#             Praesent venenatis erat non augue suscipit consectetur.
-
-
-# oss:
-#     title: OSS Contributions
-#     intro: >
-#       You can list your open source software contributions in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     contributions:
-#       - title: Tempo
-#         link: "#"
-#         tagline: 
-#           "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-#       - title: Atom
-#         link: "#"
-#         tagline: 
-#           "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: 
-#           "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
 
 # skills:
 #     title: Skills &amp; Proficiency
