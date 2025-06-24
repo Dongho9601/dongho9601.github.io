@@ -67,7 +67,7 @@ experiences:
     title: Professional Experiences
     info:
       - role: ASIC Engineer
-        time: June 2025 (TBD)
+        time: July 2025 (TBD)
         company: Meta (Architecture)
         link: "https://about.meta.com/"
         # details: |
@@ -133,7 +133,7 @@ publications:
     #   bibendum fringilla a eu lectus.
     papers: 
       - title: "Avant-Garde: Empowering GPUs with Scaled Numeric Formats"
-        link: "#"
+        link: "https://dl.acm.org/doi/full/10.1145/3695053.3731100"
         authors: Minseong Gil*, <mark>Dongho Ha*</mark>, Simla Burcu Harma, Myung Kuk Yoon, Babak Falsafi, Won Woo Ro, Yunho Oh
         conference: "The International Symposium on Computer Architecture (ISCA 2025)"
 
