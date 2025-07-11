@@ -132,15 +132,15 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers: 
+      # - title: "BitL: Hybrid Bit-Serial and Parallel Processing for Critical Path Reduction"
+      #   link: "#"
+      #   authors: Seunghyun Lee, <mark>Dongho Ha</mark>, Sungbin Kim, Sungwoo Kim, Hyunwuk Lee, Won Woo Ro
+      #   conference: "The International Symposium on Microarchitecture (MICRO 2025)"
+
       - title: "Avant-Garde: Empowering GPUs with Scaled Numeric Formats"
         link: "https://dl.acm.org/doi/full/10.1145/3695053.3731100"
         authors: Minseong Gil*, <mark>Dongho Ha*</mark>, Simla Burcu Harma, Myung Kuk Yoon, Babak Falsafi, Won Woo Ro, Yunho Oh
         conference: "The International Symposium on Computer Architecture (ISCA 2025)"
-
-      # - title: "Dementor: Removing Dead Gates in Quantum Programs"
-      #   link: "https://sites.google.com/view/haiq-2025/home"
-      #   authors: Enhyeok Jang, Youngmin Kim, Hyungseok Kim, <mark>Dongho Ha</mark>, Yongju Lee, Jaewon Kwon, Jun Woo You, Jiho Park and Won Woo Ro
-      #   conference: "The HPC/AI Integration with Quantum Computing Workshop (HAIQ 25)"
 
       - title: "Effective Interplay between Sparsity and Quantization: From Theory to Practice"
         link: "https://arxiv.org/abs/2405.20935"
@@ -219,12 +219,6 @@ publications:
 
       # Sungwoo Kim
       - title: "The next step for MAD Macce"
-        # link: "#"
-        authors: Co-author
-        # conference: "On-Going Paper"
-
-      # Seunghyun Lee
-      - title: "Bit-wise Matrix Multiplication"
         # link: "#"
         authors: Co-author
         # conference: "On-Going Paper"
