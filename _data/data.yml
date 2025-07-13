@@ -133,6 +133,7 @@ publications:
     #   bibendum fringilla a eu lectus.
     papers: 
       # - title: "BitL: Hybrid Bit-Serial and Parallel Processing for Critical Path Reduction"
+      # - title: "Embargo"
       #   link: "#"
       #   authors: Seunghyun Lee, <mark>Dongho Ha</mark>, Sungbin Kim, Sungwoo Kim, Hyunwuk Lee, Won Woo Ro
       #   conference: "The International Symposium on Microarchitecture (MICRO 2025)"
@@ -199,6 +200,18 @@ publications:
 
       - title: "<small>----- On-Going Projects (only project names) -----</small>"
 
+      # Minseong Gil
+      - title: "Advancing HBFP"
+        # link: "#"
+        authors: Co-author
+        # conference: "On-Going Paper"
+
+      # Seunghyun Lee
+      - title: "Advancing BitL"
+        # link: "#"
+        authors: Co-author
+        # conference: "On-Going Paper"
+
       # Junsung Kim
       - title: "DMA between GPUs"
         # link: "#"
@@ -218,7 +231,7 @@ publications:
         # conference: "On-Going Paper"
 
       # Sungwoo Kim
-      - title: "The next step for MAD Macce"
+      - title: "Advancing MAD Macce"
         # link: "#"
         authors: Co-author
         # conference: "On-Going Paper"
