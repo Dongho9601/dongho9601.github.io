@@ -207,10 +207,10 @@ publications:
         # conference: "On-Going Paper"
 
       # Seunghyun Lee
-      - title: "Advancing BitL"
-        # link: "#"
-        authors: Co-author
-        # conference: "On-Going Paper"
+      # - title: "Advancing BitL"
+      #   # link: "#"
+      #   authors: Co-author
+      #   # conference: "On-Going Paper"
 
       # Junsung Kim
       - title: "DMA between GPUs"
