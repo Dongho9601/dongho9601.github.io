@@ -133,7 +133,6 @@ publications:
     #   bibendum fringilla a eu lectus.
     papers: 
       - title: "BitL: Hybrid Bit-Serial and Parallel Processing for Critical Path Reduction"
-      - title: "Embargo"
         link: "#"
         authors: Seunghyun Lee, <mark>Dongho Ha</mark>, Sungbin Kim, Sungwoo Kim, Hyunwuk Lee, Won Woo Ro
         conference: "The International Symposium on Microarchitecture (MICRO 2025)"
