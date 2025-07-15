@@ -132,11 +132,11 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers: 
-      # - title: "BitL: Hybrid Bit-Serial and Parallel Processing for Critical Path Reduction"
-      # - title: "Embargo"
-      #   link: "#"
-      #   authors: Seunghyun Lee, <mark>Dongho Ha</mark>, Sungbin Kim, Sungwoo Kim, Hyunwuk Lee, Won Woo Ro
-      #   conference: "The International Symposium on Microarchitecture (MICRO 2025)"
+      - title: "BitL: Hybrid Bit-Serial and Parallel Processing for Critical Path Reduction"
+      - title: "Embargo"
+        link: "#"
+        authors: Seunghyun Lee, <mark>Dongho Ha</mark>, Sungbin Kim, Sungwoo Kim, Hyunwuk Lee, Won Woo Ro
+        conference: "The International Symposium on Microarchitecture (MICRO 2025)"
 
       - title: "Avant-Garde: Empowering GPUs with Scaled Numeric Formats"
         link: "https://dl.acm.org/doi/full/10.1145/3695053.3731100"
@@ -207,10 +207,10 @@ publications:
         # conference: "On-Going Paper"
 
       # Seunghyun Lee
-      # - title: "Advancing BitL"
-      #   # link: "#"
-      #   authors: Co-author
-      #   # conference: "On-Going Paper"
+      - title: "Advancing BitL"
+        # link: "#"
+        authors: Co-author
+        # conference: "On-Going Paper"
 
       # Junsung Kim
       - title: "DMA between GPUs"
