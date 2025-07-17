@@ -202,49 +202,49 @@ publications:
       # TBD
       - title: "Floating-Point Format Compression"
         # link: "#"
-        authors: Co-author
+        authors: Collaborating with Won Woo Ro, Yonsei University
         # conference: "On-Going Paper"
 
       # Minseong Gil
       - title: "Scaled Numeric Format"
         # link: "#"
-        authors: Co-author
+        authors: Collaborating with Yunho Oh, Korea University
         # conference: "On-Going Paper"
 
       # Seunghyun Lee
       - title: "Advancing BitL"
         # link: "#"
-        authors: Co-author
+        authors: Collaborating with Won Woo Ro, Yonsei University
         # conference: "On-Going Paper"
 
       # Junsung Kim
       - title: "DMA between GPUs"
         # link: "#"
-        authors: Co-author
+        authors: Collaborating with Won Woo Ro, Yonsei University
         # conference: "On-Going Paper"
 
       # Sungbin Kim
       - title: "LLM Inferencing"
         # link: "#"
-        authors: Co-author
+        authors: Collaborating with Won Woo Ro, Yonsei University
         # conference: "On-Going Paper"
 
       # Hyungjun Jang
       - title: "Sparse NPUs"
         # link: "#"
-        authors: Co-author
+        authors: Collaborating with Won Woo Ro, Yonsei University
         # conference: "On-Going Paper"
 
       # Sungwoo Kim
       - title: "Advancing MAD Macce"
         # link: "#"
-        authors: Co-author
+        authors: Collaborating with Won Woo Ro, Yonsei University
         # conference: "On-Going Paper"
 
       # Gwanjong Park
       - title: "Continuous Learning"
         # link: "#"
-        authors: Co-author, collaborating with Euiseong Seo, SKKU
+        authors: Collaborating with Euiseong Seo, Sungkyunkwan University
         # conference: "On-Going Paper"
 
 projects:
