@@ -197,10 +197,16 @@ publications:
         authors: <mark>Dongho Ha</mark>, Hyunwuk Lee, Jiwon Lee, Hyun Jae Oh, Won Jeon, Yunho Oh, Won Woo Ro 
         conference: "Korean Information Science Society (2019)"
 
-      - title: "<small>----- On-Going Projects (only project names) -----</small>"
+      - title: "<small>----- On-Going Projects (only project topics) -----</small>"
+
+      # TBD
+      - title: "Floating-Point Format Compression"
+        # link: "#"
+        authors: Co-author
+        # conference: "On-Going Paper"
 
       # Minseong Gil
-      - title: "Advancing HBFP"
+      - title: "Scaled Numeric Format"
         # link: "#"
         authors: Co-author
         # conference: "On-Going Paper"
@@ -218,13 +224,13 @@ publications:
         # conference: "On-Going Paper"
 
       # Sungbin Kim
-      - title: "Effective LLM Inferencing"
+      - title: "LLM Inferencing"
         # link: "#"
         authors: Co-author
         # conference: "On-Going Paper"
 
       # Hyungjun Jang
-      - title: "Sparse/Dense NPUs"
+      - title: "Sparse NPUs"
         # link: "#"
         authors: Co-author
         # conference: "On-Going Paper"
