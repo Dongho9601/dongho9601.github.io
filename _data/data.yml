@@ -72,9 +72,9 @@ experiences:
         link: "https://about.meta.com/"
         # details: |
 
-      - role: System Architect (RDMA)
+      - role: System Architect
         time: July 2024 - Mar 2025
-        company: Mangoboost
+        company: Mangoboost (RDMA)
         link: "https://www.mangoboost.io/"
         # details: |
 
@@ -132,6 +132,11 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers: 
+      # - title: "Carbon-Aware Continuous Learning for Sustainable Real-Time Machine Learning Analytics"
+      #   link: "#"
+      #   authors: Gwanjong Park, Osama Khan, <mark>Dongho Ha*</mark>, Myeongjae Jeon, Euiseong Seo
+      #   conference: "The European Conference on Computer Systems (EuroSys 2026)"
+
       - title: "BitL: Hybrid Bit-Serial and Parallel Processing for Critical Path Reduction"
         link: "#"
         authors: Seunghyun Lee, <mark>Dongho Ha</mark>, Sungbin Kim, Sungwoo Kim, Hyunwuk Lee, Won Woo Ro
@@ -199,7 +204,7 @@ publications:
 
       - title: "<small>----- On-Going Projects (only project topics) -----</small>"
 
-      # TBD
+      # Sungwoo Kim
       - title: "Floating-Point Format Compression"
         # link: "#"
         authors: Collaborating with Won Woo Ro, Yonsei University
@@ -247,12 +252,6 @@ publications:
         authors: Collaborating with Won Woo Ro, Yonsei University
         # conference: "On-Going Paper"
 
-      # Gwanjong Park
-      - title: "Continuous Learning"
-        # link: "#"
-        authors: Collaborating with Euiseong Seo, Sungkyunkwan University
-        # conference: "On-Going Paper"
-
 projects:
   title: "Remarks"
   # intro: "Here are some of the projects I have worked on."
@@ -298,7 +297,7 @@ projects:
 
     - title: "Blogs"
       taglines:
-        - "Ph.D. Guideline <a href='https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4'>[Link]</a>"
+        - "<a href='https://dongho-ha.notion.site/PhD-101-On-Going-ebfb5bf3c6de463a9d666ff839667e18?pvs=4'>Ph.D. Guideline</a>"
 
 acknowledgement:
   title: "Acknowledgement"
