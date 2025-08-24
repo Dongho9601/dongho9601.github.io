@@ -35,7 +35,8 @@
     {% assign authors = publication.authors | split: "," %}
     {% for author in authors %}
       {% assign author_trim = author | strip %}
-      {% assign coworker = coworkers | where: "name", author_trim | first %}
+      {% assign author_plain = author_trim | replace: '<mark>', '' | replace: '</mark>', '' %}
+      {% assign coworker = coworkers | where: "name", author_plain | first %}
       {% if coworker %}
         <a href="{{ coworker.link }}" target="_blank">{{ author_trim }}</a>
       {% else %}
