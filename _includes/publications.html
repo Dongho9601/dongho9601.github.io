@@ -31,20 +31,20 @@
     {% else %}
       <span class="bullet"></span><strong>{{ publication.title }}</strong>
     {% endif %}
-    <!-- <div class="publication-authors">{{ publication.authors }}</div> -->
-    {% assign authors = publication.authors | split: "," %}
-    {% for author in authors %}
-      {% assign author_trim = author | strip %}
-      {% assign author_plain = author_trim | replace: '<mark>', '' | replace: '</mark>', '' %}
-      {% assign coworker = coworkers | where: "name", author_plain | first %}
-      {% if coworker %}
-        <a href="{{ coworker.link }}" target="_blank">{{ author_trim }}</a>
-      {% else %}
-        {{ author_trim }}
-      {% endif %}
-      {% unless forloop.last %}, {% endunless %}
-    {% endfor %}
-    <br>
+    <div class="publication-authors">
+      {% assign authors = publication.authors | split: "," %}
+      {% for author in authors %}
+        {% assign author_trim = author | strip %}
+        {% assign author_plain = author_trim | replace: '<mark>', '' | replace: '</mark>', '' | replace: '*', '' | strip %}
+        {% assign coworker = coworkers | where: "name", author_plain | first %}
+        {% if coworker %}
+          <a href="{{ coworker.link }}" target="_blank">{{ author_trim }}</a>
+        {% else %}
+          {{ author_trim }}
+        {% endif %}
+        {% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </div>
     <div class="publication-conference">{{ publication.conference }}</div>
   </div><!--//item-->
 {% endfor %}

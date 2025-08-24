@@ -311,26 +311,80 @@ coworkers:
   - name: "Tor M. Aamodt"
     link: "https://people.ece.ubc.ca/aamodt/"
 
+  - name: Gwanjong Park
+    link: "https://kr.linkedin.com/in/gwanjong-park-3a1107287"
+  - name: Osama Khan
+    link: "#"
+  - name: Myeongjae Jeon
+    link: "#"
+  - name: Euiseong Seo
+    link: "http://csl.skku.edu/People/Euiseong"
+  - name: Seunghyun Lee
+    link: "#"
+  - name: Sungbin Kim
+    link: "https://scholar.google.com/citations?user=K1HoL1MAAAAJ&hl=en"
+  - name: Sungwoo Kim
+    link: "https://kr.linkedin.com/in/sungwoo-2kim"
+  - name: Hyunwuk Lee
+    link: "https://jiwon24lee.github.io/"
+  - name: Minseong Gil
+    link: "#"
+  - name: Simla Burcu Harma
+    link: "https://sites.google.com/view/simla-burcu-harma/home"
+  - name: Myung Kuk Yoon
+    link: "https://myungkuk.com"
+  - name: Ayan Chakraborty
+    link: "https://www.linkedin.com/in/ayanchak"
+  - name: Elizaveta Kostenok
+    link: "https://ch.linkedin.com/in/elizaveta-kostenok-202005312"
+  - name: Danila Mishin
+    link: "https://ch.linkedin.com/in/danmishin"
+  - name: Martin Jaggi
+    link: "https://people.epfl.ch/martin.jaggi"
+  - name: Ming Liu
+    link: "https://pages.cs.wisc.edu/~mgliu/"
+  - name: Suvinay Subramanian
+    link: "https://people.csail.mit.edu/suvinay/"
+  - name: Amir Yazdanbakhsh
+    link: "https://www.ayazdan.com/"
+  - name: Yunan Zhang
+    link: "https://www.linkedin.com/in/yunandrewzhang"
+  - name: Chen-Chien Kao
+    link: "https://www.linkedin.com/in/chen-chien-kao-2a2038283"
+  - name: Christopher J. Hughes
+    link: "https://scholar.google.com/citations?user=DH-T2h46j_oC&hl"
+  - name: Lufei Liu
+    link: "https://www.lufei.ca/"
+  - name: Yuan Hsi Chou
+    link: "https://www.linkedin.com/in/tommy-chou/"
+  - name: Seokjin Go
+    link: "https://seokjin-go.notion.site/"
+  - name: Enhyeok Jang
+    link: "https://enhyeok.notion.site/enhyeok/Enhyeok-Jang-9f594ec32719477fa5ab8cf0f517a642"
+  - name: Seungwoo Choi
+    link: "https://www.linkedin.com/in/seungwoo-choi-560947245/"
+  - name: Youngmin Kim
+    link: "https://scholar.google.com/citations?user=Esdp944AAAAJ&hl"
+  - name: Jaewon Kwon
+    link: "#"
+  - name: Yongju Lee
+    link: "https://scholar.google.com/citations?user=x8inNl8AAAAJ&hl"
+  - name: Sungwoo Ahn
+    link: "https://www.linkedin.com/in/sungwoo-ahn-311875176/"
+  - name: Hyungseok Kim
+    link: "https://fluorite42.github.io/"
+  - name: Seunghwan Sung
+    link: "https://www.linkedin.com/in/seunghwan-sung-965803297/"
+  - name: Sujin Hur
+    link: "https://www.linkedin.com/in/sujin-hur-6aaa9717b/"
+  - name: Won Jeon
+    link: "https://www.linkedin.com/in/won-jeon-etri"
+  - name: Gun Ko
+    link: "https://scholar.google.com/citations?user=Va6wcsAAAAAJ&hl"
+  - name: Jiwon Lee
+    link: "https://jiwon24lee.github.io/"
+  - name: Hyun Jae Oh
+    link: "https://www.linkedin.com/in/hyun-jae-oh-5a2a59295/?originalSubdomain"
+
 footer:
     # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
-
-# skills:
-#     title: Skills &amp; Proficiency
-
-#     toolset:
-#       - name: GPU Architecture
-#         level: 95%
-
-#       - name: Accelerator Architecture
-#         level: 90%
-
-#       - name: C/C++
-#         level: 80%
-
-#       - name: Python
-#         level: 65%
-
-#       - name: Verilog HDL
-#         level: 50%
-
-#       - name: "CUDA, cuBLAS, cuTlass, TensorRT, cuFFT, OpenCV, Vulkan, Optix, GPGPU-Sim, Accel-Sim, and Vulkan-Sim"
