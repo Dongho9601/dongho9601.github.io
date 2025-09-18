@@ -137,7 +137,7 @@ publications:
         authors: Gwanjong Park, Osama Khan, <mark>Dongho Ha</mark>, Myeongjae Jeon, Euiseong Seo
         conference: "The European Conference on Computer Systems (EuroSys 2026)"
 
-      - title: "BitL: Hybrid Bit-Serial and Parallel Processing for Critical Path Reduction"
+      - title: "BitL: A Hybrid Bit-Serial and Parallel Deep Learning Accelerator for Critical Path Reduction"
         link: "#"
         authors: Seunghyun Lee, <mark>Dongho Ha</mark>, Sungbin Kim, Sungwoo Kim, Hyunwuk Lee, Won Woo Ro
         conference: "The International Symposium on Microarchitecture (MICRO 2025)"
