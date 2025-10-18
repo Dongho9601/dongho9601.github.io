@@ -138,7 +138,7 @@ publications:
         conference: "The European Conference on Computer Systems (EuroSys 2026)"
 
       - title: "BitL: A Hybrid Bit-Serial and Parallel Deep Learning Accelerator for Critical Path Reduction"
-        link: "#"
+        link: "https://dl.acm.org/doi/10.1145/3725843.3756044"
         authors: Seunghyun Lee, <mark>Dongho Ha</mark>, Sungbin Kim, Sungwoo Kim, Hyunwuk Lee, Won Woo Ro
         conference: "The International Symposium on Microarchitecture (MICRO 2025)"
 
