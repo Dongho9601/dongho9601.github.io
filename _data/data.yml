@@ -67,7 +67,7 @@ experiences:
     title: Professional Experiences
     info:
       - role: ASIC Engineer
-        time: July 2025 (TBD)
+        time: July 2025
         company: Meta (Infra Silicon Team)
         link: "https://about.meta.com/"
         # details: |
