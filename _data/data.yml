@@ -137,6 +137,11 @@ publications:
         authors: Gwanjong Park, Osama Khan, <mark>Dongho Ha</mark>, Myeongjae Jeon, Euiseong Seo
         conference: "The European Conference on Computer Systems (EuroSys 2026)"
 
+      - title: "MaxiMoff: Designing Matrix Multiplication Accelerator for Effective Multiply-Add Operations Offloading"
+        link: "#"
+        authors: Sungwoo Kim, <mark>Dongho Ha</mark>, Seunghwan Sung, Won Woo Ro
+        conference: "IEEE Transactions on Emerging Topics in Computing (TETC 2025)"
+
       - title: "BitL: A Hybrid Bit-Serial and Parallel Deep Learning Accelerator for Critical Path Reduction"
         link: "https://dl.acm.org/doi/10.1145/3725843.3756044"
         authors: Seunghyun Lee, <mark>Dongho Ha</mark>, Sungbin Kim, Sungwoo Kim, Hyunwuk Lee, Won Woo Ro
@@ -242,12 +247,6 @@ publications:
 
       # Hyungjun Jang
       - title: "Sparse NPUs"
-        # link: "#"
-        authors: Collaborating with Won Woo Ro, Yonsei University
-        # conference: "On-Going Paper"
-
-      # Sungwoo Kim
-      - title: "Advancing MAD Macce"
         # link: "#"
         authors: Collaborating with Won Woo Ro, Yonsei University
         # conference: "On-Going Paper"
