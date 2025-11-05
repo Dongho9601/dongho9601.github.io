@@ -138,7 +138,7 @@ publications:
         conference: "The European Conference on Computer Systems (EuroSys 2026)"
 
       - title: "MaxiMoff: Designing Matrix Multiplication Accelerator for Effective Multiply-Add Operations Offloading"
-        link: "#"
+        link: "https://ieeexplore.ieee.org/document/11226949"
         authors: Sungwoo Kim, <mark>Dongho Ha</mark>, Seunghwan Sung, Won Woo Ro
         conference: "IEEE Transactions on Emerging Topics in Computing (TETC 2025)"
 
