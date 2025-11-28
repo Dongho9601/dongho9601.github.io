@@ -132,6 +132,11 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers: 
+      - title: "DeSpa: Heterogeneous Multi-Core Accelerators for Energy-Efficient Dense and Sparse Computation at the Tile Level in Deep Neural Networks"
+        link: "#"
+        authors: Hyungjun Jang, <mark>Dongho Ha</mark>, Hyunwuk Lee, Won Woo Ro
+        conference: "The Journal of Systems Architecture (JSA 2026)"
+
       - title: "Carbon-Aware Continuous Learning for Sustainable Real-Time Machine Learning Analytics"
         link: "#"
         authors: Gwanjong Park, Osama Khan, <mark>Dongho Ha</mark>, Myeongjae Jeon, Euiseong Seo
@@ -215,7 +220,7 @@ publications:
         authors: Collaborating with Won Woo Ro, Yonsei University
         # conference: "On-Going Paper"
 
-      # Minseong Gil
+      # Yubin Wang
       - title: "Scaled Numeric Format"
         # link: "#"
         authors: Collaborating with Yunho Oh, Korea University
@@ -241,12 +246,6 @@ publications:
 
       # Sungbin Kim
       - title: "LLM Inferencing"
-        # link: "#"
-        authors: Collaborating with Won Woo Ro, Yonsei University
-        # conference: "On-Going Paper"
-
-      # Hyungjun Jang
-      - title: "Sparse NPUs"
         # link: "#"
         authors: Collaborating with Won Woo Ro, Yonsei University
         # conference: "On-Going Paper"
