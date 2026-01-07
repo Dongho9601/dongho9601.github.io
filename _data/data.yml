@@ -132,15 +132,20 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers: 
-      - title: "DeSpa: Heterogeneous Multi-Core Accelerators for Energy-Efficient Dense and Sparse Computation at the Tile Level in Deep Neural Networks"
-        link: "#"
-        authors: Hyungjun Jang, <mark>Dongho Ha</mark>, Hyunwuk Lee, Won Woo Ro
-        conference: "The Journal of Systems Architecture (JSA 2026)"
+      # - title: "Layerwise Retraining and Freezing for Multi-Angle QAOA"
+      #   link: "#"
+      #   authors:  Won Woo Ro
+      #   conference: "Quantum Machine Intelligence"
 
       - title: "Carbon-Aware Continuous Learning for Sustainable Real-Time Machine Learning Analytics"
         link: "#"
         authors: Gwanjong Park, Osama Khan, <mark>Dongho Ha</mark>, Myeongjae Jeon, Euiseong Seo
         conference: "The European Conference on Computer Systems (EuroSys 2026)"
+
+      - title: "DeSpa: Heterogeneous Multi-Core Accelerators for Energy-Efficient Dense and Sparse Computation at the Tile Level in Deep Neural Networks"
+        link: "https://www.sciencedirect.com/science/article/pii/S1383762125003224?casa_token=VOiCHQld4DAAAAAA:DhxaDLLwDDDLAHPsadMybe1GrJLjXJnL10ok6PI_u6AGgxJqwSFESzphwhrLwKB0fKIMEJNhed8"
+        authors: Hyungjun Jang, <mark>Dongho Ha</mark>, Hyunwuk Lee, Won Woo Ro
+        conference: "The Journal of Systems Architecture (JSA 2026)"
 
       - title: "MaxiMoff: Designing Matrix Multiplication Accelerator for Effective Multiply-Add Operations Offloading"
         link: "https://ieeexplore.ieee.org/document/11226949"
