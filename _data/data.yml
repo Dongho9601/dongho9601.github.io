@@ -277,9 +277,10 @@ projects:
     - title: "Journal Reviewer"
       link: "https://www.webofscience.com/wos/author/record/45772582"
       taglines:
-        - "IEEE Computer Architecture Letters (CAL) ×6 (2022-2025)"
-        - "IEEE Transactions on Emerging Topics in Computing (TETC) ×1 (2022-2023)"
-        - "ACM Transactions on Architecture and Code Optimization (TACO) ×2 (2022-2023)"
+        - "IEEE Computer Architecture Letters (CAL) ×8"
+        - "IEEE Transactions on Emerging Topics in Computing (TETC) ×2"
+        - "ACM Transactions on Architecture and Code Optimization (TACO) ×3"
+        - "Parallel Computing (PC) ×3"
 
     - title: "Visiting Scholar"
       link: "https://www.escalab.org/#people"
