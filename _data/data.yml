@@ -132,10 +132,10 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers: 
-      # - title: "Layerwise Retraining and Freezing for Multi-Angle QAOA"
-      #   link: "#"
-      #   authors:  Won Woo Ro
-      #   conference: "Quantum Machine Intelligence"
+      - title: "Layerwise retraining and freezing for multi-angle QAOA"
+        link: "https://link.springer.com/article/10.1007/s42484-026-00357-w?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20260126&utm_content=10.1007%2Fs42484-026-00357-w"
+        authors: Enhyeok Jang, Zihan Chen, <mark>Dongho Ha</mark>, Seungwoo Choi, Yongju Lee, Jaewon Kwon, Eddy Z. Zhang, Yipeng Huang, Won Woo Ro
+        conference: "Quantum Machine Intelligence"
 
       - title: "Carbon-Aware Continuous Learning for Sustainable Real-Time Machine Learning Analytics"
         link: "#"
@@ -390,7 +390,12 @@ coworkers:
   - name: Hyun Jae Oh
     link: "https://www.linkedin.com/in/hyun-jae-oh-5a2a59295/?originalSubdomain"
   - name: Hyungjun Jang
+    link: "https://www.linkedin.com/in/hyungjun-jang-3671a939b/"
+  - name: Zihan Chen
     link: ""
-
+  - name: Eddy Z. Zhang
+    link: ""
+  - name: Yipeng Huang
+    link: "https://yipenghuang.com/"
 footer:
     # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
