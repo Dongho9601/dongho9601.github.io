@@ -132,7 +132,7 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers: 
-      - title: "Layerwise retraining and freezing for multi-angle QAOA"
+      - title: "Layerwise Retraining and Freezing for Multi-Angle QAOA"
         link: "https://link.springer.com/article/10.1007/s42484-026-00357-w?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20260126&utm_content=10.1007%2Fs42484-026-00357-w"
         authors: Enhyeok Jang, Zihan Chen, <mark>Dongho Ha</mark>, Seungwoo Choi, Yongju Lee, Jaewon Kwon, Eddy Z. Zhang, Yipeng Huang, Won Woo Ro
         conference: "Quantum Machine Intelligence"
