@@ -332,7 +332,7 @@ coworkers:
   - name: Sungwoo Kim
     link: "https://kr.linkedin.com/in/sungwoo-2kim"
   - name: Hyunwuk Lee
-    link: "https://jiwon24lee.github.io/"
+    link: "https://hyunwuklee0519.github.io/"
   - name: Minseong Gil
     link: "https://www.linkedin.com/in/minseong-gil-76a059365/?originalSubdomain"
   - name: Simla Burcu Harma
@@ -371,8 +371,6 @@ coworkers:
     link: "https://www.linkedin.com/in/seungwoo-choi-560947245/"
   - name: Youngmin Kim
     link: "https://scholar.google.com/citations?user=Esdp944AAAAJ&hl"
-  - name: Jaewon Kwon
-    link: "#"
   - name: Yongju Lee
     link: "https://scholar.google.com/citations?user=x8inNl8AAAAJ&hl"
   - name: Sungwoo Ahn
@@ -403,9 +401,10 @@ coworkers:
     link: "#"
   - name: Wonho Cho
     link: "#"
-  - name: Yipeng Huang
-    link: "#"
   - name: Mingu Jung
+    link: "#"
+
+  - name: Jaewon Kwon
     link: "#"
 
 footer:
