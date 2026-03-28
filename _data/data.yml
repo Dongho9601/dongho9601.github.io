@@ -229,12 +229,6 @@ publications:
 
       - title: "<small>----- On-Going Projects (only project topics) -----</small>"
 
-      # Sungwoo Kim
-      - title: "Floating-Point Format Compression"
-        # link: "#"
-        authors: Collaborating with Won Woo Ro, Yonsei University
-        # conference: "On-Going Paper"
-
       # Yubin Wang
       - title: "Scaled Numeric Format"
         # link: "#"
@@ -249,12 +243,6 @@ publications:
 
       # Simla
       - title: "Outlier Handling in AI/Ml"
-        # link: "#"
-        authors: Collaborating with Won Woo Ro, Yonsei University
-        # conference: "On-Going Paper"
-
-      # Junsung Kim
-      - title: "DMA between GPUs"
         # link: "#"
         authors: Collaborating with Won Woo Ro, Yonsei University
         # conference: "On-Going Paper"
