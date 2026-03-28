@@ -132,6 +132,16 @@ publications:
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
     papers: 
+      - title: "Reducing Page Faults via Invalidation-based Mapping Propagation in Multi-GPU Systems"
+        link: "#"
+        authors: Junsung Kim, <mark>Dongho Ha</mark>, Sungwoo Kim, Wonho Cho, Sungbin Kim, Yufei Ding, Won Woo Ro
+        conference: "The International Symposium on Computer Architecture (ISCA 2026)"
+
+      - title: "MXFFP: Microscaling Flexible Floating Point Format for Large-Scale AI Model Acceleration"
+        link: "#"
+        authors: Sungwoo Kim, Sungbin Kim, <mark>Dongho Ha</mark>, Hyunwuk Lee, Junsung Kim, Seunghyun Lee, Mingu Jung, Murali Annavaram, Won Woo Ro
+        conference: "The International Symposium on Computer Architecture (ISCA 2026)"
+
       - title: "Layerwise Retraining and Freezing for Multi-Angle QAOA"
         link: "https://link.springer.com/article/10.1007/s42484-026-00357-w?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20260126&utm_content=10.1007%2Fs42484-026-00357-w"
         authors: Enhyeok Jang, Zihan Chen, <mark>Dongho Ha</mark>, Seungwoo Choi, Yongju Lee, Jaewon Kwon, Eddy Z. Zhang, Yipeng Huang, Won Woo Ro
@@ -314,6 +324,10 @@ coworkers:
     link: "https://parsa.epfl.ch/~falsafi/"
   - name: "Tor M. Aamodt"
     link: "https://people.ece.ubc.ca/aamodt/"
+  - name: "Murali Annavaram"
+    link: "https://realai.usc.edu/"
+  - name: "Mingu Jung"
+    link: "https://jacobsschool.ucsd.edu/people/profile/Yufei-Ding"
 
   - name: Gwanjong Park
     link: "https://kr.linkedin.com/in/gwanjong-park-3a1107287"
@@ -397,5 +411,14 @@ coworkers:
     link: ""
   - name: Yipeng Huang
     link: "https://yipenghuang.com/"
+  - name: Junsung Kim
+    link: "#"
+  - name: Wonho Cho
+    link: "#"
+  - name: Yipeng Huang
+    link: "#"
+  - name: Mingu Jung
+    link: "#"
+
 footer:
     # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
