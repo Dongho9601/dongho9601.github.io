@@ -148,7 +148,7 @@ publications:
         conference: "Quantum Machine Intelligence"
 
       - title: "Carbon-Aware Continuous Learning for Sustainable Real-Time Machine Learning Analytics"
-        link: "#"
+        link: "https://dl.acm.org/doi/10.1145/3767295.3769361"
         authors: Gwanjong Park, Osama Khan, <mark>Dongho Ha</mark>, Myeongjae Jeon, Euiseong Seo
         conference: "The European Conference on Computer Systems (EuroSys 2026)"
 
