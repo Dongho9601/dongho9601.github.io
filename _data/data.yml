@@ -135,7 +135,7 @@ publications:
 
       - title: "SLGS: A Structure-Aware Scanline Renderer for Efficient 3D Gaussian Splatting"
         link: "#"
-        authors: Seunghyun lee, Mingu Jung, Sungwoo Kim, Sungbin Kim, <mark>Dongho Ha</mark>, Hyunwuk Lee, Yingyan (Celine) Lin, Won Woo
+        authors: Seunghyun Lee, Mingu Jung, Sungwoo Kim, Sungbin Kim, <mark>Dongho Ha</mark>, Hyunwuk Lee, Yingyan (Celine) Lin, Won Woo Ro
         conference: "The International Conference on Parallel Architectures and Compilation Techniques (PACT 26)"
 
       - title: "Reducing Page Faults via Invalidation-based Mapping Propagation in Multi-GPU Systems"
