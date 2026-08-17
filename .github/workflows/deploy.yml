@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main, master, redesign/astro]
+    branches: [master]
   workflow_dispatch:
 
 permissions:

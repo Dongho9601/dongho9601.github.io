@@ -3,7 +3,7 @@
 Refined, minimal, editorial personal website for **Dongho Ha**, Computer Architect & ASIC Engineer at Meta.
 
 - **URL**: [https://dongho9601.github.io/](https://dongho9601.github.io/)
-- **Tech Stack**: [Astro](https://astro.build/) (v5), TypeScript, Markdown / MDX Content Collections, Vanilla CSS.
+- **Tech Stack**: [Astro](https://astro.build/) (v7), TypeScript, Markdown / MDX Content Collections, Vanilla CSS.
 
 ---
 
@@ -41,14 +41,14 @@ Refined, minimal, editorial personal website for **Dongho Ha**, Computer Archite
 
 ### Prerequisites
 
-- Node.js (v20+ recommended, works on v20–v26)
+- Node.js 22 (LTS recommended)
 - npm (v10+)
 
 ### Commands
 
 ```bash
 # Install dependencies
-npm install
+npm ci
 
 # Start local development server (http://localhost:4321)
 npm run dev
@@ -99,5 +99,5 @@ Edit `src/data/about.ts` to update experience, education, industry projects, ser
 
 ## Deployment
 
-The site is automatically deployed to GitHub Pages via GitHub Actions upon pushing to `main`, `master`, or `redesign/astro`.
+The site is automatically deployed to GitHub Pages via GitHub Actions upon pushing to `master`.
 The workflow configuration is in `.github/workflows/deploy.yml`.

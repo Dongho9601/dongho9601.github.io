@@ -9,7 +9,11 @@ const recentPublications = publications.slice(0, 5);
 const writingPosts = await getCollection('writing');
 const sortedPosts = writingPosts
   .filter((post) => !post.data.draft)
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .sort((a, b) => {
+    const aTime = a.data.pubDate ? a.data.pubDate.valueOf() : 0;
+    const bTime = b.data.pubDate ? b.data.pubDate.valueOf() : 0;
+    return bTime - aTime;
+  })
   .slice(0, 3);
 
 const projects = await getCollection('projects');
@@ -98,12 +102,14 @@ const sortedProjects = projects.sort(
               <a href={`/writing/${post.id}`} class="post-title">
                 {post.data.title}
               </a>
-              <time class="post-date">
-                {new Intl.DateTimeFormat('en-US', {
-                  year: 'numeric',
-                  month: 'short',
-                }).format(post.data.pubDate)}
-              </time>
+              {post.data.pubDate && (
+                <time class="post-date">
+                  {new Intl.DateTimeFormat('en-US', {
+                    year: 'numeric',
+                    month: 'short',
+                  }).format(post.data.pubDate)}
+                </time>
+              )}
             </div>
             <p class="post-desc">{post.data.description}</p>
           </article>

@@ -1,4 +1,5 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 
 const writing = defineCollection({
@@ -6,11 +7,11 @@ const writing = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    pubDate: z.coerce.date(),
+    pubDate: z.coerce.date().optional(),
     updatedDate: z.coerce.date().optional(),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
-    externalUrl: z.string().url().optional(),
+    externalUrl: z.string().optional(),
     featured: z.boolean().default(false),
   }),
 });
@@ -26,9 +27,9 @@ const projects = defineCollection({
     order: z.number().default(0),
     featured: z.boolean().default(false),
     heroImage: z.string().optional(),
-    githubUrl: z.string().url().optional(),
-    demoUrl: z.string().url().optional(),
-    playUrl: z.string().url().optional(),
+    githubUrl: z.string().optional(),
+    demoUrl: z.string().optional(),
+    playUrl: z.string().optional(),
   }),
 });
 

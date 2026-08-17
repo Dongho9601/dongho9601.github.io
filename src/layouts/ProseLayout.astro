@@ -11,6 +11,10 @@ interface Props {
   externalUrl?: string;
   status?: string;
   technologies?: string[];
+  heroImage?: string;
+  githubUrl?: string;
+  demoUrl?: string;
+  playUrl?: string;
 }
 
 const {
@@ -23,6 +27,10 @@ const {
   externalUrl,
   status,
   technologies = [],
+  heroImage,
+  githubUrl,
+  demoUrl,
+  playUrl,
 } = Astro.props;
 
 const formattedDate = pubDate
@@ -37,6 +45,7 @@ const formattedDate = pubDate
 <BaseLayout
   title={`${title} — Dongho Ha`}
   description={description}
+  image={heroImage}
   articleDate={pubDate ? pubDate.toISOString() : undefined}
 >
   <article>
@@ -50,7 +59,7 @@ const formattedDate = pubDate
       </a>
     </div>
 
-    <header style="margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-subtle);">
+    <header style="margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-subtle);">
       <h1 style="margin-bottom: 0.65rem;">{title}</h1>
       <p class="lead" style="color: var(--text-muted); margin-bottom: 1rem;">
         {description}
@@ -92,7 +101,60 @@ const formattedDate = pubDate
           </a>
         )}
       </div>
+
+      {(githubUrl || demoUrl || playUrl) && (
+        <div
+          style="display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; margin-top: 1rem; font-family: var(--font-mono); font-size: 0.84rem;"
+        >
+          {githubUrl && (
+            <a
+              href={githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hero-link"
+              style="color: var(--text-main);"
+            >
+              <span>GitHub</span>
+              <span style="font-size: 0.8em; opacity: 0.7;">↗</span>
+            </a>
+          )}
+          {demoUrl && (
+            <a
+              href={demoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hero-link"
+              style="color: var(--accent);"
+            >
+              <span>Live Demo</span>
+              <span style="font-size: 0.8em; opacity: 0.7;">↗</span>
+            </a>
+          )}
+          {playUrl && (
+            <a
+              href={playUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hero-link"
+              style="color: var(--accent);"
+            >
+              <span>Play</span>
+              <span style="font-size: 0.8em; opacity: 0.7;">↗</span>
+            </a>
+          )}
+        </div>
+      )}
     </header>
+
+    {heroImage && (
+      <div style="margin-bottom: 2rem; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border);">
+        <img
+          src={heroImage}
+          alt={title}
+          style="width: 100%; height: auto; display: block; object-fit: cover;"
+        />
+      </div>
+    )}
 
     <div class="prose">
       <slot />

@@ -19,6 +19,6 @@ The game focuses on spatial placement of power sources, engine routing, recipe b
 * **Status**: In active development
 * **Platform**: Modern Web Browsers
 * **Stack**: TypeScript, Vite, HTML5 Canvas, Vitest
-* **Core Loop**: Heart power routing $\rightarrow$ Engine activation $\rightarrow$ Recipe binding $\rightarrow$ Shards & upgrades $\rightarrow$ Frontier expansion
+* **Core Loop**: Heart power routing → Engine activation → Recipe binding → Shards & upgrades → Frontier expansion
 
 <!-- Future media / screenshots / play links will be added here -->
