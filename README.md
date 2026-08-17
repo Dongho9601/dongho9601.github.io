@@ -1,90 +1,103 @@
-<a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+# Dongho Ha — Personal Website
 
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
-> Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
+Refined, minimal, editorial personal website for **Dongho Ha**, Computer Architect & ASIC Engineer at Meta.
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
+- **URL**: [https://dongho9601.github.io/](https://dongho9601.github.io/)
+- **Tech Stack**: [Astro](https://astro.build/) (v5), TypeScript, Markdown / MDX Content Collections, Vanilla CSS.
 
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
+---
 
-## Installation
+## Structure
 
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository;
-* Go to settings and set master branch as Github Pages source;
-* Your new site should be ready at `https://<username>.github.io/online-cv/`;
-* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
-
-Change all the details from one place: `_data/data.yml`.
-
-### To preview/edit locally with docker
-
-```sh
-docker-compose up
+```
+├── .github/workflows/deploy.yml   # GitHub Pages automated deployment workflow
+├── public/                        # Static assets (images, PDF resume, favicon, robots.txt)
+│   ├── Resume_Dongho_Ha.pdf
+│   ├── favicon.ico
+│   ├── images/
+│   │   └── profile.jpg
+│   └── robots.txt
+├── src/
+│   ├── components/                # Modular UI components (Header, Footer, PublicationItem)
+│   ├── content/                   # Content collections
+│   │   ├── projects/              # Markdown project files (hlbm.md, hlbm-rf.md)
+│   │   └── writing/               # Markdown writing files (phd-guideline.md)
+│   ├── data/                      # Structured data modules
+│   │   ├── about.ts               # Experience, education, service, funding, collaborators
+│   │   ├── publications.ts        # Peer-reviewed publication records & ongoing topics
+│   │   └── site.ts                # Site navigation, metadata, and social links
+│   ├── layouts/                   # BaseLayout and ProseLayout
+│   ├── pages/                     # File-based routes (/, /writing, /projects, /publications, /about, /404)
+│   └── styles/
+│       └── global.css             # Typography-first editorial design system
+├── astro.config.mjs
+├── package.json
+└── tsconfig.json
 ```
 
-*docker-compose.yml* file is used to create a container that is reachable under <http://localhost:4000>.
-Changes *_data/data.yml* will be visible after a while.
+---
 
-### Local machine
+## Local Development
 
-* Get the repo into your machine 
+### Prerequisites
+
+- Node.js (v20+ recommended, works on v20–v26)
+- npm (v10+)
+
+### Commands
 
 ```bash
-git clone https://github.com/sharu725/online-cv.git
+# Install dependencies
+npm install
+
+# Start local development server (http://localhost:4321)
+npm run dev
+
+# Typecheck and build production static bundle (outputs to dist/)
+npm run build
+
+# Preview production build locally
+npm run preview
 ```
 
-* Install required ruby gems
+---
 
-```bash
-bundle install
+## Content Management
+
+### Adding a Publication
+Edit `src/data/publications.ts` to add or modify paper records. The homepage automatically pulls the 5 latest publications, while `/publications` groups all papers by year in reverse chronological order.
+
+### Adding Writing / Blog Posts
+Add a `.md` or `.mdx` file to `src/content/writing/` with frontmatter:
+```yaml
+---
+title: "Article Title"
+description: "Brief summary of the article"
+pubDate: 2026-08-16
+tags: ["Architecture", "GPU"]
+draft: false
+---
 ```
 
-* Serve the site locally
-
-```bash
-bundle exec jekyll serve
+### Adding Projects
+Add a `.md` or `.mdx` file to `src/content/projects/` with frontmatter:
+```yaml
+---
+title: "Project Name"
+subtitle: "Short tagline"
+description: "Project description"
+status: "In development" # or "Active", "Completed"
+technologies: ["Unity", "C#"]
+order: 1
+---
 ```
 
-* Navigate to `http://localhost:4000`
+### Updating Career / About Information
+Edit `src/data/about.ts` to update experience, education, industry projects, service, funding, or collaborators.
 
+---
 
-## Skins
+## Deployment
 
-There are 6 color schemes available:
-
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
-
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
-
-## Credits
-
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
-
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
-
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
-
+The site is automatically deployed to GitHub Pages via GitHub Actions upon pushing to `main`, `master`, or `redesign/astro`.
+The workflow configuration is in `.github/workflows/deploy.yml`.

@@ -1,0 +1,27 @@
+---
+import { siteConfig } from '../data/site';
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="footer-left">
+    <span>© {currentYear} {siteConfig.title}</span>
+    <span style="margin: 0 0.5rem; color: var(--text-faint);">·</span>
+    <span style="color: var(--text-faint);">{siteConfig.subtitle}</span>
+  </div>
+  <ul class="footer-socials">
+    {
+      siteConfig.socials.map((social) => (
+        <li>
+          <a
+            href={social.url}
+            target={social.url.startsWith('http') ? '_blank' : undefined}
+            rel={social.url.startsWith('http') ? 'noopener noreferrer' : undefined}
+          >
+            {social.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</footer>

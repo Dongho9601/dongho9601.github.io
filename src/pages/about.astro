@@ -1,0 +1,330 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import {
+  bioSummary,
+  experiences,
+  educations,
+  industryProjects,
+  serviceCommittees,
+  journalReviews,
+  fundings,
+  languages,
+  personalInterests,
+  collaborators,
+} from '../data/about';
+import { siteConfig } from '../data/site';
+---
+
+<BaseLayout
+  title="About — Dongho Ha"
+  description="Biography, professional experience, education, and research background of Dongho Ha."
+>
+  <header style="margin-bottom: 3.5rem;">
+    <h1 style="margin-bottom: 0.65rem;">About</h1>
+    <div style="font-family: var(--font-mono); font-size: 0.92rem; color: var(--accent);">
+      Dongho (Lucas) Ha · Computer Architect
+    </div>
+  </header>
+
+  <!-- Profile & Biography Section -->
+  <section style="display: flex; gap: 2.5rem; align-items: flex-start; margin-bottom: 4rem; flex-wrap: wrap;">
+    <div style="flex: 0 0 160px; max-width: 160px;">
+      <img
+        src="/images/profile.jpg"
+        alt="Dongho Ha"
+        style="width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid var(--border); object-fit: cover; aspect-ratio: 1 / 1;"
+      />
+      <div style="margin-top: 1rem; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.85rem; font-family: var(--font-mono);">
+        <a
+          href={siteConfig.resumeUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          style="color: var(--accent); text-decoration: none;"
+        >
+          ↓ Download CV (PDF)
+        </a>
+        <a
+          href={siteConfig.resumeGoogleDoc}
+          target="_blank"
+          rel="noopener noreferrer"
+          style="color: var(--text-muted); text-decoration: none;"
+        >
+          Google Doc CV ↗
+        </a>
+      </div>
+    </div>
+
+    <div style="flex: 1 1 320px;">
+      <h2 style="margin-top: 0; font-size: 1.25rem; margin-bottom: 0.85rem;">Biography</h2>
+      <div class="prose" style="font-size: 0.96rem;">
+        {bioSummary.split('\n\n').map((paragraph) => (
+          <p>{paragraph}</p>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section style="margin-bottom: 3.5rem;">
+    <div class="section-header">
+      <h2 class="section-title">Professional Experience</h2>
+    </div>
+
+    <div class="timeline-list">
+      {
+        experiences.map((exp) => (
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <div class="timeline-role">
+                {exp.role}
+                <span style="font-weight: 400; color: var(--text-muted);"> — </span>
+                {exp.link ? (
+                  <a
+                    href={exp.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="plain-link"
+                    style="font-weight: 500;"
+                  >
+                    {exp.company} ↗
+                  </a>
+                ) : (
+                  <span>{exp.company}</span>
+                )}
+                {exp.team && (
+                  <span style="font-size: 0.88rem; color: var(--text-faint); font-weight: 400;">
+                    {' '}({exp.team})
+                  </span>
+                )}
+              </div>
+              <span class="timeline-period">{exp.period}</span>
+            </div>
+            {exp.details && (
+              <div class="timeline-details">{exp.details}</div>
+            )}
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section style="margin-bottom: 3.5rem;">
+    <div class="section-header">
+      <h2 class="section-title">Education</h2>
+    </div>
+
+    <div class="timeline-list">
+      {
+        educations.map((edu) => (
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <div class="timeline-role">{edu.degree}</div>
+              <span class="timeline-period">{edu.period}</span>
+            </div>
+            <div class="timeline-org">
+              {edu.institution}
+              {edu.advisor && <span> · Advisor: {edu.advisor}</span>}
+            </div>
+            {edu.dissertation && (
+              <div class="timeline-details" style="font-style: italic;">
+                Dissertation: “{edu.dissertation}”
+              </div>
+            )}
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Industry Projects & Patents -->
+  <section style="margin-bottom: 3.5rem;">
+    <div class="section-header">
+      <h2 class="section-title">Industry Projects & Patents</h2>
+    </div>
+
+    <div class="timeline-list">
+      {
+        industryProjects.map((proj) => (
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <div style="font-size: 0.96rem; font-weight: 550;">
+                {proj.title}
+                {proj.patentUrl && (
+                  <a
+                    href={proj.patentUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style="margin-left: 0.4rem; font-size: 0.84rem; color: var(--accent); font-family: var(--font-mono);"
+                  >
+                    [US Patent ↗]
+                  </a>
+                )}
+              </div>
+              <span class="timeline-period">{proj.period}</span>
+            </div>
+            <div class="timeline-org">{proj.organization}</div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Academic Service & Committees -->
+  <section style="margin-bottom: 3.5rem;">
+    <div class="section-header">
+      <h2 class="section-title">Academic Service & Reviewing</h2>
+    </div>
+
+    <div style="margin-bottom: 1.75rem;">
+      <h3 style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-faint); font-family: var(--font-mono); margin-bottom: 0.85rem;">
+        Program Committees & Visiting Appointments
+      </h3>
+      <div class="timeline-list">
+        {
+          serviceCommittees.map((svc) => (
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <div style="font-size: 0.95rem; font-weight: 500;">
+                  {svc.venue}
+                  <span style="color: var(--text-muted); font-size: 0.88rem;"> — {svc.role}</span>
+                </div>
+                <span class="timeline-period">{svc.years}</span>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <div>
+      <h3 style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-faint); font-family: var(--font-mono); margin-bottom: 0.85rem;">
+        Journal Reviewer
+        <a
+          href="https://www.webofscience.com/wos/author/record/45772582"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="font-size: 0.8rem; text-transform: none; margin-left: 0.5rem; color: var(--accent);"
+        >
+          (Web of Science Profile ↗)
+        </a>
+      </h3>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.65rem;">
+        {
+          journalReviews.map((review) => (
+            <div
+              style="padding: 0.65rem 0.85rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); display: flex; justify-content: space-between; align-items: center;"
+            >
+              <span style="font-size: 0.88rem; font-weight: 450;">{review.journal}</span>
+              <span style="font-family: var(--font-mono); font-size: 0.82rem; color: var(--accent); font-weight: 600;">
+                {review.count}
+              </span>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Funding & Awards -->
+  <section style="margin-bottom: 3.5rem;">
+    <div class="section-header">
+      <h2 class="section-title">Funding & Scholarships</h2>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.75rem;">
+      {
+        fundings.map((fund) => (
+          <div
+            style="padding: 0.85rem 1rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm);"
+          >
+            <div style="font-size: 0.9rem; font-weight: 500; margin-bottom: 0.25rem;">
+              {fund.title}
+            </div>
+            <div style="font-family: var(--font-mono); font-size: 0.84rem; color: var(--accent);">
+              {fund.amount}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Collaborators -->
+  <section style="margin-bottom: 3.5rem;">
+    <div class="section-header">
+      <h2 class="section-title">Collaborators</h2>
+    </div>
+
+    <p style="font-size: 0.92rem; color: var(--text-muted); margin-bottom: 1.2rem;">
+      I have had the privilege to collaborate with wonderful researchers and engineers across academia and industry:
+    </p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem 0.85rem; font-size: 0.9rem;">
+      {
+        collaborators.map((c, i) => (
+          <span>
+            {c.link ? (
+              <a
+                href={c.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="plain-link"
+                style="border-bottom: 1px dotted var(--border);"
+              >
+                {c.name}
+              </a>
+            ) : (
+              <span>{c.name}</span>
+            )}
+            {i < collaborators.length - 1 && (
+              <span style="color: var(--text-faint); margin-left: 0.85rem;">·</span>
+            )}
+          </span>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Languages & Interests -->
+  <section>
+    <div class="section-header">
+      <h2 class="section-title">Personal & Languages</h2>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem;">
+      <div>
+        <h3 style="font-size: 0.95rem; font-family: var(--font-mono); color: var(--text-faint); margin-top: 0; margin-bottom: 0.5rem;">
+          Languages
+        </h3>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.92rem;">
+          {languages.map((l) => (
+            <li>
+              <strong>{l.language}</strong>: <span style="color: var(--text-muted);">{l.proficiency}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <h3 style="font-size: 0.95rem; font-family: var(--font-mono); color: var(--text-faint); margin-top: 0; margin-bottom: 0.5rem;">
+          Interests & Links
+        </h3>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.92rem;">
+          {personalInterests.map((pi) => (
+            <li>
+              <span>{pi.name}: </span>
+              <a
+                href={pi.link}
+                target={pi.link.startsWith('http') ? '_blank' : undefined}
+                rel={pi.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+              >
+                {pi.label} ↗
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

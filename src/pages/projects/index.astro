@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const projects = await getCollection('projects');
+const sortedProjects = projects.sort(
+  (a, b) => (a.data.order ?? 0) - (b.data.order ?? 0)
+);
+---
+
+<BaseLayout
+  title="Projects — Dongho Ha"
+  description="Personal software and game development projects by Dongho Ha."
+>
+  <header style="margin-bottom: 3rem;">
+    <h1 style="margin-bottom: 0.65rem;">Projects</h1>
+    <p class="lead" style="color: var(--text-muted); margin-bottom: 0;">
+      Independent game systems, simulation tools, and experimental projects.
+    </p>
+  </header>
+
+  <section>
+    <div class="project-grid">
+      {
+        sortedProjects.map((project) => (
+          <article class="project-card" style="cursor: pointer;">
+            <div class="project-header">
+              <a
+                href={`/projects/${project.id}`}
+                style="text-decoration: none; font-size: 1.12rem; font-weight: 600;"
+              >
+                {project.data.title}
+              </a>
+              <span class="project-status">{project.data.status}</span>
+            </div>
+
+            {project.data.subtitle && (
+              <div style="font-size: 0.88rem; color: var(--accent); font-family: var(--font-mono); margin-top: -0.25rem;">
+                {project.data.subtitle}
+              </div>
+            )}
+
+            <p class="project-desc">{project.data.description}</p>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.5rem; flex-wrap: wrap; gap: 0.5rem;">
+              <div class="project-tech-list">
+                {project.data.technologies.map((tech) => (
+                  <span class="project-tech-tag">{tech}</span>
+                ))}
+              </div>
+
+              <a
+                href={`/projects/${project.id}`}
+                class="plain-link"
+                style="font-family: var(--font-mono); font-size: 0.84rem; color: var(--text-muted);"
+              >
+                View details →
+              </a>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>
