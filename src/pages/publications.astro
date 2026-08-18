@@ -18,12 +18,12 @@ const pubsByYear = years.map((year) => ({
   title="Publications — Dongho Ha"
   description="Peer-reviewed publications by Dongho Ha across computer architecture, GPU design, and hardware acceleration."
 >
-  <header style="margin-bottom: 3rem;">
-    <h1 style="margin-bottom: 0.65rem;">Publications</h1>
-    <p class="lead" style="color: var(--text-muted); margin-bottom: 0.5rem;">
+  <header class="page-header">
+    <h1 class="page-title">Publications</h1>
+    <p class="page-lead">
       Research papers spanning GPU microarchitecture, memory subsystem optimization, numeric formats, and domain-specific accelerators.
     </p>
-    <div style="font-family: var(--font-mono); font-size: 0.86rem; color: var(--text-faint);">
+    <div class="page-meta">
       Total: {publications.length} peer-reviewed publications · * denotes equal contribution / co-first authorship
     </div>
   </header>
@@ -52,7 +52,7 @@ const pubsByYear = years.map((year) => ({
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
         {ongoingTopics.map((topic) => (
           <div
-            style="padding: 1rem 1.15rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-md);"
+            style="padding: 1.1rem 1.25rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-md);"
           >
             <div style="font-weight: 550; font-size: 0.95rem; margin-bottom: 0.25rem;">
               {topic.title}

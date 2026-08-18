@@ -53,15 +53,15 @@ const formattedDate = pubDate
       <a
         href={backHref}
         class="plain-link"
-        style="font-family: var(--font-mono); font-size: 0.86rem; color: var(--text-muted); display: inline-flex; align-items: center; gap: 0.35rem;"
+        style="font-family: var(--font-mono); font-size: 0.84rem; color: var(--text-muted); display: inline-flex; align-items: center; gap: 0.35rem;"
       >
         ← {backLabel}
       </a>
     </div>
 
-    <header style="margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-subtle);">
+    <header style="margin-bottom: 2.25rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-subtle);">
       <h1 style="margin-bottom: 0.65rem;">{title}</h1>
-      <p class="lead" style="color: var(--text-muted); margin-bottom: 1rem;">
+      <p class="lead" style="color: var(--text-muted); margin-bottom: 1.25rem;">
         {description}
       </p>
 
@@ -70,22 +70,20 @@ const formattedDate = pubDate
       >
         {formattedDate && <span>{formattedDate}</span>}
 
-        {status && (
-          <span
-            style="padding: 0.15rem 0.5rem; background: var(--bg-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); color: var(--text-muted);"
-          >
-            {status}
-          </span>
-        )}
+        {status && <span class="card-badge">{status}</span>}
 
         {technologies.length > 0 && (
-          <span>Stack: {technologies.join(', ')}</span>
+          <div class="card-tags">
+            {technologies.map((tech) => (
+              <span class="card-tag">{tech}</span>
+            ))}
+          </div>
         )}
 
         {tags.length > 0 && (
-          <div style="display: flex; gap: 0.5rem;">
+          <div class="card-tags">
             {tags.map((tag) => (
-              <span>#{tag}</span>
+              <span class="card-tag">#{tag}</span>
             ))}
           </div>
         )}
@@ -95,6 +93,7 @@ const formattedDate = pubDate
             href={externalUrl}
             target="_blank"
             rel="noopener noreferrer"
+            class="plain-link"
             style="color: var(--accent); margin-left: auto;"
           >
             Open in Notion ↗
@@ -104,7 +103,7 @@ const formattedDate = pubDate
 
       {(githubUrl || demoUrl || playUrl) && (
         <div
-          style="display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; margin-top: 1rem; font-family: var(--font-mono); font-size: 0.84rem;"
+          style="display: flex; flex-wrap: wrap; gap: 0.85rem 1.35rem; margin-top: 1.25rem; font-family: var(--font-mono); font-size: 0.84rem;"
         >
           {githubUrl && (
             <a
@@ -112,10 +111,9 @@ const formattedDate = pubDate
               target="_blank"
               rel="noopener noreferrer"
               class="hero-link"
-              style="color: var(--text-main);"
             >
               <span>GitHub</span>
-              <span style="font-size: 0.8em; opacity: 0.7;">↗</span>
+              <span class="hero-link-arrow">↗</span>
             </a>
           )}
           {demoUrl && (
@@ -124,10 +122,9 @@ const formattedDate = pubDate
               target="_blank"
               rel="noopener noreferrer"
               class="hero-link"
-              style="color: var(--accent);"
             >
               <span>Live Demo</span>
-              <span style="font-size: 0.8em; opacity: 0.7;">↗</span>
+              <span class="hero-link-arrow">↗</span>
             </a>
           )}
           {playUrl && (
@@ -136,10 +133,9 @@ const formattedDate = pubDate
               target="_blank"
               rel="noopener noreferrer"
               class="hero-link"
-              style="color: var(--accent);"
             >
               <span>Play</span>
-              <span style="font-size: 0.8em; opacity: 0.7;">↗</span>
+              <span class="hero-link-arrow">↗</span>
             </a>
           )}
         </div>

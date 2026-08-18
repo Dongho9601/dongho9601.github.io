@@ -9,7 +9,6 @@ import {
   journalReviews,
   fundings,
   languages,
-  personalInterests,
   collaborators,
 } from '../data/about';
 import { siteConfig } from '../data/site';
@@ -19,42 +18,16 @@ import { siteConfig } from '../data/site';
   title="About — Dongho Ha"
   description="Biography, professional experience, education, and research background of Dongho Ha."
 >
-  <header style="margin-bottom: 3.5rem;">
-    <h1 style="margin-bottom: 0.65rem;">About</h1>
-    <div style="font-family: var(--font-mono); font-size: 0.92rem; color: var(--accent);">
+  <header class="page-header">
+    <h1 class="page-title">About</h1>
+    <p class="page-lead">
       Dongho (Lucas) Ha · Computer Architect
-    </div>
+    </p>
   </header>
 
   <!-- Profile & Biography Section -->
-  <section style="display: flex; gap: 2.5rem; align-items: flex-start; margin-bottom: 4rem; flex-wrap: wrap;">
-    <div style="flex: 0 0 160px; max-width: 160px;">
-      <img
-        src="/images/profile.jpg"
-        alt="Dongho Ha"
-        style="width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid var(--border); object-fit: cover; aspect-ratio: 1 / 1;"
-      />
-      <div style="margin-top: 1rem; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.85rem; font-family: var(--font-mono);">
-        <a
-          href={siteConfig.resumeUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          style="color: var(--accent); text-decoration: none;"
-        >
-          ↓ Download CV (PDF)
-        </a>
-        <a
-          href={siteConfig.resumeGoogleDoc}
-          target="_blank"
-          rel="noopener noreferrer"
-          style="color: var(--text-muted); text-decoration: none;"
-        >
-          Google Doc CV ↗
-        </a>
-      </div>
-    </div>
-
-    <div style="flex: 1 1 320px;">
+  <section class="about-profile-grid">
+    <div class="about-bio-col">
       <h2 style="margin-top: 0; font-size: 1.25rem; margin-bottom: 0.85rem;">Biography</h2>
       <div class="prose" style="font-size: 0.96rem;">
         {bioSummary.split('\n\n').map((paragraph) => (
@@ -62,10 +35,36 @@ import { siteConfig } from '../data/site';
         ))}
       </div>
     </div>
+
+    <div class="about-avatar-col">
+      <img
+        src="/images/profile.jpg"
+        alt="Dongho Ha"
+        class="about-avatar-img"
+      />
+      <div class="about-cv-links">
+        <a
+          href={siteConfig.resumeUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="about-cv-link"
+        >
+          ↓ Download CV (PDF)
+        </a>
+        <a
+          href={siteConfig.resumeGoogleDoc}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="about-cv-link secondary"
+        >
+          Google Doc CV ↗
+        </a>
+      </div>
+    </div>
   </section>
 
-  <!-- Experience Section -->
-  <section style="margin-bottom: 3.5rem;">
+  <!-- Professional Experience -->
+  <section class="section-container">
     <div class="section-header">
       <h2 class="section-title">Professional Experience</h2>
     </div>
@@ -108,8 +107,8 @@ import { siteConfig } from '../data/site';
     </div>
   </section>
 
-  <!-- Education Section -->
-  <section style="margin-bottom: 3.5rem;">
+  <!-- Education -->
+  <section class="section-container">
     <div class="section-header">
       <h2 class="section-title">Education</h2>
     </div>
@@ -138,7 +137,7 @@ import { siteConfig } from '../data/site';
   </section>
 
   <!-- Industry Projects & Patents -->
-  <section style="margin-bottom: 3.5rem;">
+  <section class="section-container">
     <div class="section-header">
       <h2 class="section-title">Industry Projects & Patents</h2>
     </div>
@@ -171,13 +170,13 @@ import { siteConfig } from '../data/site';
   </section>
 
   <!-- Academic Service & Committees -->
-  <section style="margin-bottom: 3.5rem;">
+  <section class="section-container">
     <div class="section-header">
       <h2 class="section-title">Academic Service & Reviewing</h2>
     </div>
 
-    <div style="margin-bottom: 1.75rem;">
-      <h3 style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-faint); font-family: var(--font-mono); margin-bottom: 0.85rem;">
+    <div style="margin-bottom: 2rem;">
+      <h3 class="about-subheading">
         Program Committees & Visiting Appointments
       </h3>
       <div class="timeline-list">
@@ -198,7 +197,7 @@ import { siteConfig } from '../data/site';
     </div>
 
     <div>
-      <h3 style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-faint); font-family: var(--font-mono); margin-bottom: 0.85rem;">
+      <h3 class="about-subheading">
         Journal Reviewer
         <a
           href="https://www.webofscience.com/wos/author/record/45772582"
@@ -209,16 +208,14 @@ import { siteConfig } from '../data/site';
           (Web of Science Profile ↗)
         </a>
       </h3>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.65rem;">
+      <div class="timeline-list">
         {
           journalReviews.map((review) => (
-            <div
-              style="padding: 0.65rem 0.85rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); display: flex; justify-content: space-between; align-items: center;"
-            >
-              <span style="font-size: 0.88rem; font-weight: 450;">{review.journal}</span>
-              <span style="font-family: var(--font-mono); font-size: 0.82rem; color: var(--accent); font-weight: 600;">
-                {review.count}
-              </span>
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <div style="font-size: 0.95rem;">{review.journal}</div>
+                <span class="timeline-period">{review.count}</span>
+              </div>
             </div>
           ))
         }
@@ -226,23 +223,19 @@ import { siteConfig } from '../data/site';
     </div>
   </section>
 
-  <!-- Funding & Awards -->
-  <section style="margin-bottom: 3.5rem;">
+  <!-- Funding & Scholarships -->
+  <section class="section-container">
     <div class="section-header">
       <h2 class="section-title">Funding & Scholarships</h2>
     </div>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.75rem;">
+    <div class="timeline-list">
       {
         fundings.map((fund) => (
-          <div
-            style="padding: 0.85rem 1rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm);"
-          >
-            <div style="font-size: 0.9rem; font-weight: 500; margin-bottom: 0.25rem;">
-              {fund.title}
-            </div>
-            <div style="font-family: var(--font-mono); font-size: 0.84rem; color: var(--accent);">
-              {fund.amount}
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <div style="font-size: 0.95rem; font-weight: 500;">{fund.title}</div>
+              <span class="timeline-period">{fund.amount}</span>
             </div>
           </div>
         ))
@@ -251,7 +244,7 @@ import { siteConfig } from '../data/site';
   </section>
 
   <!-- Collaborators -->
-  <section style="margin-bottom: 3.5rem;">
+  <section class="section-container">
     <div class="section-header">
       <h2 class="section-title">Collaborators</h2>
     </div>
@@ -260,10 +253,10 @@ import { siteConfig } from '../data/site';
       I have had the privilege to collaborate with wonderful researchers and engineers across academia and industry:
     </p>
 
-    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem 0.85rem; font-size: 0.9rem;">
+    <div class="collaborators-wrap">
       {
         collaborators.map((c, i) => (
-          <span>
+          <span class="collaborator-item">
             {c.link ? (
               <a
                 href={c.link}
@@ -278,7 +271,7 @@ import { siteConfig } from '../data/site';
               <span>{c.name}</span>
             )}
             {i < collaborators.length - 1 && (
-              <span style="color: var(--text-faint); margin-left: 0.85rem;">·</span>
+              <span class="collaborator-dot">·</span>
             )}
           </span>
         ))
@@ -286,45 +279,23 @@ import { siteConfig } from '../data/site';
     </div>
   </section>
 
-  <!-- Languages & Interests -->
-  <section>
+  <!-- Languages -->
+  <section class="section-container">
     <div class="section-header">
-      <h2 class="section-title">Personal & Languages</h2>
+      <h2 class="section-title">Languages</h2>
     </div>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem;">
-      <div>
-        <h3 style="font-size: 0.95rem; font-family: var(--font-mono); color: var(--text-faint); margin-top: 0; margin-bottom: 0.5rem;">
-          Languages
-        </h3>
-        <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.92rem;">
-          {languages.map((l) => (
-            <li>
-              <strong>{l.language}</strong>: <span style="color: var(--text-muted);">{l.proficiency}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <div>
-        <h3 style="font-size: 0.95rem; font-family: var(--font-mono); color: var(--text-faint); margin-top: 0; margin-bottom: 0.5rem;">
-          Interests & Links
-        </h3>
-        <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.92rem;">
-          {personalInterests.map((pi) => (
-            <li>
-              <span>{pi.name}: </span>
-              <a
-                href={pi.link}
-                target={pi.link.startsWith('http') ? '_blank' : undefined}
-                rel={pi.link.startsWith('http') ? 'noopener noreferrer' : undefined}
-              >
-                {pi.label} ↗
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
+    <div class="timeline-list">
+      {
+        languages.map((l) => (
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <div style="font-size: 0.95rem; font-weight: 500;">{l.language}</div>
+              <span class="timeline-period">{l.proficiency}</span>
+            </div>
+          </div>
+        ))
+      }
     </div>
   </section>
 </BaseLayout>

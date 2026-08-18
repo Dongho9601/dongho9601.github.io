@@ -1,0 +1,60 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  href: string;
+  isExternal?: boolean;
+  date?: Date;
+  status?: string;
+  actionLabel?: string;
+}
+
+const {
+  title,
+  description,
+  href,
+  isExternal = false,
+  date,
+  status,
+  actionLabel,
+} = Astro.props;
+
+const formattedDate = date
+  ? new Intl.DateTimeFormat('en-US', {
+      year: 'numeric',
+      month: 'short',
+    }).format(date)
+  : undefined;
+---
+
+<a
+  href={href}
+  class="card-item"
+  target={isExternal ? '_blank' : undefined}
+  rel={isExternal ? 'noopener noreferrer' : undefined}
+>
+  <div class="card-header">
+    <h3 class="card-title">
+      {title}
+      {isExternal && <span class="card-external-arrow" aria-hidden="true">↗</span>}
+    </h3>
+    {status && <span class="card-badge">{status}</span>}
+  </div>
+
+  <p class="card-desc">{description}</p>
+
+  {
+    (formattedDate || actionLabel) && (
+      <div class="card-footer">
+        {formattedDate && <time class="card-date">{formattedDate}</time>}
+
+        {actionLabel && (
+          <span class="card-action">
+            {actionLabel}
+            <span aria-hidden="true" style="margin-left: 0.2rem;">→</span>
+          </span>
+        )}
+      </div>
+    )
+  }
+</a>

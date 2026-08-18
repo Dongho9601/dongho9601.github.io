@@ -29,9 +29,9 @@ export const siteConfig = {
 
   navItems: [
     { label: 'Dongho Ha', href: '/' },
+    { label: 'Publications', href: '/publications' },
     { label: 'Writing', href: '/writing' },
     { label: 'Projects', href: '/projects' },
-    { label: 'Publications', href: '/publications' },
     { label: 'About', href: '/about' },
   ] as NavItem[],
 

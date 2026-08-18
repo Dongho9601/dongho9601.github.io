@@ -79,14 +79,8 @@ export const educations: Education[] = [
     degree: 'Ph.D. in Electrical and Electronic Engineering',
     institution: 'Yonsei University, Seoul, Korea',
     advisor: 'Prof. Won Woo Ro',
-    period: 'March 2021 — August 2024',
+    period: 'March 2019 — August 2024',
     dissertation: 'GPU Architecture Design for Effective Computing Resource Usage',
-  },
-  {
-    degree: 'M.S. in Electrical and Electronic Engineering',
-    institution: 'Yonsei University, Seoul, Korea',
-    advisor: 'Prof. Won Woo Ro',
-    period: 'March 2019 — February 2021',
   },
   {
     degree: 'B.S. in Electrical and Electronic Engineering',
@@ -182,23 +176,6 @@ export const languages = [
   { language: 'English', proficiency: 'Professional' },
 ];
 
-export const personalInterests = [
-  {
-    name: 'Gaming',
-    link: 'https://steamcommunity.com/profiles/76561198274843283',
-    label: 'Steam Profile',
-  },
-  {
-    name: 'Photography',
-    link: 'https://www.instagram.com/in_da_sqr',
-    label: '@in_da_sqr on Instagram',
-  },
-  {
-    name: 'Technical Writing & Blogging',
-    link: '/writing',
-    label: 'Writing Archive',
-  },
-];
 
 export const collaborators: Collaborator[] = [
   { name: 'Won Woo Ro', link: 'http://escal.yonsei.ac.kr/professor.html', affiliation: 'Yonsei University' },

@@ -1,5 +1,6 @@
 ---
 import { siteConfig } from '../data/site';
+import ThemeToggle from './ThemeToggle.astro';
 
 interface Props {
   currentPath?: string;
@@ -13,25 +14,32 @@ function isActive(href: string): boolean {
   }
   return currentPath.startsWith(href);
 }
+
+// Navigation links excluding the brand item ('/')
+const navLinks = siteConfig.navItems.filter((item) => item.href !== '/');
 ---
 
 <header class="site-header">
   <nav class="nav-container" aria-label="Main Navigation">
     <a href="/" class="nav-brand">{siteConfig.title}</a>
-    <ul class="nav-links">
-      {
-        siteConfig.navItems.slice(1).map((item) => (
-          <li>
-            <a
-              href={item.href}
-              class:list={['nav-link', { active: isActive(item.href) }]}
-              aria-current={isActive(item.href) ? 'page' : undefined}
-            >
-              {item.label}
-            </a>
-          </li>
-        ))
-      }
-    </ul>
+    
+    <div class="nav-right">
+      <ul class="nav-links">
+        {
+          navLinks.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                class:list={['nav-link', { active: isActive(item.href) }]}
+                aria-current={isActive(item.href) ? 'page' : undefined}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <ThemeToggle />
+    </div>
   </nav>
 </header>

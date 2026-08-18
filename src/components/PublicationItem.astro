@@ -12,6 +12,21 @@ function isSelf(author: string): boolean {
   const clean = author.replace('*', '').trim().toLowerCase();
   return clean === 'dongho ha' || clean === 'dongho (lucas) ha';
 }
+
+function formatVenue(venue: string, venueShort?: string): string {
+  const parenMatch = venue.match(/^(.+?)\s*\((.+?)\)$/);
+  if (parenMatch) {
+    const fullName = parenMatch[1].trim();
+    const abbrev = parenMatch[2].trim();
+    return `${fullName}, ${abbrev}`;
+  }
+  if (venueShort && !venue.includes(venueShort)) {
+    return `${venue}, ${venueShort}`;
+  }
+  return venue;
+}
+
+const formattedVenue = formatVenue(pub.venue, pub.venueShort);
 ---
 
 <article class="pub-item">
@@ -25,7 +40,7 @@ function isSelf(author: string): boolean {
           class="pub-title"
         >
           {pub.title}
-          <span style="display: inline-block; margin-left: 0.25rem; font-size: 0.85em; opacity: 0.7;">↗</span>
+          <span class="pub-link-arrow" aria-hidden="true">↗</span>
         </a>
       ) : (
         <span class="pub-title">{pub.title}</span>
@@ -33,32 +48,30 @@ function isSelf(author: string): boolean {
     }
   </div>
 
-  <div class="pub-authors">
-    {
-      pub.authors.map((author, index) => {
-        const isMe = isSelf(author);
-        const isLast = index === pub.authors.length - 1;
-        return (
-          <>
-            {isMe ? (
-              <strong class="pub-author-self">{author}</strong>
-            ) : (
-              <span>{author}</span>
-            )}
-            {!isLast && <span>, </span>}
-          </>
-        );
-      })
-    }
-  </div>
-
-  <div class="pub-venue-row">
-    <span class="pub-venue-badge">{pub.venue}</span>
+  <div class="pub-citation">
+    <span class="pub-authors">
+      {
+        pub.authors.map((author, index) => {
+          const isMe = isSelf(author);
+          const isLast = index === pub.authors.length - 1;
+          const showAnd = pub.authors.length > 1 && isLast;
+          return (
+            <>
+              {showAnd && <span>and </span>}
+              {isMe ? (
+                <strong class="pub-author-self">{author}</strong>
+              ) : (
+                <span>{author}</span>
+              )}
+              {!isLast && (pub.authors.length === 2 ? <span> </span> : <span>, </span>)}
+            </>
+          );
+        })
+      }
+    </span>{' '}
+    <span class="pub-venue">({formattedVenue}).</span>
     {pub.highlight && (
-      <>
-        <span>·</span>
-        <span class="pub-award">{pub.highlight}</span>
-      </>
+      <span class="pub-award"> · {pub.highlight}</span>
     )}
   </div>
 
