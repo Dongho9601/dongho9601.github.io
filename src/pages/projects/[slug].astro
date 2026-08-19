@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 }
 
 const { project } = Astro.props;
-const { Content } = await render(project);
+const { Content, headings } = await render(project);
 ---
 
 <ProseLayout
@@ -25,6 +25,7 @@ const { Content } = await render(project);
   playUrl={project.data.playUrl}
   backHref="/projects"
   backLabel="All projects"
+  headings={headings}
 >
   <Content />
 </ProseLayout>

@@ -45,7 +45,12 @@ export interface Collaborator {
   affiliation?: string;
 }
 
-export const bioSummary = `I completed my Ph.D. at Yonsei University, Korea (Advisor: Professor Won Woo Ro), with a dissertation titled “GPU Architecture Design for Effective Computing Resource Usage.” My expertise spans the design of computer architectures—from general-purpose to domain-specific processors—with a focus on optimizing computing and memory resource utilization.
+export interface OngoingTopic {
+  title: string;
+  collaboration: string;
+}
+
+export const bioSummary = `I completed my M.S. & Ph.D. at Yonsei University, Korea (Advisor: Professor Won Woo Ro), with a dissertation titled “GPU Architecture Design for Effective Computing Resource Usage.” My expertise spans the design of computer architectures—from general-purpose to domain-specific processors—with a focus on optimizing computing and memory resource utilization.
 
 My research has centered on improving GPU resource efficiency, accelerating matrix computations, and democratizing domain-specific accelerators. To broaden my expertise from microarchitecture to system-level design, I worked as a system architect at MangoBoost Inc., where I explored SmartNICs to enhance DPUs. Currently, I am working at Meta as an ASIC engineer on the Infra Silicon team, further advancing my experience in cutting-edge chip design and large-scale hardware systems.`;
 
@@ -76,7 +81,7 @@ export const experiences: Experience[] = [
 
 export const educations: Education[] = [
   {
-    degree: 'Ph.D. in Electrical and Electronic Engineering',
+    degree: 'M.S. & Ph.D. in Electrical and Electronic Engineering',
     institution: 'Yonsei University, Seoul, Korea',
     advisor: 'Prof. Won Woo Ro',
     period: 'March 2019 — August 2024',
@@ -86,6 +91,25 @@ export const educations: Education[] = [
     degree: 'B.S. in Electrical and Electronic Engineering',
     institution: 'Yonsei University, Seoul, Korea',
     period: 'March 2014 — February 2019',
+  },
+];
+
+export const ongoingTopics: OngoingTopic[] = [
+  {
+    title: 'Scaled Numeric Format',
+    collaboration: 'Collaborating with Yunho Oh, Korea University',
+  },
+  {
+    title: 'Outlier Handling in GPUs',
+    collaboration: 'Collaborating with Yunho Oh, Korea University',
+  },
+  {
+    title: 'Outlier Handling in AI/ML',
+    collaboration: 'Collaborating with Won Woo Ro, Yonsei University',
+  },
+  {
+    title: 'LLM Inferencing',
+    collaboration: 'Collaborating with Won Woo Ro, Yonsei University',
   },
 ];
 

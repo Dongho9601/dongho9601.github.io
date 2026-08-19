@@ -9,25 +9,6 @@ featured: true
 
 > *Last updated: May 31, 2025 (Revised documents and advice)*
 
-## Contents
-
-1. [What is a Ph.D. Program](#what-is-a-phd-program)
-1. [English](#english)
-1. [Programming](#programming)
-1. [Time Management](#time-management)
-1. [Research Process](#research-process)
-1. [Paper Structure](#paper-structure)
-1. [Paragraph Structure](#paragraph-structure)
-1. [Technical Writing / Figures and Graphs](#technical-writing--figures-and-graphs)
-1. [Review and Response](#review-and-response)
-1. [Presentation](#presentation)
-1. [Collaboration](#collaboration)
-1. [Meeting](#meeting)
-1. [Coding Interview](#coding-interview)
-1. [Expectations for Ph.D. Student](#expectations-for-phd-student)
-1. [Useful Services](#useful-services)
-1. [Motto](#motto)
-
 ## What is a Ph.D. Program
 
 Before discussing how to be successful in a _Ph.D. program,_ we need to understand what it is. What is the objective of it? There may be various interpretations, but I think the objective of a Ph.D. program is to prepare you to be a real scholar and an engineer. Then, what is a scholar or an engineer? What is the difference between them? Before we start talking about this, I want you to be familiar with this situation: a question involves other questions repeatedly. This endless chain of questions would be the most painful and intriguing part of your Ph.D. life (or your whole life as an engineer).

@@ -10,6 +10,7 @@ import {
   fundings,
   languages,
   collaborators,
+  ongoingTopics,
 } from '../data/about';
 import { siteConfig } from '../data/site';
 ---
@@ -25,7 +26,7 @@ import { siteConfig } from '../data/site';
     </p>
   </header>
 
-  <!-- Profile & Biography Section -->
+  <!-- 1. Profile & Biography Section -->
   <section class="about-profile-grid">
     <div class="about-bio-col">
       <h2 style="margin-top: 0; font-size: 1.25rem; margin-bottom: 0.85rem;">Biography</h2>
@@ -63,7 +64,7 @@ import { siteConfig } from '../data/site';
     </div>
   </section>
 
-  <!-- Professional Experience -->
+  <!-- 2. Professional Experience -->
   <section class="section-container">
     <div class="section-header">
       <h2 class="section-title">Professional Experience</h2>
@@ -107,7 +108,7 @@ import { siteConfig } from '../data/site';
     </div>
   </section>
 
-  <!-- Education -->
+  <!-- 3. Education -->
   <section class="section-container">
     <div class="section-header">
       <h2 class="section-title">Education</h2>
@@ -136,166 +137,217 @@ import { siteConfig } from '../data/site';
     </div>
   </section>
 
-  <!-- Industry Projects & Patents -->
+  <!-- 4. Selected Academic Service -->
   <section class="section-container">
     <div class="section-header">
-      <h2 class="section-title">Industry Projects & Patents</h2>
+      <h2 class="section-title">Selected Academic Service</h2>
     </div>
 
     <div class="timeline-list">
       {
-        industryProjects.map((proj) => (
+        serviceCommittees.map((svc) => (
           <div class="timeline-item">
             <div class="timeline-header">
-              <div style="font-size: 0.96rem; font-weight: 550;">
-                {proj.title}
-                {proj.patentUrl && (
+              <div style="font-size: 0.95rem; font-weight: 500;">
+                {svc.link ? (
                   <a
-                    href={proj.patentUrl}
+                    href={svc.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    style="margin-left: 0.4rem; font-size: 0.84rem; color: var(--accent); font-family: var(--font-mono);"
+                    class="plain-link"
+                    style="font-weight: 500;"
                   >
-                    [US Patent ↗]
+                    {svc.venue} ↗
                   </a>
+                ) : (
+                  <span>{svc.venue}</span>
                 )}
+                <span style="color: var(--text-muted); font-size: 0.88rem;"> — {svc.role}</span>
               </div>
-              <span class="timeline-period">{proj.period}</span>
+              <span class="timeline-period">{svc.years}</span>
             </div>
-            <div class="timeline-org">{proj.organization}</div>
           </div>
         ))
       }
     </div>
   </section>
 
-  <!-- Academic Service & Committees -->
+  <!-- 5. Additional Details (Compact Disclosure Groups) -->
   <section class="section-container">
     <div class="section-header">
-      <h2 class="section-title">Academic Service & Reviewing</h2>
+      <h2 class="section-title">Additional Details</h2>
     </div>
 
-    <div style="margin-bottom: 2rem;">
-      <h3 class="about-subheading">
-        Program Committees & Visiting Appointments
-      </h3>
-      <div class="timeline-list">
-        {
-          serviceCommittees.map((svc) => (
-            <div class="timeline-item">
-              <div class="timeline-header">
-                <div style="font-size: 0.95rem; font-weight: 500;">
-                  {svc.venue}
-                  <span style="color: var(--text-muted); font-size: 0.88rem;"> — {svc.role}</span>
+    <div class="about-disclosures">
+      <!-- Research Interests & Ongoing Topics -->
+      <details class="about-disclosure">
+        <summary class="about-disclosure-summary">
+          <span>Research Interests & Ongoing Topics</span>
+          <span class="about-disclosure-chevron" aria-hidden="true">›</span>
+        </summary>
+        <div class="about-disclosure-content">
+          <div class="timeline-list">
+            {
+              ongoingTopics.map((topic) => (
+                <div class="timeline-item">
+                  <div style="font-weight: 550; font-size: 0.95rem; margin-bottom: 0.15rem;">
+                    {topic.title}
+                  </div>
+                  <div style="font-size: 0.88rem; color: var(--text-muted);">
+                    {topic.collaboration}
+                  </div>
                 </div>
-                <span class="timeline-period">{svc.years}</span>
-              </div>
-            </div>
-          ))
-        }
-      </div>
-    </div>
-
-    <div>
-      <h3 class="about-subheading">
-        Journal Reviewer
-        <a
-          href="https://www.webofscience.com/wos/author/record/45772582"
-          target="_blank"
-          rel="noopener noreferrer"
-          style="font-size: 0.8rem; text-transform: none; margin-left: 0.5rem; color: var(--accent);"
-        >
-          (Web of Science Profile ↗)
-        </a>
-      </h3>
-      <div class="timeline-list">
-        {
-          journalReviews.map((review) => (
-            <div class="timeline-item">
-              <div class="timeline-header">
-                <div style="font-size: 0.95rem;">{review.journal}</div>
-                <span class="timeline-period">{review.count}</span>
-              </div>
-            </div>
-          ))
-        }
-      </div>
-    </div>
-  </section>
-
-  <!-- Funding & Scholarships -->
-  <section class="section-container">
-    <div class="section-header">
-      <h2 class="section-title">Funding & Scholarships</h2>
-    </div>
-
-    <div class="timeline-list">
-      {
-        fundings.map((fund) => (
-          <div class="timeline-item">
-            <div class="timeline-header">
-              <div style="font-size: 0.95rem; font-weight: 500;">{fund.title}</div>
-              <span class="timeline-period">{fund.amount}</span>
-            </div>
+              ))
+            }
           </div>
-        ))
-      }
-    </div>
-  </section>
+        </div>
+      </details>
 
-  <!-- Collaborators -->
-  <section class="section-container">
-    <div class="section-header">
-      <h2 class="section-title">Collaborators</h2>
-    </div>
-
-    <p style="font-size: 0.92rem; color: var(--text-muted); margin-bottom: 1.2rem;">
-      I have had the privilege to collaborate with wonderful researchers and engineers across academia and industry:
-    </p>
-
-    <div class="collaborators-wrap">
-      {
-        collaborators.map((c, i) => (
-          <span class="collaborator-item">
-            {c.link ? (
-              <a
-                href={c.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="plain-link"
-                style="border-bottom: 1px dotted var(--border);"
-              >
-                {c.name}
-              </a>
-            ) : (
-              <span>{c.name}</span>
-            )}
-            {i < collaborators.length - 1 && (
-              <span class="collaborator-dot">·</span>
-            )}
-          </span>
-        ))
-      }
-    </div>
-  </section>
-
-  <!-- Languages -->
-  <section class="section-container">
-    <div class="section-header">
-      <h2 class="section-title">Languages</h2>
-    </div>
-
-    <div class="timeline-list">
-      {
-        languages.map((l) => (
-          <div class="timeline-item">
-            <div class="timeline-header">
-              <div style="font-size: 0.95rem; font-weight: 500;">{l.language}</div>
-              <span class="timeline-period">{l.proficiency}</span>
-            </div>
+      <!-- Industry Projects & Patents -->
+      <details class="about-disclosure">
+        <summary class="about-disclosure-summary">
+          <span>Industry Projects & Patents ({industryProjects.length})</span>
+          <span class="about-disclosure-chevron" aria-hidden="true">›</span>
+        </summary>
+        <div class="about-disclosure-content">
+          <div class="timeline-list">
+            {
+              industryProjects.map((proj) => (
+                <div class="timeline-item">
+                  <div class="timeline-header">
+                    <div style="font-size: 0.95rem; font-weight: 550;">
+                      {proj.title}
+                      {proj.patentUrl && (
+                        <a
+                          href={proj.patentUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style="margin-left: 0.4rem; font-size: 0.82rem; color: var(--accent); font-family: var(--font-mono);"
+                        >
+                          [US Patent ↗]
+                        </a>
+                      )}
+                    </div>
+                    <span class="timeline-period">{proj.period}</span>
+                  </div>
+                  <div class="timeline-org">{proj.organization}</div>
+                </div>
+              ))
+            }
           </div>
-        ))
-      }
+        </div>
+      </details>
+
+      <!-- Journal Reviewing -->
+      <details class="about-disclosure">
+        <summary class="about-disclosure-summary">
+          <span>Journal Reviewing</span>
+          <span class="about-disclosure-chevron" aria-hidden="true">›</span>
+        </summary>
+        <div class="about-disclosure-content">
+          <div style="margin-bottom: 0.85rem; font-size: 0.88rem;">
+            <a
+              href="https://www.webofscience.com/wos/author/record/45772582"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="plain-link"
+              style="color: var(--accent); font-family: var(--font-mono); font-size: 0.84rem;"
+            >
+              Web of Science Profile ↗
+            </a>
+          </div>
+          <div class="timeline-list">
+            {
+              journalReviews.map((review) => (
+                <div class="timeline-item">
+                  <div class="timeline-header">
+                    <div style="font-size: 0.92rem;">{review.journal}</div>
+                    <span class="timeline-period" style="color: var(--accent); font-weight: 600;">{review.count}</span>
+                  </div>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+      </details>
+
+      <!-- Funding & Scholarships -->
+      <details class="about-disclosure">
+        <summary class="about-disclosure-summary">
+          <span>Funding & Scholarships ({fundings.length})</span>
+          <span class="about-disclosure-chevron" aria-hidden="true">›</span>
+        </summary>
+        <div class="about-disclosure-content">
+          <div class="timeline-list">
+            {
+              fundings.map((fund) => (
+                <div class="timeline-item">
+                  <div class="timeline-header">
+                    <div style="font-size: 0.92rem; font-weight: 500;">{fund.title}</div>
+                    <span class="timeline-period" style="color: var(--accent);">{fund.amount}</span>
+                  </div>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+      </details>
+
+      <!-- Collaborators -->
+      <details class="about-disclosure">
+        <summary class="about-disclosure-summary">
+          <span>Collaborators ({collaborators.length})</span>
+          <span class="about-disclosure-chevron" aria-hidden="true">›</span>
+        </summary>
+        <div class="about-disclosure-content">
+          <div class="collaborators-wrap">
+            {
+              collaborators.map((c, i) => (
+                <span class="collaborator-item">
+                  {c.link ? (
+                    <a
+                      href={c.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="plain-link"
+                      style="border-bottom: 1px dotted var(--border);"
+                    >
+                      {c.name}
+                    </a>
+                  ) : (
+                    <span>{c.name}</span>
+                  )}
+                  {i < collaborators.length - 1 && (
+                    <span class="collaborator-dot">·</span>
+                  )}
+                </span>
+              ))
+            }
+          </div>
+        </div>
+      </details>
+
+      <!-- Languages -->
+      <details class="about-disclosure">
+        <summary class="about-disclosure-summary">
+          <span>Languages</span>
+          <span class="about-disclosure-chevron" aria-hidden="true">›</span>
+        </summary>
+        <div class="about-disclosure-content">
+          <div class="timeline-list">
+            {
+              languages.map((l) => (
+                <div class="timeline-item">
+                  <div class="timeline-header">
+                    <div style="font-size: 0.92rem; font-weight: 500;">{l.language}</div>
+                    <span class="timeline-period">{l.proficiency}</span>
+                  </div>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+      </details>
     </div>
   </section>
 </BaseLayout>

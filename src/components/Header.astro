@@ -23,22 +23,23 @@ const navLinks = siteConfig.navItems.filter((item) => item.href !== '/');
   <nav class="nav-container" aria-label="Main Navigation">
     <a href="/" class="nav-brand">{siteConfig.title}</a>
     
-    <div class="nav-right">
-      <ul class="nav-links">
-        {
-          navLinks.map((item) => (
-            <li>
-              <a
-                href={item.href}
-                class:list={['nav-link', { active: isActive(item.href) }]}
-                aria-current={isActive(item.href) ? 'page' : undefined}
-              >
-                {item.label}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
+    <ul class="nav-links">
+      {
+        navLinks.map((item) => (
+          <li>
+            <a
+              href={item.href}
+              class:list={['nav-link', { active: isActive(item.href) }]}
+              aria-current={isActive(item.href) ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <div class="nav-toggle-wrap">
       <ThemeToggle />
     </div>
   </nav>

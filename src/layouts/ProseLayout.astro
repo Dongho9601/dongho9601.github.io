@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import TableOfContents from '../components/TableOfContents.astro';
 
 interface Props {
   title: string;
@@ -15,6 +16,7 @@ interface Props {
   githubUrl?: string;
   demoUrl?: string;
   playUrl?: string;
+  headings?: Array<{ depth: number; slug: string; text: string }>;
 }
 
 const {
@@ -31,6 +33,7 @@ const {
   githubUrl,
   demoUrl,
   playUrl,
+  headings = [],
 } = Astro.props;
 
 const formattedDate = pubDate
@@ -38,6 +41,7 @@ const formattedDate = pubDate
       year: 'numeric',
       month: 'long',
       day: 'numeric',
+      timeZone: 'UTC',
     }).format(pubDate)
   : undefined;
 ---
@@ -48,7 +52,7 @@ const formattedDate = pubDate
   image={heroImage}
   articleDate={pubDate ? pubDate.toISOString() : undefined}
 >
-  <article>
+  <article class="prose-article">
     <div style="margin-bottom: 2rem;">
       <a
         href={backHref}
@@ -152,8 +156,28 @@ const formattedDate = pubDate
       </div>
     )}
 
+    {headings.length > 0 && <TableOfContents headings={headings} />}
+
     <div class="prose">
       <slot />
     </div>
   </article>
+
+  <script>
+    function setupHeadingAnchors() {
+      const headings = document.querySelectorAll('.prose h2[id], .prose h3[id], .prose h4[id]');
+      headings.forEach((heading) => {
+        if (heading.querySelector('.heading-anchor')) return;
+        const anchor = document.createElement('a');
+        anchor.className = 'heading-anchor';
+        anchor.href = '#' + heading.id;
+        anchor.setAttribute('aria-label', `Direct link to section`);
+        anchor.textContent = '#';
+        heading.appendChild(anchor);
+      });
+    }
+
+    setupHeadingAnchors();
+    document.addEventListener('astro:after-swap', setupHeadingAnchors);
+  </script>
 </BaseLayout>

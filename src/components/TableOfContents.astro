@@ -1,0 +1,79 @@
+---
+export interface TocHeading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+interface Props {
+  headings?: TocHeading[];
+}
+
+const { headings = [] } = Astro.props;
+
+// Filter headings: include depth 2 and 3, exclude 'contents'
+const tocHeadings = headings.filter(
+  (h) => (h.depth === 2 || h.depth === 3) && h.slug !== 'contents'
+);
+---
+
+{
+  tocHeadings.length > 0 && (
+    <div class="toc-wrapper">
+      {/* Collapsible in-page TOC for mobile, tablet, and standard screens */}
+      <details class="toc-details">
+        <summary class="toc-summary">
+          <div class="toc-summary-left">
+            <span class="toc-summary-icon" aria-hidden="true">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="8" y1="6" x2="21" y2="6"></line>
+                <line x1="8" y1="12" x2="21" y2="12"></line>
+                <line x1="8" y1="18" x2="21" y2="18"></line>
+                <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                <line x1="3" y1="18" x2="3.01" y2="18"></line>
+              </svg>
+            </span>
+            <span class="toc-summary-title">Table of Contents</span>
+            <span class="toc-summary-count">({tocHeadings.length} sections)</span>
+          </div>
+          <span class="toc-chevron" aria-hidden="true">›</span>
+        </summary>
+        <nav class="toc-nav" aria-label="Table of Contents">
+          <ol class="toc-list">
+            {tocHeadings.map((h, i) => (
+              <li class:list={['toc-item', `depth-${h.depth}`]}>
+                <a href={`#${h.slug}`} class="toc-link">
+                  {h.depth === 2 && <span class="toc-num">{i + 1}.</span>}
+                  <span class="toc-text">{h.text}</span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+      </details>
+
+      {/* Sticky sidebar TOC for wide screens (>= 1280px) without compressing main prose */}
+      <aside class="toc-sidebar" aria-label="Table of Contents">
+        <div class="toc-sidebar-inner">
+          <div class="toc-sidebar-header">
+            <span class="toc-sidebar-title">Contents</span>
+            <span class="toc-sidebar-count">{tocHeadings.length}</span>
+          </div>
+          <nav class="toc-sidebar-nav">
+            <ol class="toc-sidebar-list">
+              {tocHeadings.map((h, i) => (
+                <li class:list={['toc-sidebar-item', `depth-${h.depth}`]}>
+                  <a href={`#${h.slug}`} class="toc-sidebar-link">
+                    {h.depth === 2 && <span class="toc-sidebar-num">{i + 1}.</span>}
+                    <span class="toc-sidebar-text">{h.text}</span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+        </div>
+      </aside>
+    </div>
+  )
+}
