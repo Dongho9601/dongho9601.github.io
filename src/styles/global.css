@@ -446,8 +446,6 @@ pre {
 .hero-bio p {
   color: var(--text-main);
   margin-bottom: 0.75rem;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .hero-bio p.lead {
