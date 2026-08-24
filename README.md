@@ -11,8 +11,7 @@ Refined, minimal, editorial personal website for **Dongho Ha**, Computer Archite
 
 ```
 ├── .github/workflows/deploy.yml   # GitHub Pages automated deployment workflow
-├── public/                        # Static assets (images, PDF resume, favicon, robots.txt)
-│   ├── Resume_Dongho_Ha.pdf
+├── public/                        # Static assets (images, favicon, robots.txt)
 │   ├── favicon.ico
 │   ├── images/
 │   │   └── profile.jpg

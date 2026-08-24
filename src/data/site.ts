@@ -10,6 +10,9 @@ export interface NavItem {
   href: string;
 }
 
+const cvUrl =
+  'https://docs.google.com/document/d/1P-iO7GcV41mg2lXqOPFTjrHO563jmLA_0MYGRonvLfQ/edit?usp=sharing';
+
 export const siteConfig = {
   title: 'Dongho Ha',
   subtitle: 'Computer Architect',
@@ -23,9 +26,7 @@ export const siteConfig = {
   email: 'dongho9601@gmail.com',
   siteUrl: 'https://dongho9601.github.io',
   avatar: '/images/profile.jpg',
-  resumeUrl: '/Resume_Dongho_Ha.pdf',
-  resumeGoogleDoc:
-    'https://docs.google.com/document/d/1P-iO7GcV41mg2lXqOPFTjrHO563jmLA_0MYGRonvLfQ/edit?usp=sharing',
+  resumeUrl: cvUrl,
 
   navItems: [
     { label: 'Dongho Ha', href: '/' },
@@ -61,9 +62,9 @@ export const siteConfig = {
       icon: 'mail',
     },
     {
-      name: 'CV (PDF)',
+      name: 'CV',
       label: 'CV',
-      url: '/Resume_Dongho_Ha.pdf',
+      url: cvUrl,
       icon: 'document',
     },
   ] as SocialLink[],
