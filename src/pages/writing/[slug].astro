@@ -4,13 +4,24 @@ import ProseLayout from '../../layouts/ProseLayout.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('writing');
-  return posts.map((post) => ({
-    params: { slug: post.id },
-    props: { post },
-  }));
+  return posts.map((post) => {
+    const translations = post.data.translationKey
+      ? posts
+          .filter((candidate) => candidate.data.translationKey === post.data.translationKey)
+          .map((candidate) => ({
+            language: candidate.data.language,
+            href: `/writing/${candidate.id}`,
+          }))
+      : [];
+
+    return {
+      params: { slug: post.id },
+      props: { post, translations },
+    };
+  });
 }
 
-const { post } = Astro.props;
+const { post, translations } = Astro.props;
 const { Content, headings } = await render(post);
 ---
 
@@ -21,8 +32,10 @@ const { Content, headings } = await render(post);
   tags={post.data.tags}
   externalUrl={post.data.externalUrl}
   backHref="/writing"
-  backLabel="All writing"
+  backLabel={post.data.language === 'ko' ? '모든 글' : 'All writing'}
   headings={headings}
+  language={post.data.language}
+  translations={translations}
 >
   <Content />
 </ProseLayout>

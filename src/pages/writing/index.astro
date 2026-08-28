@@ -4,8 +4,20 @@ import Card from '../../components/Card.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('writing');
-const posts = allPosts
-  .filter((post) => !post.data.draft)
+const postsByArticle = new Map<string, (typeof allPosts)[number]>();
+
+for (const post of allPosts.filter((entry) => !entry.data.draft)) {
+  const key = post.data.translationKey ?? post.id;
+  const current = postsByArticle.get(key);
+
+  // The site navigation is in English, so use the English edition as the
+  // writing-index entry when an article has multiple translations.
+  if (!current || (post.data.language === 'en' && current.data.language !== 'en')) {
+    postsByArticle.set(key, post);
+  }
+}
+
+const posts = [...postsByArticle.values()]
   .sort((a, b) => {
     const aTime = a.data.pubDate ? a.data.pubDate.valueOf() : 0;
     const bTime = b.data.pubDate ? b.data.pubDate.valueOf() : 0;

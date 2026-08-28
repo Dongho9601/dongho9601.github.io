@@ -9,6 +9,8 @@ interface Props {
   description?: string;
   image?: string;
   articleDate?: string;
+  lang?: string;
+  alternates?: Array<{ lang: string; href: string }>;
 }
 
 const {
@@ -16,13 +18,15 @@ const {
   description = siteConfig.description,
   image = siteConfig.avatar,
   articleDate,
+  lang = 'en',
+  alternates = [],
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, siteConfig.siteUrl).toString();
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -49,6 +53,13 @@ const canonicalURL = new URL(Astro.url.pathname, siteConfig.siteUrl).toString();
 
     <!-- Canonical URL -->
     <link rel="canonical" href={canonicalURL} />
+    {alternates.map((alternate) => (
+      <link
+        rel="alternate"
+        hreflang={alternate.lang}
+        href={new URL(alternate.href, siteConfig.siteUrl).toString()}
+      />
+    ))}
 
     <!-- Primary Meta Tags -->
     <title>{title}</title>

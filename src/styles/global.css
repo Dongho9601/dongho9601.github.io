@@ -898,6 +898,38 @@ pre {
    Prose for Long-form Content
    ========================================================================== */
 
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px;
+  margin-bottom: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-card);
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+}
+
+.language-option {
+  padding: 0.25rem 0.65rem;
+  border-radius: 3px;
+  color: var(--text-muted);
+  text-decoration: none;
+  line-height: 1.4;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.language-option:hover {
+  color: var(--text-main);
+  text-decoration: none;
+}
+
+.language-option.active {
+  color: var(--text-main);
+  background-color: var(--bg-subtle);
+  font-weight: 550;
+}
+
 .prose-article {
   max-width: var(--max-prose-width);
   width: 100%;

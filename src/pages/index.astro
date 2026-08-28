@@ -9,8 +9,18 @@ import { getCollection } from 'astro:content';
 const recentPublications = publications.slice(0, 5);
 
 const writingPosts = await getCollection('writing');
-const sortedPosts = writingPosts
-  .filter((post) => !post.data.draft)
+const writingByArticle = new Map<string, (typeof writingPosts)[number]>();
+
+for (const post of writingPosts.filter((entry) => !entry.data.draft)) {
+  const key = post.data.translationKey ?? post.id;
+  const current = writingByArticle.get(key);
+
+  if (!current || (post.data.language === 'en' && current.data.language !== 'en')) {
+    writingByArticle.set(key, post);
+  }
+}
+
+const sortedPosts = [...writingByArticle.values()]
   .sort((a, b) => {
     const aTime = a.data.pubDate ? a.data.pubDate.valueOf() : 0;
     const bTime = b.data.pubDate ? b.data.pubDate.valueOf() : 0;

@@ -13,6 +13,8 @@ const writing = defineCollection({
     draft: z.boolean().default(false),
     externalUrl: z.string().optional(),
     featured: z.boolean().default(false),
+    language: z.enum(['en', 'ko']).default('en'),
+    translationKey: z.string().optional(),
   }),
 });
 
