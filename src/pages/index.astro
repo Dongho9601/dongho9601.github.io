@@ -195,8 +195,10 @@ const heroLinks = siteConfig.socials.filter((s) =>
           <Card
             title={project.data.title}
             description={project.data.description}
-            href={`/projects/${project.id}`}
+            href={project.data.playUrl || `/projects/${project.id}`}
+            isExternal={!!project.data.playUrl}
             status={project.data.status}
+            actionLabel={project.data.playUrl ? 'Play' : undefined}
           />
         ))
       }

@@ -19,7 +19,7 @@ Refined, minimal, editorial personal website for **Dongho Ha**, Computer Archite
 ├── src/
 │   ├── components/                # Modular UI components (Header, Footer, PublicationItem)
 │   ├── content/                   # Content collections
-│   │   ├── projects/              # Markdown project files (hlbm.md, hlbm-rf.md)
+│   │   ├── projects/              # Markdown project files (hlbm.md, sixfold.md)
 │   │   └── writing/               # Markdown writing files (phd-guideline.md)
 │   ├── data/                      # Structured data modules
 │   │   ├── about.ts               # Experience, education, service, funding, collaborators
