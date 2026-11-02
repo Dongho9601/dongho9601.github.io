@@ -18,6 +18,24 @@ export interface OngoingTopic {
 
 export const publications: Publication[] = [
   {
+    id: 'hpca-2027-prism',
+    title: 'Prism: Accelerating Video Diffusion Model via Pattern-Aware Reuse based Sparse Attention',
+    authors: [
+      'Sungbin Kim',
+      'Hyunwuk Lee',
+      'Dongho Ha',
+      'Hyun Jae Oh',
+      'Sungwoo Kim',
+      'Junsung Kim',
+      'Ipoom Jeong',
+      'Yingyan (Celine) Lin',
+      'Won Woo Ro',
+    ],
+    venue: 'IEEE International Symposium on High-Performance Computer Architecture (HPCA 2027)',
+    venueShort: 'HPCA 2027',
+    year: 2027,
+  },
+  {
     id: 'pact-2026-slgs',
     title: 'SLGS: A Structure-Aware Scanline Renderer for Efficient 3D Gaussian Splatting',
     authors: [
